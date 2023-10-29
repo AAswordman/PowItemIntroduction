@@ -2,6 +2,7 @@ window.AddName = "Pow"
 window.LangType = ['en_US', 'zh_CN']
 window.AddData = {
     "dec:absolute_zero": {
+        "file_path": "absolute_zero.json",
         "file_name": "absolute_zero.json",
         "lang": {
             "en_US": "Absolute Zero",
@@ -27,6 +28,7 @@ window.AddData = {
         ]
     },
     "dec:alchemic_stone": {
+        "file_path": "alchemic_stone.json",
         "file_name": "alchemic_stone.json",
         "lang": {
             "en_US": "Alchemic Stone",
@@ -36,25 +38,25 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
-            "loot_tables/entities/goblin_wizard.json",
-            "loot_tables/blocks/cave_crate.json",
+            "loot_tables/blocks/crate.json",
+            "loot_tables/entities/king_of_pillager.json",
             "loot_tables/blocks/frozen_crate.json",
             "loot_tables/entities/ruined_muddy_brushable_block.json",
-            "loot_tables/entities/king_of_pillager.json",
-            "loot_tables/blocks/crate.json"
+            "loot_tables/entities/goblin_wizard.json",
+            "loot_tables/blocks/cave_crate.json"
         ],
         "loot_by_entity": [
-            "dec:goblin_wizard",
-            "dec:king_of_pillager"
+            "dec:king_of_pillager",
+            "dec:goblin_wizard"
         ],
         "loot_by_entity_lang": {
             "en_US": [
-                "Goblin Wizard",
-                "King Of Pillager"
+                "King Of Pillager",
+                "Goblin Wizard"
             ],
             "zh_CN": [
-                "\u54e5\u5e03\u6797\u6cd5\u5e08",
-                "\u63a0\u593a\u8005\u4e4b\u738b"
+                "\u63a0\u593a\u8005\u4e4b\u738b",
+                "\u54e5\u5e03\u6797\u6cd5\u5e08"
             ]
         },
         "loot_by_block": [],
@@ -96,6 +98,7 @@ window.AddData = {
         ]
     },
     "dec:amethyst_axe": {
+        "file_path": "amethyst_axe.json",
         "file_name": "amethyst_axe.json",
         "lang": {
             "en_US": "Amethyst Axe",
@@ -119,6 +122,7 @@ window.AddData = {
         ]
     },
     "dec:amethyst_boots": {
+        "file_path": "amethyst_boots.json",
         "file_name": "amethyst_boots.json",
         "lang": {
             "en_US": "Amethyst Boots",
@@ -142,6 +146,7 @@ window.AddData = {
         ]
     },
     "dec:amethyst_chestplate": {
+        "file_path": "amethyst_chestplate.json",
         "file_name": "amethyst_chestplate.json",
         "lang": {
             "en_US": "Amethyst Chestplate",
@@ -165,6 +170,7 @@ window.AddData = {
         ]
     },
     "dec:amethyst_dagger": {
+        "file_path": "amethyst_dagger.json",
         "file_name": "amethyst_dagger.json",
         "lang": {
             "en_US": "Amethyst Dagger",
@@ -198,6 +204,7 @@ window.AddData = {
         ]
     },
     "dec:amethyst_dart": {
+        "file_path": "amethyst_dart.json",
         "file_name": "amethyst_dart.json",
         "lang": {
             "en_US": "Amethyst Dart",
@@ -222,6 +229,7 @@ window.AddData = {
         ]
     },
     "dec:amethyst_helmet": {
+        "file_path": "amethyst_helmet.json",
         "file_name": "amethyst_helmet.json",
         "lang": {
             "en_US": "Amethyst Hemlet",
@@ -245,6 +253,7 @@ window.AddData = {
         ]
     },
     "dec:amethyst_leggings": {
+        "file_path": "amethyst_leggings.json",
         "file_name": "amethyst_leggings.json",
         "lang": {
             "en_US": "Amethyst Leggings",
@@ -268,6 +277,7 @@ window.AddData = {
         ]
     },
     "dec:amethyst_pickaxe": {
+        "file_path": "amethyst_pickaxe.json",
         "file_name": "amethyst_pickaxe.json",
         "lang": {
             "en_US": "Amethyst Pickaxe",
@@ -289,6 +299,7 @@ window.AddData = {
         ]
     },
     "dec:amethyst_ray_staff": {
+        "file_path": "amethyst_ray_staff.json",
         "file_name": "amethyst_ray_staff.json",
         "lang": {
             "en_US": "Amethyst Ray Sfaff",
@@ -317,6 +328,7 @@ window.AddData = {
         ]
     },
     "dec:amethyst_sword": {
+        "file_path": "amethyst_sword.json",
         "file_name": "amethyst_sword.json",
         "lang": {
             "en_US": "Amethyst Sword",
@@ -328,8 +340,8 @@ window.AddData = {
         ],
         "ingredient": [],
         "loot": [
-            "loot_tables/entities/goblin_gear.json",
-            "loot_tables/template/weapon/melee_weapon/sword.json"
+            "loot_tables/template/weapon/melee_weapon/sword.json",
+            "loot_tables/entities/goblin_gear.json"
         ],
         "loot_by_entity": [
             "dec:goblin"
@@ -350,6 +362,7 @@ window.AddData = {
         ]
     },
     "dec:angel_purification": {
+        "file_path": "angel_purification.json",
         "file_name": "angel_purification.json",
         "lang": {
             "en_US": "Angel Purification",
@@ -374,6 +387,7 @@ window.AddData = {
         ]
     },
     "dec:apple_juice": {
+        "file_path": "apple_juice.json",
         "file_name": "apple_juice.json",
         "lang": {
             "en_US": "Apple Juice",
@@ -383,9 +397,9 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
+            "loot_tables/entities/blood_zombie.json",
             "loot_tables/entities/zombie.json",
-            "loot_tables/entities/lurk_zombie.json",
-            "loot_tables/entities/blood_zombie.json"
+            "loot_tables/entities/lurk_zombie.json"
         ],
         "loot_by_entity": [
             "dec:mushroom_zombie",
@@ -430,6 +444,7 @@ window.AddData = {
         ]
     },
     "dec:apple_pie": {
+        "file_path": "apple_pie.json",
         "file_name": "apple_pie.json",
         "lang": {
             "en_US": "Apple Pie",
@@ -451,6 +466,7 @@ window.AddData = {
         ]
     },
     "dec:archer_bullet_bag": {
+        "file_path": "archer_bullet_bag.json",
         "file_name": "archer_bullet_bag.json",
         "lang": {
             "en_US": "Archer Bullet Bag",
@@ -473,6 +489,7 @@ window.AddData = {
         ]
     },
     "dec:archer_stones_bag": {
+        "file_path": "archer_stones_bag.json",
         "file_name": "archer_stones_bag.json",
         "lang": {
             "en_US": "Archer Stones Bag",
@@ -494,6 +511,7 @@ window.AddData = {
         ]
     },
     "dec:artificial_meat": {
+        "file_path": "artificial_meat.json",
         "file_name": "artificial_meat.json",
         "lang": {
             "en_US": "Artificial Meat",
@@ -518,6 +536,7 @@ window.AddData = {
         ]
     },
     "dec:artificial_meat_creator_off": {
+        "file_path": "artificial_meat_creator_off.json",
         "file_name": "artificial_meat_creator_off.json",
         "lang": {
             "en_US": "AMC-OFF",
@@ -543,6 +562,7 @@ window.AddData = {
         ]
     },
     "dec:artificial_meat_creator_on": {
+        "file_path": "artificial_meat_creator_on.json",
         "file_name": "artificial_meat_creator_on.json",
         "lang": {
             "en_US": "AMC-ON",
@@ -567,6 +587,7 @@ window.AddData = {
         ]
     },
     "dec:artificial_meat_creator_power": {
+        "file_path": "artificial_meat_creator_power.json",
         "file_name": "artificial_meat_creator_power.json",
         "lang": {
             "en_US": "AMC Power",
@@ -590,6 +611,7 @@ window.AddData = {
         ]
     },
     "dec:ash_key": {
+        "file_path": "ash_key.json",
         "file_name": "ash_key.json",
         "lang": {
             "en_US": "Ash Key",
@@ -599,8 +621,8 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
-            "loot_tables/chests/ash_castle.json",
-            "loot_tables/chests/ash_castle_treasure.json"
+            "loot_tables/chests/ash_castle_treasure.json",
+            "loot_tables/chests/ash_castle.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -608,8 +630,8 @@ window.AddData = {
         "loot_by_block_lang": {},
         "loot_by_structure": {
             "ash_castle": [
-                "Barrel",
-                "Chest"
+                "Chest",
+                "Barrel"
             ]
         },
         "annotation": [
@@ -617,6 +639,7 @@ window.AddData = {
         ]
     },
     "dec:ash_pufferfish": {
+        "file_path": "ash_pufferfish.json",
         "file_name": "ash_pufferfish.json",
         "lang": {
             "en_US": "Inflamed Ash Pufferfish",
@@ -647,6 +670,7 @@ window.AddData = {
         ]
     },
     "dec:a_bowl_of_rice": {
+        "file_path": "a_bowl_of_rice.json",
         "file_name": "a_bowl_of_rice.json",
         "lang": {
             "en_US": "A Bowl Of Rice",
@@ -677,6 +701,7 @@ window.AddData = {
         ]
     },
     "dec:a_piece_of_salmon": {
+        "file_path": "a_piece_of_salmon.json",
         "file_name": "a_piece_of_salmon.json",
         "lang": {
             "en_US": "A Piece Of Salmon",
@@ -698,6 +723,7 @@ window.AddData = {
         ]
     },
     "dec:bamboo_yataghan": {
+        "file_path": "bamboo_yataghan.json",
         "file_name": "bamboo_yataghan.json",
         "lang": {
             "en_US": "Bamboo Yataghan",
@@ -709,8 +735,8 @@ window.AddData = {
         ],
         "ingredient": [],
         "loot": [
-            "loot_tables/chests/jungle_temple.json",
-            "loot_tables/template/weapon/melee_weapon/sword.json"
+            "loot_tables/template/weapon/melee_weapon/sword.json",
+            "loot_tables/chests/jungle_temple.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -722,6 +748,7 @@ window.AddData = {
         ]
     },
     "dec:bat_bait": {
+        "file_path": "bat_bait.json",
         "file_name": "bat_bait.json",
         "lang": {
             "en_US": "Bat Bait",
@@ -743,6 +770,7 @@ window.AddData = {
         ]
     },
     "dec:bat_staff": {
+        "file_path": "bat_staff.json",
         "file_name": "bat_staff.json",
         "lang": {
             "en_US": "Bat Staff",
@@ -754,8 +782,8 @@ window.AddData = {
             "dec:night_sword"
         ],
         "loot": [
-            "loot_tables/entities/predators.json",
-            "loot_tables/template/weapon/summon_weapon/summon_weapon.json"
+            "loot_tables/template/weapon/summon_weapon/summon_weapon.json",
+            "loot_tables/entities/predators.json"
         ],
         "loot_by_entity": [
             "dec:predators"
@@ -776,6 +804,7 @@ window.AddData = {
         ]
     },
     "dec:bat_wing": {
+        "file_path": "bat_wing.json",
         "file_name": "bat_wing.json",
         "lang": {
             "en_US": "IncompleteBat Wing",
@@ -788,9 +817,9 @@ window.AddData = {
         ],
         "loot": [
             "loot_tables/blocks/crate.json",
-            "loot_tables/chests/village/village_butcher.json",
             "loot_tables/entities/vampire_bat.json",
-            "loot_tables/entities/bat.json"
+            "loot_tables/entities/bat.json",
+            "loot_tables/chests/village/village_butcher.json"
         ],
         "loot_by_entity": [
             "dec:vampire_bat"
@@ -811,6 +840,7 @@ window.AddData = {
         ]
     },
     "dec:bizarre_chilli": {
+        "file_path": "bizarre_chilli.json",
         "file_name": "bizarre_chilli.json",
         "lang": {
             "en_US": "Bizarre Chilli",
@@ -843,6 +873,7 @@ window.AddData = {
         ]
     },
     "dec:bizarre_chilli_seeds": {
+        "file_path": "bizarre_chilli_seeds.json",
         "file_name": "bizarre_chilli_seeds.json",
         "lang": {
             "en_US": "Bizarre Chilli Seeds",
@@ -852,11 +883,11 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
-            "loot_tables/chests/soul_room_boss.json",
             "loot_tables/chests/soul_room_nor.json",
-            "loot_tables/chests/soul_room_har.json",
+            "loot_tables/chests/soul_room_boss.json",
+            "loot_tables/blocks/bizarre_chilli_crop.json",
             "loot_tables/entities/lurk_zombie.json",
-            "loot_tables/blocks/bizarre_chilli_crop.json"
+            "loot_tables/chests/soul_room_har.json"
         ],
         "loot_by_entity": [
             "dec:lurk_zombie"
@@ -881,9 +912,6 @@ window.AddData = {
             ]
         },
         "loot_by_structure": {
-            "soul_room_boss": [
-                "Chest"
-            ],
             "soul_room_nor_4": [
                 "Chest"
             ],
@@ -899,6 +927,9 @@ window.AddData = {
             "soul_room_stair_5": [
                 "Chest"
             ],
+            "soul_room_boss": [
+                "Chest"
+            ],
             "soul_room_har_1": [
                 "Chest"
             ],
@@ -911,6 +942,7 @@ window.AddData = {
         ]
     },
     "dec:black_shoes": {
+        "file_path": "black_shoes.json",
         "file_name": "black_shoes.json",
         "lang": {
             "en_US": "Black Shoes",
@@ -941,6 +973,7 @@ window.AddData = {
         ]
     },
     "dec:black_shorts": {
+        "file_path": "black_shorts.json",
         "file_name": "black_shorts.json",
         "lang": {
             "en_US": "Black Shorts",
@@ -971,6 +1004,7 @@ window.AddData = {
         ]
     },
     "dec:blaze_staff": {
+        "file_path": "blaze_staff.json",
         "file_name": "blaze_staff.json",
         "lang": {
             "en_US": "Blaze Staff",
@@ -982,8 +1016,8 @@ window.AddData = {
         ],
         "ingredient": [],
         "loot": [
-            "loot_tables/template/weapon/summon_weapon/summon_weapon.json",
-            "loot_tables/chests/deep_garden.json"
+            "loot_tables/chests/deep_garden.json",
+            "loot_tables/template/weapon/summon_weapon/summon_weapon.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -999,6 +1033,7 @@ window.AddData = {
         ]
     },
     "dec:blizzard_staff": {
+        "file_path": "blizzard_staff.json",
         "file_name": "blizzard_staff.json",
         "lang": {
             "en_US": "Blizzard Staff",
@@ -1022,6 +1057,7 @@ window.AddData = {
         ]
     },
     "dec:blizzard_sword": {
+        "file_path": "blizzard_sword.json",
         "file_name": "blizzard_sword.json",
         "lang": {
             "en_US": "Blizzard Sword",
@@ -1047,6 +1083,7 @@ window.AddData = {
         ]
     },
     "dec:blood_bullet_bag": {
+        "file_path": "blood_bullet_bag.json",
         "file_name": "blood_bullet_bag.json",
         "lang": {
             "en_US": "Blood Bullet Bag",
@@ -1069,6 +1106,7 @@ window.AddData = {
         ]
     },
     "dec:blood_mare": {
+        "file_path": "blood_mare.json",
         "file_name": "blood_mare.json",
         "lang": {
             "en_US": "Blood Mare",
@@ -1093,6 +1131,7 @@ window.AddData = {
         ]
     },
     "dec:blood_meat": {
+        "file_path": "blood_meat.json",
         "file_name": "blood_meat.json",
         "lang": {
             "en_US": "Blood Meat",
@@ -1104,8 +1143,8 @@ window.AddData = {
         ],
         "ingredient": [],
         "loot": [
-            "loot_tables/tasks/008.json",
-            "loot_tables/tasks/041.json"
+            "loot_tables/tasks/041.json",
+            "loot_tables/tasks/008.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -1117,6 +1156,7 @@ window.AddData = {
         ]
     },
     "dec:blood_sickle": {
+        "file_path": "blood_sickle.json",
         "file_name": "blood_sickle.json",
         "lang": {
             "en_US": "Blood Sickle",
@@ -1141,6 +1181,7 @@ window.AddData = {
         ]
     },
     "dec:blood_worm": {
+        "file_path": "blood_worm.json",
         "file_name": "blood_worm.json",
         "lang": {
             "en_US": "Blood Worm",
@@ -1172,6 +1213,7 @@ window.AddData = {
         ]
     },
     "dec:blue_cat_ears": {
+        "file_path": "blue_cat_ears.json",
         "file_name": "blue_cat_ears.json",
         "lang": {
             "en_US": "Blue Cat Ears",
@@ -1202,6 +1244,7 @@ window.AddData = {
         ]
     },
     "dec:blue_gem": {
+        "file_path": "blue_gem.json",
         "file_name": "blue_gem.json",
         "lang": {
             "en_US": "Blue Gem",
@@ -1226,6 +1269,7 @@ window.AddData = {
         ]
     },
     "dec:blue_gem_debris": {
+        "file_path": "blue_gem_debris.json",
         "file_name": "blue_gem_debris.json",
         "lang": {
             "en_US": "Blue Gem Debris",
@@ -1239,74 +1283,74 @@ window.AddData = {
             "dec:magic_powder_by_blue_gem_debris"
         ],
         "loot": [
-            "loot_tables/chests/monster_room.json",
-            "loot_tables/chests/village/village_plains_house.json",
-            "loot_tables/chests/village/village_snowy_house.json",
-            "loot_tables/chests/igloo_chest.json",
-            "loot_tables/chests/spawn_bonus_chest.json",
-            "loot_tables/chests/stronghold_crossing.json",
-            "loot_tables/chests/village/village_armorer.json",
             "loot_tables/chests/village/village_temple.json",
-            "loot_tables/chests/shipwreck.json",
-            "loot_tables/chests/village/village_butcher.json",
-            "loot_tables/chests/village/village_desert_house.json",
-            "loot_tables/chests/bastion_hoglin_stable.json",
-            "loot_tables/chests/village/village_savanna_house.json",
-            "loot_tables/chests/abandoned_mineshaft.json",
-            "loot_tables/chests/village/village_weaponsmith.json",
-            "loot_tables/chests/challenger_tower.json",
-            "loot_tables/chests/hunter_house.json",
-            "loot_tables/chests/stronghold_corridor.json",
-            "loot_tables/chests/giant_tree_barrel.json",
-            "loot_tables/chests/grave.json",
-            "loot_tables/chests/deep_garden.json",
-            "loot_tables/chests/ruined_portal.json",
+            "loot_tables/chests/underwater_ruin_small.json",
+            "loot_tables/chests/goblin_house_1.json",
+            "loot_tables/chests/village/village_cartographer.json",
             "loot_tables/chests/pirate_ship_small.json",
-            "loot_tables/chests/warehouse_of_watcher.json",
-            "loot_tables/chests/nether_bridge.json",
-            "loot_tables/chests/village_blacksmith.json",
-            "loot_tables/chests/village/village_toolsmith.json",
-            "loot_tables/chests/buriedtreasure.json",
-            "loot_tables/chests/ash_castle.json",
-            "loot_tables/chests/jungle_temple.json",
-            "loot_tables/chests/bastion_other.json",
+            "loot_tables/chests/deep_garden.json",
+            "loot_tables/chests/grave.json",
+            "loot_tables/chests/enchanted_house.json",
             "loot_tables/chests/soul_room_boss.json",
+            "loot_tables/chests/village/village_toolsmith.json",
+            "loot_tables/chests/plain_tower.json",
+            "loot_tables/chests/village/village_weaponsmith.json",
+            "loot_tables/chests/bastion_treasure.json",
+            "loot_tables/chests/village/village_fletcher.json",
+            "loot_tables/chests/shipwreck.json",
+            "loot_tables/chests/tower_of_watcher/ore.json",
+            "loot_tables/chests/ruined_muddy_4.json",
+            "loot_tables/chests/guard_tower.json",
+            "loot_tables/chests/village/village_butcher.json",
+            "loot_tables/chests/village/village_tannery.json",
+            "loot_tables/chests/abandoned_mineshaft.json",
+            "loot_tables/chests/muddy_altar.json",
+            "loot_tables/chests/spawn_bonus_chest.json",
+            "loot_tables/chests/bastion_bridge.json",
+            "loot_tables/chests/village/village_savanna_house.json",
+            "loot_tables/chests/ruined_portal.json",
+            "loot_tables/chests/village/village_plains_house.json",
+            "loot_tables/chests/soul_room_har.json",
+            "loot_tables/chests/shipwrecksupply.json",
+            "loot_tables/chests/village/village_armorer.json",
+            "loot_tables/chests/haunted_house.json",
+            "loot_tables/chests/buriedtreasure.json",
+            "loot_tables/chests/jungle_temple.json",
+            "loot_tables/chests/stronghold_crossing.json",
+            "loot_tables/chests/village/village_taiga_house.json",
+            "loot_tables/chests/bastion_hoglin_stable.json",
+            "loot_tables/chests/underwater_ruin_big.json",
+            "loot_tables/chests/village/village_snowy_house.json",
+            "loot_tables/chests/ash_castle_treasure.json",
+            "loot_tables/chests/end_city_treasure.json",
+            "loot_tables/chests/shipwrecktreasure.json",
             "loot_tables/chests/soul_room_nor.json",
             "loot_tables/chests/woodland_mansion.json",
-            "loot_tables/chests/haunted_house.json",
-            "loot_tables/chests/end_vestiges.json",
-            "loot_tables/chests/shipwrecktreasure.json",
-            "loot_tables/chests/guard_tower.json",
-            "loot_tables/chests/simple_dungeon.json",
-            "loot_tables/chests/everlasting_winter_tower.json",
-            "loot_tables/chests/ash_castle_treasure.json",
+            "loot_tables/chests/village/village_desert_house.json",
+            "loot_tables/chests/village/village_shepherd.json",
+            "loot_tables/chests/stronghold_library.json",
+            "loot_tables/chests/illusioner_house.json",
+            "loot_tables/chests/giant_tree_barrel.json",
+            "loot_tables/chests/challenger_tower.json",
+            "loot_tables/chests/igloo_chest.json",
+            "loot_tables/chests/village/village_mason.json",
             "loot_tables/blocks/blue_gem_ore.json",
-            "loot_tables/chests/soul_room_har.json",
-            "loot_tables/chests/muddy_altar.json",
+            "loot_tables/chests/nether_bridge.json",
+            "loot_tables/chests/warehouse_of_watcher.json",
+            "loot_tables/chests/bastion_other.json",
+            "loot_tables/chests/stronghold_corridor.json",
+            "loot_tables/chests/monster_room.json",
+            "loot_tables/chests/village_two_room_house.json",
+            "loot_tables/chests/end_vestiges.json",
             "loot_tables/chests/desert_pyramid.json",
             "loot_tables/chests/pillager_outpost.json",
-            "loot_tables/chests/village_two_room_house.json",
-            "loot_tables/chests/village/village_mason.json",
-            "loot_tables/chests/stronghold_library.json",
-            "loot_tables/chests/underwater_ruin_big.json",
-            "loot_tables/chests/shipwrecksupply.json",
-            "loot_tables/chests/village/village_tannery.json",
-            "loot_tables/chests/ruined_muddy_4.json",
-            "loot_tables/chests/village/village_fletcher.json",
-            "loot_tables/chests/bastion_bridge.json",
-            "loot_tables/chests/village/village_cartographer.json",
-            "loot_tables/chests/illusioner_house.json",
-            "loot_tables/chests/bastion_treasure.json",
-            "loot_tables/chests/effigy_2.json",
-            "loot_tables/chests/enchanted_house.json",
-            "loot_tables/chests/underwater_ruin_small.json",
-            "loot_tables/chests/village/village_taiga_house.json",
-            "loot_tables/chests/tower_of_watcher/ore.json",
-            "loot_tables/chests/village/village_shepherd.json",
-            "loot_tables/chests/plain_tower.json",
-            "loot_tables/chests/end_city_treasure.json",
+            "loot_tables/chests/everlasting_winter_tower.json",
             "loot_tables/chests/ruined_house.json",
-            "loot_tables/chests/goblin_house_1.json"
+            "loot_tables/chests/effigy_2.json",
+            "loot_tables/chests/simple_dungeon.json",
+            "loot_tables/chests/village_blacksmith.json",
+            "loot_tables/chests/ash_castle.json",
+            "loot_tables/chests/hunter_house.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -1322,17 +1366,14 @@ window.AddData = {
             ]
         },
         "loot_by_structure": {
-            "challenger_tower": [
+            "goblin_house_1": [
                 "Chest"
             ],
-            "hunter_house_1": [
-                "Barrel"
+            "pirate_ship_small_1": [
+                "Chest"
             ],
-            "giant_tree": [
-                "Barrel"
-            ],
-            "giant_tree_with_ticking": [
-                "Barrel"
+            "deep_garden": [
+                "Chest"
             ],
             "cemetery_1": [
                 "Chest"
@@ -1343,22 +1384,49 @@ window.AddData = {
             "grave_1": [
                 "Chest"
             ],
-            "deep_garden": [
-                "Chest"
-            ],
-            "pirate_ship_small_1": [
-                "Chest"
-            ],
-            "warehouse_of_watcher": [
-                "Barrel",
-                "Chest"
-            ],
-            "ash_castle": [
-                "Barrel",
-                "Chest"
+            "enchanted_house": [
+                "Barrel"
             ],
             "soul_room_boss": [
                 "Chest"
+            ],
+            "plain_tower": [
+                "Chest",
+                "Barrel"
+            ],
+            "ruined_muddy_4": [
+                "Chest",
+                "Barrel"
+            ],
+            "guard_tower_1": [
+                "Chest"
+            ],
+            "guard_tower_2": [
+                "Chest"
+            ],
+            "guard_tower_3": [
+                "Chest",
+                "Barrel"
+            ],
+            "muddy_altar": [
+                "Barrel"
+            ],
+            "soul_room_har_1": [
+                "Chest"
+            ],
+            "soul_room_har_2": [
+                "Chest"
+            ],
+            "haunted_house_1": [
+                "Chest",
+                "Barrel"
+            ],
+            "haunted_house_2": [
+                "Chest"
+            ],
+            "ash_castle": [
+                "Chest",
+                "Barrel"
             ],
             "soul_room_nor_4": [
                 "Chest"
@@ -1375,54 +1443,27 @@ window.AddData = {
             "soul_room_stair_5": [
                 "Chest"
             ],
-            "haunted_house_1": [
-                "Chest",
+            "illusioner_house_1": [
+                "Chest"
+            ],
+            "giant_tree": [
                 "Barrel"
             ],
-            "haunted_house_2": [
+            "giant_tree_with_ticking": [
+                "Barrel"
+            ],
+            "challenger_tower": [
+                "Chest"
+            ],
+            "warehouse_of_watcher": [
+                "Barrel",
                 "Chest"
             ],
             "end_vestiges": [
                 "ShulkerBox"
             ],
-            "guard_tower_1": [
-                "Chest"
-            ],
-            "guard_tower_2": [
-                "Chest"
-            ],
-            "guard_tower_3": [
-                "Chest",
-                "Barrel"
-            ],
             "everlasting_winter_tower": [
                 "Chest"
-            ],
-            "soul_room_har_1": [
-                "Chest"
-            ],
-            "soul_room_har_2": [
-                "Chest"
-            ],
-            "muddy_altar": [
-                "Barrel"
-            ],
-            "ruined_muddy_4": [
-                "Chest",
-                "Barrel"
-            ],
-            "illusioner_house_1": [
-                "Chest"
-            ],
-            "effigy_2": [
-                "Chest"
-            ],
-            "enchanted_house": [
-                "Barrel"
-            ],
-            "plain_tower": [
-                "Chest",
-                "Barrel"
             ],
             "ruined_house_1": [
                 "Barrel"
@@ -1430,8 +1471,11 @@ window.AddData = {
             "ruined_house_2": [
                 "Barrel"
             ],
-            "goblin_house_1": [
+            "effigy_2": [
                 "Chest"
+            ],
+            "hunter_house_1": [
+                "Barrel"
             ]
         },
         "annotation": [
@@ -1439,6 +1483,7 @@ window.AddData = {
         ]
     },
     "dec:blue_jellyfish": {
+        "file_path": "blue_jellyish.json",
         "file_name": "blue_jellyish.json",
         "lang": {
             "en_US": "Blue Jellyfish",
@@ -1471,6 +1516,7 @@ window.AddData = {
         ]
     },
     "dec:blue_of_the_sea": {
+        "file_path": "blue_of_the_sea.json",
         "file_name": "blue_of_the_sea.json",
         "lang": {
             "en_US": "Blue Of The Sea",
@@ -1480,8 +1526,8 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
-            "loot_tables/gameplay/fishing/ocean_treasure.json",
-            "loot_tables/template/weapon/melee_weapon/sword.json"
+            "loot_tables/template/weapon/melee_weapon/sword.json",
+            "loot_tables/gameplay/fishing/ocean_treasure.json"
         ],
         "loot_by_entity": [
             "minecraft:fishing_hook"
@@ -1502,6 +1548,7 @@ window.AddData = {
         ]
     },
     "dec:bomber": {
+        "file_path": "bomber.json",
         "file_name": "bomber.json",
         "lang": {
             "en_US": "Bomber",
@@ -1523,6 +1570,7 @@ window.AddData = {
         ]
     },
     "dec:bomber_bullet": {
+        "file_path": "bomber_bullet.json",
         "file_name": "bomber_bullet.json",
         "lang": {
             "en_US": "Bomber Bullet",
@@ -1547,6 +1595,7 @@ window.AddData = {
         ]
     },
     "dec:bone_sword": {
+        "file_path": "bone_sword.json",
         "file_name": "bone_sword.json",
         "lang": {
             "en_US": "Bone Sword",
@@ -1556,8 +1605,8 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
-            "loot_tables/tasks/008.json",
             "loot_tables/template/weapon/melee_weapon/sword.json",
+            "loot_tables/tasks/008.json",
             "loot_tables/entities/skeleton_warrior_gear.json"
         ],
         "loot_by_entity": [],
@@ -1570,6 +1619,7 @@ window.AddData = {
         ]
     },
     "dec:book_of_deep": {
+        "file_path": "book_of_deep.json",
         "file_name": "book_of_deep.json",
         "lang": {
             "en_US": "Book Of Deep",
@@ -1591,6 +1641,7 @@ window.AddData = {
         ]
     },
     "dec:bracken": {
+        "file_path": "bracken.json",
         "file_name": "bracken.json",
         "lang": {
             "en_US": "Bracken",
@@ -1622,6 +1673,7 @@ window.AddData = {
         ]
     },
     "dec:bullet_bag": {
+        "file_path": "bullet_bag.json",
         "file_name": "bullet_bag.json",
         "lang": {
             "en_US": "Bullet Bag",
@@ -1652,6 +1704,7 @@ window.AddData = {
         ]
     },
     "dec:cactus_sword": {
+        "file_path": "cactus_sword.json",
         "file_name": "cactus_sword.json",
         "lang": {
             "en_US": "Cactus Sword",
@@ -1675,6 +1728,7 @@ window.AddData = {
         ]
     },
     "dec:camouflage_pants": {
+        "file_path": "camouflage_pants.json",
         "file_name": "camouflage_pants.json",
         "lang": {
             "en_US": "Camouflage Pants",
@@ -1705,6 +1759,7 @@ window.AddData = {
         ]
     },
     "dec:candy": {
+        "file_path": "candy.json",
         "file_name": "candy.json",
         "lang": {
             "en_US": "Candy",
@@ -1736,6 +1791,7 @@ window.AddData = {
         ]
     },
     "dec:candy_cane": {
+        "file_path": "candy_cane.json",
         "file_name": "candy_cane.json",
         "lang": {
             "en_US": "Candy Cane",
@@ -1745,9 +1801,9 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
-            "loot_tables/items/christmas_sock.json",
             "loot_tables/blocks/christmas_gift_block.json",
             "loot_tables/template/weapon/melee_weapon/sword.json",
+            "loot_tables/items/christmas_sock.json",
             "loot_tables/chests/warehouse_of_watcher.json"
         ],
         "loot_by_entity": [],
@@ -1774,6 +1830,7 @@ window.AddData = {
         ]
     },
     "dec:catapult": {
+        "file_path": "catapult.json",
         "file_name": "catapult.json",
         "lang": {
             "en_US": "Catapult",
@@ -1797,6 +1854,7 @@ window.AddData = {
         ]
     },
     "dec:challenge_of_ash": {
+        "file_path": "challenge_of_ash.json",
         "file_name": "challenge_of_ash.json",
         "lang": {
             "en_US": "Challenge Of Ash",
@@ -1819,6 +1877,7 @@ window.AddData = {
         ]
     },
     "dec:chaos_staff": {
+        "file_path": "chaos_staff.json",
         "file_name": "chaos_staff.json",
         "lang": {
             "en_US": "Chaos Staff",
@@ -1852,6 +1911,7 @@ window.AddData = {
         ]
     },
     "dec:chicken_staff": {
+        "file_path": "chicken_staff.json",
         "file_name": "chicken_staff.json",
         "lang": {
             "en_US": "Chicken Staff",
@@ -1876,6 +1936,7 @@ window.AddData = {
         ]
     },
     "dec:chocolates": {
+        "file_path": "chocolates.json",
         "file_name": "chocolates.json",
         "lang": {
             "en_US": "Chocolates",
@@ -1898,6 +1959,7 @@ window.AddData = {
         ]
     },
     "dec:chocolate_cookie": {
+        "file_path": "chocolate_cookie.json",
         "file_name": "chocolate_cookie.json",
         "lang": {
             "en_US": "Chocolate Cookie",
@@ -1920,6 +1982,7 @@ window.AddData = {
         ]
     },
     "dec:christmas_cap": {
+        "file_path": "christmas_cap.json",
         "file_name": "christmas_cap.json",
         "lang": {
             "en_US": "Christmas Cap",
@@ -1929,9 +1992,9 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
-            "loot_tables/items/christmas_sock.json",
+            "loot_tables/blocks/christmas_gift_block.json",
             "loot_tables/entities/armor_christmas.json",
-            "loot_tables/blocks/christmas_gift_block.json"
+            "loot_tables/items/christmas_sock.json"
         ],
         "loot_by_entity": [
             "dec:gingerbread_man_by_totem"
@@ -1961,6 +2024,7 @@ window.AddData = {
         ]
     },
     "dec:christmas_gift": {
+        "file_path": "christmas_gift_block.json",
         "file_name": "christmas_gift_block.json",
         "lang": {
             "en_US": "Christmas Gift",
@@ -1998,6 +2062,7 @@ window.AddData = {
         ]
     },
     "dec:christmas_sock": {
+        "file_path": "christmas_sock.json",
         "file_name": "christmas_sock.json",
         "lang": {
             "en_US": "Christmas Sock",
@@ -2007,8 +2072,8 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
-            "loot_tables/chests/warehouse_of_watcher.json",
-            "loot_tables/blocks/christmas_gift_block.json"
+            "loot_tables/blocks/christmas_gift_block.json",
+            "loot_tables/chests/warehouse_of_watcher.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -2034,6 +2099,7 @@ window.AddData = {
         ]
     },
     "dec:coal_fish": {
+        "file_path": "coal_fish.json",
         "file_name": "coal_fish.json",
         "lang": {
             "en_US": "Coal Fish",
@@ -2046,10 +2112,10 @@ window.AddData = {
         ],
         "loot": [
             "loot_tables/gameplay/fishing/desert_fish.json",
-            "loot_tables/gameplay/fishing/jungle_fish.json",
-            "loot_tables/gameplay/fishing/ice_fish.json",
             "loot_tables/gameplay/fishing/fish.json",
-            "loot_tables/gameplay/fishing/ocean_fish.json"
+            "loot_tables/gameplay/fishing/jungle_fish.json",
+            "loot_tables/gameplay/fishing/ocean_fish.json",
+            "loot_tables/gameplay/fishing/ice_fish.json"
         ],
         "loot_by_entity": [
             "minecraft:fishing_hook"
@@ -2070,6 +2136,7 @@ window.AddData = {
         ]
     },
     "dec:coal_nugget": {
+        "file_path": "coal_nugget.json",
         "file_name": "coal_nugget.json",
         "lang": {
             "en_US": "Coal Nugget",
@@ -2083,67 +2150,73 @@ window.AddData = {
             "dec:coal_by_nugget"
         ],
         "loot": [
-            "loot_tables/blocks/nether_coal_ore.json",
-            "loot_tables/entities/goblin_wizard.json",
-            "loot_tables/blocks/cave_crate.json",
-            "loot_tables/entities/obsidian_golem.json",
+            "loot_tables/entities/goblin.json",
             "loot_tables/entities/gargoyle.json",
-            "loot_tables/chests/haunted_house.json",
-            "loot_tables/blocks/end_coal_ore.json",
-            "loot_tables/entities/goblin_sniper.json",
-            "loot_tables/chests/warehouse_of_watcher.json",
+            "loot_tables/chests/goblin_house_1.json",
             "loot_tables/entities/stone_golem.json",
             "loot_tables/chests/illusioner_house.json",
-            "loot_tables/chests/tower_of_watcher/ore.json",
-            "loot_tables/entities/goblin.json",
+            "loot_tables/blocks/end_coal_ore.json",
+            "loot_tables/blocks/nether_coal_ore.json",
+            "loot_tables/entities/goblin_wizard.json",
             "loot_tables/entities/end_stone_golem.json",
-            "loot_tables/chests/hunter_house.json",
-            "loot_tables/chests/goblin_house_1.json"
+            "loot_tables/blocks/cave_crate.json",
+            "loot_tables/chests/haunted_house.json",
+            "loot_tables/chests/tower_of_watcher/ore.json",
+            "loot_tables/entities/obsidian_golem.json",
+            "loot_tables/chests/warehouse_of_watcher.json",
+            "loot_tables/entities/goblin_sniper.json",
+            "loot_tables/chests/hunter_house.json"
         ],
         "loot_by_entity": [
-            "dec:goblin_wizard",
-            "dec:obsidian_golem",
-            "dec:gargoyle",
-            "dec:goblin_sniper",
-            "dec:stone_golem",
             "dec:goblin",
-            "dec:end_stone_golem"
+            "dec:gargoyle",
+            "dec:stone_golem",
+            "dec:goblin_wizard",
+            "dec:end_stone_golem",
+            "dec:obsidian_golem",
+            "dec:goblin_sniper"
         ],
         "loot_by_entity_lang": {
             "en_US": [
-                "Goblin Wizard",
-                "Obsidian Golem",
-                "Gargoyle",
-                "Goblin Sniper",
-                "Stone Golem",
                 "Goblin",
-                "Endstone Golem"
+                "Gargoyle",
+                "Stone Golem",
+                "Goblin Wizard",
+                "Endstone Golem",
+                "Obsidian Golem",
+                "Goblin Sniper"
             ],
             "zh_CN": [
-                "\u54e5\u5e03\u6797\u6cd5\u5e08",
-                "\u9ed1\u66dc\u77f3\u5080\u5121",
-                "\u77f3\u50cf\u9b3c",
-                "\u54e5\u5e03\u6797\u72d9\u51fb\u624b",
-                "\u77f3\u5934\u5080\u5121",
                 "\u54e5\u5e03\u6797",
-                "\u672b\u5730\u77f3\u5080\u5121"
+                "\u77f3\u50cf\u9b3c",
+                "\u77f3\u5934\u5080\u5121",
+                "\u54e5\u5e03\u6797\u6cd5\u5e08",
+                "\u672b\u5730\u77f3\u5080\u5121",
+                "\u9ed1\u66dc\u77f3\u5080\u5121",
+                "\u54e5\u5e03\u6797\u72d9\u51fb\u624b"
             ]
         },
         "loot_by_block": [
-            "dec:nether_coal_ore",
-            "dec:end_coal_ore"
+            "dec:end_coal_ore",
+            "dec:nether_coal_ore"
         ],
         "loot_by_block_lang": {
             "en_US": [
-                "Nether Coal Ore",
-                "End Coal Ore"
+                "End Coal Ore",
+                "Nether Coal Ore"
             ],
             "zh_CN": [
-                "\u5730\u72f1\u7164\u77ff",
-                "\u672b\u5f71\u7164\u77ff"
+                "\u672b\u5f71\u7164\u77ff",
+                "\u5730\u72f1\u7164\u77ff"
             ]
         },
         "loot_by_structure": {
+            "goblin_house_1": [
+                "Chest"
+            ],
+            "illusioner_house_1": [
+                "Chest"
+            ],
             "haunted_house_1": [
                 "Chest",
                 "Barrel"
@@ -2155,14 +2228,8 @@ window.AddData = {
                 "Barrel",
                 "Chest"
             ],
-            "illusioner_house_1": [
-                "Chest"
-            ],
             "hunter_house_1": [
                 "Barrel"
-            ],
-            "goblin_house_1": [
-                "Chest"
             ]
         },
         "annotation": [
@@ -2170,6 +2237,7 @@ window.AddData = {
         ]
     },
     "dec:coffee_of_lileyi": {
+        "file_path": "coffee_of_lileyi.json",
         "file_name": "coffee_of_lileyi.json",
         "lang": {
             "en_US": "Coffee Of LiLeyi",
@@ -2189,6 +2257,7 @@ window.AddData = {
         ]
     },
     "dec:complete_bat_wing": {
+        "file_path": "complete_bat_wing.json",
         "file_name": "complete_bat_wing.json",
         "lang": {
             "en_US": "Complete Bat Wing",
@@ -2218,6 +2287,7 @@ window.AddData = {
         ]
     },
     "dec:cooked_brain": {
+        "file_path": "cooked_brain.json",
         "file_name": "cooked_brain.json",
         "lang": {
             "en_US": "Cooked Brain",
@@ -2240,6 +2310,7 @@ window.AddData = {
         ]
     },
     "dec:copper_battleaxe": {
+        "file_path": "copper_battleaxe.json",
         "file_name": "copper_battleaxe.json",
         "lang": {
             "en_US": "Copper Battleaxe",
@@ -2266,6 +2337,7 @@ window.AddData = {
         ]
     },
     "dec:copper_boots": {
+        "file_path": "copper_boots.json",
         "file_name": "copper_boots.json",
         "lang": {
             "en_US": "Copper Boots",
@@ -2277,8 +2349,8 @@ window.AddData = {
         ],
         "ingredient": [],
         "loot": [
-            "loot_tables/template/armor/copper.json",
-            "loot_tables/chests/muddy_altar.json"
+            "loot_tables/chests/muddy_altar.json",
+            "loot_tables/template/armor/copper.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -2294,6 +2366,7 @@ window.AddData = {
         ]
     },
     "dec:copper_chestplate": {
+        "file_path": "copper_chestplate.json",
         "file_name": "copper_chestplate.json",
         "lang": {
             "en_US": "Copper Chestplate",
@@ -2305,8 +2378,8 @@ window.AddData = {
         ],
         "ingredient": [],
         "loot": [
-            "loot_tables/template/armor/copper.json",
-            "loot_tables/chests/muddy_altar.json"
+            "loot_tables/chests/muddy_altar.json",
+            "loot_tables/template/armor/copper.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -2322,6 +2395,7 @@ window.AddData = {
         ]
     },
     "dec:copper_dagger": {
+        "file_path": "copper_dagger.json",
         "file_name": "copper_dagger.json",
         "lang": {
             "en_US": "Copper Dagger",
@@ -2362,6 +2436,7 @@ window.AddData = {
         ]
     },
     "dec:copper_dart": {
+        "file_path": "copper_dart.json",
         "file_name": "copper_dart.json",
         "lang": {
             "en_US": "Copper Dart",
@@ -2374,8 +2449,8 @@ window.AddData = {
         "ingredient": [],
         "loot": [
             "loot_tables/chests/muddy_altar.json",
-            "loot_tables/template/weapon/thrown_weapon/dart.json",
-            "loot_tables/chests/tower_of_watcher/weapon.json"
+            "loot_tables/chests/tower_of_watcher/weapon.json",
+            "loot_tables/template/weapon/thrown_weapon/dart.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -2391,6 +2466,7 @@ window.AddData = {
         ]
     },
     "dec:copper_helmet": {
+        "file_path": "copper_helmet.json",
         "file_name": "copper_helmet.json",
         "lang": {
             "en_US": "Copper Hemlet",
@@ -2402,8 +2478,8 @@ window.AddData = {
         ],
         "ingredient": [],
         "loot": [
-            "loot_tables/template/armor/copper.json",
-            "loot_tables/chests/muddy_altar.json"
+            "loot_tables/chests/muddy_altar.json",
+            "loot_tables/template/armor/copper.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -2419,6 +2495,7 @@ window.AddData = {
         ]
     },
     "dec:copper_leggings": {
+        "file_path": "copper_leggings.json",
         "file_name": "copper_leggings.json",
         "lang": {
             "en_US": "Copper Leggings",
@@ -2430,8 +2507,8 @@ window.AddData = {
         ],
         "ingredient": [],
         "loot": [
-            "loot_tables/template/armor/copper.json",
-            "loot_tables/chests/muddy_altar.json"
+            "loot_tables/chests/muddy_altar.json",
+            "loot_tables/template/armor/copper.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -2447,6 +2524,7 @@ window.AddData = {
         ]
     },
     "dec:copper_nugget": {
+        "file_path": "copper_nugget.json",
         "file_name": "copper_nugget.json",
         "lang": {
             "en_US": "Copper Nugget",
@@ -2485,6 +2563,7 @@ window.AddData = {
         ]
     },
     "dec:copper_sickle": {
+        "file_path": "copper_sickle.json",
         "file_name": "copper_sickle.json",
         "lang": {
             "en_US": "Copper Sickle",
@@ -2520,6 +2599,7 @@ window.AddData = {
         ]
     },
     "dec:copper_sword": {
+        "file_path": "copper_sword.json",
         "file_name": "copper_sword.json",
         "lang": {
             "en_US": "Copper Sword",
@@ -2534,8 +2614,8 @@ window.AddData = {
         ],
         "loot": [
             "loot_tables/chests/muddy_altar.json",
-            "loot_tables/entities/goblin_gear.json",
-            "loot_tables/template/weapon/melee_weapon/sword.json"
+            "loot_tables/template/weapon/melee_weapon/sword.json",
+            "loot_tables/entities/goblin_gear.json"
         ],
         "loot_by_entity": [
             "dec:goblin"
@@ -2560,6 +2640,7 @@ window.AddData = {
         ]
     },
     "dec:coral_axe": {
+        "file_path": "coral_axe.json",
         "file_name": "coral_axe.json",
         "lang": {
             "en_US": "Coral Axe",
@@ -2583,6 +2664,7 @@ window.AddData = {
         ]
     },
     "dec:coral_dart": {
+        "file_path": "coral_dart.json",
         "file_name": "coral_dart.json",
         "lang": {
             "en_US": "Coral Dart",
@@ -2606,6 +2688,7 @@ window.AddData = {
         ]
     },
     "dec:coral_ingot": {
+        "file_path": "coral_ingot.json",
         "file_name": "coral_ingot.json",
         "lang": {
             "en_US": "Coral Ingot",
@@ -2620,13 +2703,13 @@ window.AddData = {
             "dec:sharp_coral"
         ],
         "loot": [
-            "loot_tables/chests/underwater_ruin_big.json",
             "loot_tables/chests/shipwrecktreasure.json",
-            "loot_tables/chests/shipwrecksupply.json",
-            "loot_tables/chests/pirate_ship_small.json",
-            "loot_tables/chests/shipwreck.json",
             "loot_tables/chests/underwater_ruin_small.json",
-            "loot_tables/chests/buriedtreasure.json"
+            "loot_tables/chests/pirate_ship_small.json",
+            "loot_tables/chests/shipwrecksupply.json",
+            "loot_tables/chests/buriedtreasure.json",
+            "loot_tables/chests/shipwreck.json",
+            "loot_tables/chests/underwater_ruin_big.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -2642,6 +2725,7 @@ window.AddData = {
         ]
     },
     "dec:coral_pickaxe": {
+        "file_path": "coral_pickaxe.json",
         "file_name": "coral_pickaxe.json",
         "lang": {
             "en_US": "Coral Pickaxe",
@@ -2663,6 +2747,7 @@ window.AddData = {
         ]
     },
     "dec:coral_sword": {
+        "file_path": "coral_sword.json",
         "file_name": "coral_sword.json",
         "lang": {
             "en_US": "Coral Sword",
@@ -2688,6 +2773,7 @@ window.AddData = {
         ]
     },
     "dec:corrupted_sword": {
+        "file_path": "corrupted_sword.json",
         "file_name": "corrupted_sword.json",
         "lang": {
             "en_US": "Corrupted Sword",
@@ -2698,8 +2784,8 @@ window.AddData = {
         "ingredient": [],
         "loot": [
             "loot_tables/wb/2_x/magic_stoneman.json",
-            "loot_tables/entities/elf_of_deep_melee_gear.json",
-            "loot_tables/template/weapon/melee_weapon/sword.json"
+            "loot_tables/template/weapon/melee_weapon/sword.json",
+            "loot_tables/entities/elf_of_deep_melee_gear.json"
         ],
         "loot_by_entity": [
             "dec:elf_of_deep"
@@ -2720,6 +2806,7 @@ window.AddData = {
         ]
     },
     "dec:crab_leg": {
+        "file_path": "crab_leg.json",
         "file_name": "crab_leg.json",
         "lang": {
             "en_US": "Crab Leg",
@@ -2742,6 +2829,7 @@ window.AddData = {
         ]
     },
     "dec:crab_leg_cooked": {
+        "file_path": "crab_leg_cooked.json",
         "file_name": "crab_leg_cooked.json",
         "lang": {
             "en_US": "Cooked Crab Leg",
@@ -2763,6 +2851,7 @@ window.AddData = {
         ]
     },
     "dec:crying_boots": {
+        "file_path": "crying_boots.json",
         "file_name": "crying_boots.json",
         "lang": {
             "en_US": "Crying Boots",
@@ -2786,6 +2875,7 @@ window.AddData = {
         ]
     },
     "dec:crying_chestplate": {
+        "file_path": "crying_chestplate.json",
         "file_name": "crying_chestplate.json",
         "lang": {
             "en_US": "Crying Chestplate",
@@ -2809,6 +2899,7 @@ window.AddData = {
         ]
     },
     "dec:crying_helmet": {
+        "file_path": "crying_helmet.json",
         "file_name": "crying_helmet.json",
         "lang": {
             "en_US": "Crying Helmet",
@@ -2833,6 +2924,7 @@ window.AddData = {
         ]
     },
     "dec:crying_leggings": {
+        "file_path": "crying_leggings.json",
         "file_name": "crying_leggings.json",
         "lang": {
             "en_US": "Crying Leggings",
@@ -2856,6 +2948,7 @@ window.AddData = {
         ]
     },
     "dec:crystal_nucleus": {
+        "file_path": "crystal_nucleus.json",
         "file_name": "crystal_nucleus.json",
         "lang": {
             "en_US": "Crystal Nucleus",
@@ -2884,6 +2977,7 @@ window.AddData = {
         ]
     },
     "dec:cudgel": {
+        "file_path": "cudgel.json",
         "file_name": "cudgel.json",
         "lang": {
             "en_US": "Cudgel",
@@ -2893,8 +2987,8 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
-            "loot_tables/entities/goblin_gear.json",
-            "loot_tables/template/weapon/melee_weapon/sword.json"
+            "loot_tables/template/weapon/melee_weapon/sword.json",
+            "loot_tables/entities/goblin_gear.json"
         ],
         "loot_by_entity": [
             "dec:goblin"
@@ -2915,6 +3009,7 @@ window.AddData = {
         ]
     },
     "dec:dark_blue_jacket": {
+        "file_path": "dark_blue_jacket.json",
         "file_name": "dark_blue_jacket.json",
         "lang": {
             "en_US": "Dark Blue Jacket",
@@ -2945,6 +3040,7 @@ window.AddData = {
         ]
     },
     "dec:dark_debris": {
+        "file_path": "dark_debris.json",
         "file_name": "dark_debris.json",
         "lang": {
             "en_US": "Dark Debris",
@@ -2969,6 +3065,7 @@ window.AddData = {
         ]
     },
     "dec:dark_pearl": {
+        "file_path": "dark_pearl.json",
         "file_name": "dark_pearl.json",
         "lang": {
             "en_US": "Dark Pearl",
@@ -2996,6 +3093,7 @@ window.AddData = {
         ]
     },
     "dec:dark_stone": {
+        "file_path": "dark_stone.json",
         "file_name": "dark_stone.json",
         "lang": {
             "en_US": "Dark Stone",
@@ -3018,6 +3116,7 @@ window.AddData = {
         ]
     },
     "dec:decrepit_atlantis": {
+        "file_path": "decrepit_atlantis.json",
         "file_name": "decrepit_atlantis.json",
         "lang": {
             "en_US": "Decrepit Atlantis",
@@ -3028,8 +3127,8 @@ window.AddData = {
         "ingredient": [],
         "loot": [
             "loot_tables/entities/abyssal_controller.json",
-            "loot_tables/entities/ruined_muddy_brushable_block.json",
-            "loot_tables/template/weapon/melee_weapon/sword.json"
+            "loot_tables/template/weapon/melee_weapon/sword.json",
+            "loot_tables/entities/ruined_muddy_brushable_block.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -3073,6 +3172,7 @@ window.AddData = {
         ]
     },
     "dec:deep_staff": {
+        "file_path": "deep_staff.json",
         "file_name": "deep_staff.json",
         "lang": {
             "en_US": "Devil Of Deep",
@@ -3105,6 +3205,7 @@ window.AddData = {
         ]
     },
     "dec:destroy_staff": {
+        "file_path": "destroy_staff.json",
         "file_name": "destroy_staff.json",
         "lang": {
             "en_US": "Destroy Staff",
@@ -3128,6 +3229,7 @@ window.AddData = {
         ]
     },
     "dec:diamond_apple": {
+        "file_path": "diamond_apple.json",
         "file_name": "diamond_apple.json",
         "lang": {
             "en_US": "Diamond Apple",
@@ -3141,11 +3243,11 @@ window.AddData = {
             "dec:furnace_diamond_apple"
         ],
         "loot": [
-            "loot_tables/chests/bastion_other.json",
             "loot_tables/chests/ash_castle_treasure.json",
             "loot_tables/chests/bastion_bridge.json",
             "loot_tables/chests/bastion_treasure.json",
-            "loot_tables/chests/bastion_hoglin_stable.json"
+            "loot_tables/chests/bastion_hoglin_stable.json",
+            "loot_tables/chests/bastion_other.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -3161,6 +3263,7 @@ window.AddData = {
         ]
     },
     "dec:diamond_apple_enchanted": {
+        "file_path": "diamond_apple_enchanted.json",
         "file_name": "diamond_apple_enchanted.json",
         "lang": {
             "en_US": "Enchanted Diamond Apple",
@@ -3189,6 +3292,7 @@ window.AddData = {
         ]
     },
     "dec:diamond_crystal_nucleus": {
+        "file_path": "diamond_crystal_nucleus.json",
         "file_name": "diamond_crystal_nucleus.json",
         "lang": {
             "en_US": "Diamond Crystal Nucleus",
@@ -3215,6 +3319,7 @@ window.AddData = {
         ]
     },
     "dec:diamond_dagger": {
+        "file_path": "diamond_dagger.json",
         "file_name": "diamond_dagger.json",
         "lang": {
             "en_US": "Diamond Dagger",
@@ -3229,22 +3334,22 @@ window.AddData = {
             "dec:furnace_diamond_dagger"
         ],
         "loot": [
-            "loot_tables/entities/goblin_gear.json",
             "loot_tables/entities/watcher_attack_equipment.json",
+            "loot_tables/entities/goblin_gear.json",
             "loot_tables/template/weapon/melee_weapon/dagger.json"
         ],
         "loot_by_entity": [
-            "dec:goblin",
-            "dec:watcher"
+            "dec:watcher",
+            "dec:goblin"
         ],
         "loot_by_entity_lang": {
             "en_US": [
-                "Goblin",
-                "Watcher"
+                "Watcher",
+                "Goblin"
             ],
             "zh_CN": [
-                "\u54e5\u5e03\u6797",
-                "\u770b\u5b88\u8005"
+                "\u770b\u5b88\u8005",
+                "\u54e5\u5e03\u6797"
             ]
         },
         "loot_by_block": [],
@@ -3255,6 +3360,7 @@ window.AddData = {
         ]
     },
     "dec:diamond_dart": {
+        "file_path": "diamond_dart.json",
         "file_name": "diamond_dart.json",
         "lang": {
             "en_US": "Diamond Dart",
@@ -3278,6 +3384,7 @@ window.AddData = {
         ]
     },
     "dec:diamond_fish": {
+        "file_path": "diamond_fish.json",
         "file_name": "diamond_fish.json",
         "lang": {
             "en_US": "Diamond Fish",
@@ -3290,10 +3397,10 @@ window.AddData = {
         ],
         "loot": [
             "loot_tables/gameplay/fishing/desert_fish.json",
-            "loot_tables/gameplay/fishing/jungle_fish.json",
-            "loot_tables/gameplay/fishing/ice_fish.json",
             "loot_tables/gameplay/fishing/fish.json",
-            "loot_tables/gameplay/fishing/ocean_fish.json"
+            "loot_tables/gameplay/fishing/jungle_fish.json",
+            "loot_tables/gameplay/fishing/ocean_fish.json",
+            "loot_tables/gameplay/fishing/ice_fish.json"
         ],
         "loot_by_entity": [
             "minecraft:fishing_hook"
@@ -3315,6 +3422,7 @@ window.AddData = {
         ]
     },
     "dec:diamond_nugget": {
+        "file_path": "diamond_nugget.json",
         "file_name": "diamond_nugget.json",
         "lang": {
             "en_US": "Diamond Nugget",
@@ -3338,52 +3446,52 @@ window.AddData = {
             "dec:diamond_dart"
         ],
         "loot": [
-            "loot_tables/blocks/nether_diamond_ore.json",
-            "loot_tables/blocks/cave_crate.json",
-            "loot_tables/entities/obsidian_golem.json",
-            "loot_tables/entities/goblin_sniper.json",
-            "loot_tables/blocks/end_diamond_ore.json",
-            "loot_tables/items/red_bag.json",
-            "loot_tables/entities/end_stone_golem.json",
-            "loot_tables/entities/goblin_wizard.json",
-            "loot_tables/chests/pirate_ship_small.json",
-            "loot_tables/chests/warehouse_of_watcher.json",
-            "loot_tables/blocks/soul_soil_diamond_ore.json",
-            "loot_tables/chests/soul_room_boss.json",
-            "loot_tables/chests/soul_room_nor.json",
-            "loot_tables/chests/haunted_house.json",
-            "loot_tables/chests/soul_room_har.json",
-            "loot_tables/entities/stone_golem.json",
-            "loot_tables/chests/illusioner_house.json",
-            "loot_tables/chests/tower_of_watcher/ore.json",
             "loot_tables/entities/goblin.json",
-            "loot_tables/chests/hunter_house.json",
-            "loot_tables/chests/goblin_house_1.json"
+            "loot_tables/chests/goblin_house_1.json",
+            "loot_tables/chests/pirate_ship_small.json",
+            "loot_tables/chests/soul_room_boss.json",
+            "loot_tables/chests/tower_of_watcher/ore.json",
+            "loot_tables/items/red_bag.json",
+            "loot_tables/entities/stone_golem.json",
+            "loot_tables/entities/goblin_wizard.json",
+            "loot_tables/chests/soul_room_har.json",
+            "loot_tables/chests/haunted_house.json",
+            "loot_tables/blocks/nether_diamond_ore.json",
+            "loot_tables/entities/obsidian_golem.json",
+            "loot_tables/entities/end_stone_golem.json",
+            "loot_tables/entities/goblin_sniper.json",
+            "loot_tables/blocks/cave_crate.json",
+            "loot_tables/chests/soul_room_nor.json",
+            "loot_tables/blocks/end_diamond_ore.json",
+            "loot_tables/chests/illusioner_house.json",
+            "loot_tables/blocks/soul_soil_diamond_ore.json",
+            "loot_tables/chests/warehouse_of_watcher.json",
+            "loot_tables/chests/hunter_house.json"
         ],
         "loot_by_entity": [
-            "dec:obsidian_golem",
-            "dec:goblin_sniper",
-            "dec:end_stone_golem",
-            "dec:goblin_wizard",
+            "dec:goblin",
             "dec:stone_golem",
-            "dec:goblin"
+            "dec:goblin_wizard",
+            "dec:obsidian_golem",
+            "dec:end_stone_golem",
+            "dec:goblin_sniper"
         ],
         "loot_by_entity_lang": {
             "en_US": [
-                "Obsidian Golem",
-                "Goblin Sniper",
-                "Endstone Golem",
-                "Goblin Wizard",
+                "Goblin",
                 "Stone Golem",
-                "Goblin"
+                "Goblin Wizard",
+                "Obsidian Golem",
+                "Endstone Golem",
+                "Goblin Sniper"
             ],
             "zh_CN": [
-                "\u9ed1\u66dc\u77f3\u5080\u5121",
-                "\u54e5\u5e03\u6797\u72d9\u51fb\u624b",
-                "\u672b\u5730\u77f3\u5080\u5121",
-                "\u54e5\u5e03\u6797\u6cd5\u5e08",
+                "\u54e5\u5e03\u6797",
                 "\u77f3\u5934\u5080\u5121",
-                "\u54e5\u5e03\u6797"
+                "\u54e5\u5e03\u6797\u6cd5\u5e08",
+                "\u9ed1\u66dc\u77f3\u5080\u5121",
+                "\u672b\u5730\u77f3\u5080\u5121",
+                "\u54e5\u5e03\u6797\u72d9\u51fb\u624b"
             ]
         },
         "loot_by_block": [
@@ -3404,14 +3512,26 @@ window.AddData = {
             ]
         },
         "loot_by_structure": {
+            "goblin_house_1": [
+                "Chest"
+            ],
             "pirate_ship_small_1": [
                 "Chest"
             ],
-            "warehouse_of_watcher": [
-                "Barrel",
+            "soul_room_boss": [
                 "Chest"
             ],
-            "soul_room_boss": [
+            "soul_room_har_1": [
+                "Chest"
+            ],
+            "soul_room_har_2": [
+                "Chest"
+            ],
+            "haunted_house_1": [
+                "Chest",
+                "Barrel"
+            ],
+            "haunted_house_2": [
                 "Chest"
             ],
             "soul_room_nor_4": [
@@ -3429,27 +3549,15 @@ window.AddData = {
             "soul_room_stair_5": [
                 "Chest"
             ],
-            "haunted_house_1": [
-                "Chest",
-                "Barrel"
-            ],
-            "haunted_house_2": [
-                "Chest"
-            ],
-            "soul_room_har_1": [
-                "Chest"
-            ],
-            "soul_room_har_2": [
-                "Chest"
-            ],
             "illusioner_house_1": [
+                "Chest"
+            ],
+            "warehouse_of_watcher": [
+                "Barrel",
                 "Chest"
             ],
             "hunter_house_1": [
                 "Barrel"
-            ],
-            "goblin_house_1": [
-                "Chest"
             ]
         },
         "annotation": [
@@ -3458,6 +3566,7 @@ window.AddData = {
         ]
     },
     "dec:diamond_ring": {
+        "file_path": "diamond_ring.json",
         "file_name": "diamond_ring.json",
         "lang": {
             "en_US": "Diamond Ring",
@@ -3491,6 +3600,7 @@ window.AddData = {
         ]
     },
     "dec:diamond_sickle": {
+        "file_path": "diamond_sickle.json",
         "file_name": "diamond_sickle.json",
         "lang": {
             "en_US": "Damond Sickle",
@@ -3506,21 +3616,21 @@ window.AddData = {
         ],
         "loot": [
             "loot_tables/template/weapon/melee_weapon/sickle.json",
-            "loot_tables/entities/goblin_gear.json",
-            "loot_tables/entities/watcher_attack_equipment.json"
+            "loot_tables/entities/watcher_attack_equipment.json",
+            "loot_tables/entities/goblin_gear.json"
         ],
         "loot_by_entity": [
-            "dec:goblin",
-            "dec:watcher"
+            "dec:watcher",
+            "dec:goblin"
         ],
         "loot_by_entity_lang": {
             "en_US": [
-                "Goblin",
-                "Watcher"
+                "Watcher",
+                "Goblin"
             ],
             "zh_CN": [
-                "\u54e5\u5e03\u6797",
-                "\u770b\u5b88\u8005"
+                "\u770b\u5b88\u8005",
+                "\u54e5\u5e03\u6797"
             ]
         },
         "loot_by_block": [],
@@ -3531,6 +3641,7 @@ window.AddData = {
         ]
     },
     "dec:diamond_staff": {
+        "file_path": "diamond_staff.json",
         "file_name": "diamond_staff.json",
         "lang": {
             "en_US": "Diamond Staff",
@@ -3557,6 +3668,7 @@ window.AddData = {
         ]
     },
     "dec:dirt_boots": {
+        "file_path": "dirt_boots.json",
         "file_name": "dirt_boots.json",
         "lang": {
             "en_US": "Dirt Boots",
@@ -3581,6 +3693,7 @@ window.AddData = {
         ]
     },
     "dec:dirt_chestplate": {
+        "file_path": "dirt_chestplate.json",
         "file_name": "dirt_chestplate.json",
         "lang": {
             "en_US": "Dirt Chestplate",
@@ -3605,6 +3718,7 @@ window.AddData = {
         ]
     },
     "dec:dirt_helmet": {
+        "file_path": "dirt_helmet.json",
         "file_name": "dirt_helmet.json",
         "lang": {
             "en_US": "Dirt Helmet",
@@ -3629,6 +3743,7 @@ window.AddData = {
         ]
     },
     "dec:dirt_leggings": {
+        "file_path": "dirt_leggings.json",
         "file_name": "dirt_leggings.json",
         "lang": {
             "en_US": "Dirt Leggings",
@@ -3653,6 +3768,7 @@ window.AddData = {
         ]
     },
     "dec:dragon_fireball_by_player": {
+        "file_path": "dragon_fireball_by_player.json",
         "file_name": "dragon_fireball_by_player.json",
         "lang": {
             "en_US": "Dragon Fireball",
@@ -3664,8 +3780,8 @@ window.AddData = {
         ],
         "ingredient": [],
         "loot": [
-            "loot_tables/template/weapon/thrown_weapon/sundries.json",
-            "loot_tables/chests/end_vestiges.json"
+            "loot_tables/chests/end_vestiges.json",
+            "loot_tables/template/weapon/thrown_weapon/sundries.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -3681,6 +3797,7 @@ window.AddData = {
         ]
     },
     "dec:drift_bottle": {
+        "file_path": "drift_bottle.json",
         "file_name": "drift_bottle.json",
         "lang": {
             "en_US": "Drift Bottle",
@@ -3690,10 +3807,10 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
-            "loot_tables/gameplay/fishing/ocean_junk.json",
             "loot_tables/gameplay/fishing/ice_junk.json",
             "loot_tables/gameplay/fishing/jungle_junk.json",
-            "loot_tables/gameplay/fishing/junk.json"
+            "loot_tables/gameplay/fishing/junk.json",
+            "loot_tables/gameplay/fishing/ocean_junk.json"
         ],
         "loot_by_entity": [
             "minecraft:fishing_hook"
@@ -3714,6 +3831,7 @@ window.AddData = {
         ]
     },
     "dec:dust_destroyer": {
+        "file_path": "dust_destroyer.json",
         "file_name": "dust_destroyer.json",
         "lang": {
             "en_US": "Dust Destroy ",
@@ -3723,23 +3841,23 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
-            "loot_tables/entities/ash_knight_gear.json",
             "loot_tables/entities/ash_knight.json",
+            "loot_tables/template/weapon/melee_weapon/sword.json",
             "loot_tables/entities/ash_sword.json",
-            "loot_tables/template/weapon/melee_weapon/sword.json"
+            "loot_tables/entities/ash_knight_gear.json"
         ],
         "loot_by_entity": [
-            "dec:ash_knight",
-            "dec:ash_sword"
+            "dec:ash_sword",
+            "dec:ash_knight"
         ],
         "loot_by_entity_lang": {
             "en_US": [
-                "Ash Knight",
-                "Ash Sword"
+                "Ash Sword",
+                "Ash Knight"
             ],
             "zh_CN": [
-                "\u7070\u70ec\u9a91\u58eb",
-                "\u7070\u70ec\u4e4b\u5203"
+                "\u7070\u70ec\u4e4b\u5203",
+                "\u7070\u70ec\u9a91\u58eb"
             ]
         },
         "loot_by_block": [],
@@ -3750,6 +3868,7 @@ window.AddData = {
         ]
     },
     "dec:dust_ring": {
+        "file_path": "dust_ring.json",
         "file_name": "dust_ring.json",
         "lang": {
             "en_US": "Dust Ring",
@@ -3781,6 +3900,7 @@ window.AddData = {
         ]
     },
     "dec:dust_staff": {
+        "file_path": "dust_staff.json",
         "file_name": "dust_staff.json",
         "lang": {
             "en_US": "Dust Staff",
@@ -3813,6 +3933,7 @@ window.AddData = {
         ]
     },
     "dec:emerald_apple": {
+        "file_path": "emerald_apple.json",
         "file_name": "emerald_apple.json",
         "lang": {
             "en_US": "Emerald Apple",
@@ -3826,17 +3947,17 @@ window.AddData = {
             "dec:furnace_emerald_apple"
         ],
         "loot": [
+            "loot_tables/chests/ash_castle_treasure.json",
+            "loot_tables/chests/woodland_mansion.json",
+            "loot_tables/chests/bastion_bridge.json",
+            "loot_tables/chests/desert_pyramid.json",
+            "loot_tables/chests/ruined_portal.json",
+            "loot_tables/chests/bastion_treasure.json",
+            "loot_tables/chests/challenger_tower.json",
+            "loot_tables/chests/bastion_hoglin_stable.json",
             "loot_tables/chests/ash_castle.json",
             "loot_tables/chests/bastion_other.json",
-            "loot_tables/chests/igloo_chest.json",
-            "loot_tables/chests/woodland_mansion.json",
-            "loot_tables/chests/ruined_portal.json",
-            "loot_tables/chests/ash_castle_treasure.json",
-            "loot_tables/chests/bastion_bridge.json",
-            "loot_tables/chests/bastion_treasure.json",
-            "loot_tables/chests/bastion_hoglin_stable.json",
-            "loot_tables/chests/desert_pyramid.json",
-            "loot_tables/chests/challenger_tower.json"
+            "loot_tables/chests/igloo_chest.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -3844,8 +3965,8 @@ window.AddData = {
         "loot_by_block_lang": {},
         "loot_by_structure": {
             "ash_castle": [
-                "Barrel",
-                "Chest"
+                "Chest",
+                "Barrel"
             ],
             "challenger_tower": [
                 "Chest"
@@ -3856,6 +3977,7 @@ window.AddData = {
         ]
     },
     "dec:emerald_apple_enchanted": {
+        "file_path": "emerald_apple_enchanted.json",
         "file_name": "emerald_apple_enchanted.json",
         "lang": {
             "en_US": "Enchanted Emerald Apple",
@@ -3885,6 +4007,7 @@ window.AddData = {
         ]
     },
     "dec:emerald_axe": {
+        "file_path": "emerald_axe.json",
         "file_name": "emerald_axe.json",
         "lang": {
             "en_US": "Emerald Axe",
@@ -3908,6 +4031,7 @@ window.AddData = {
         ]
     },
     "dec:emerald_boots": {
+        "file_path": "emerald_boots.json",
         "file_name": "emerald_boots.json",
         "lang": {
             "en_US": "Emerald Boots",
@@ -3931,6 +4055,7 @@ window.AddData = {
         ]
     },
     "dec:emerald_chestplate": {
+        "file_path": "emerald_chestplate.json",
         "file_name": "emerald_chestplate.json",
         "lang": {
             "en_US": "Emerald Chestplate",
@@ -3954,6 +4079,7 @@ window.AddData = {
         ]
     },
     "dec:emerald_dagger": {
+        "file_path": "emerald_dagger.json",
         "file_name": "emerald_dagger.json",
         "lang": {
             "en_US": "Emerald Dagger",
@@ -3989,6 +4115,7 @@ window.AddData = {
         ]
     },
     "dec:emerald_dart": {
+        "file_path": "emerald_dart.json",
         "file_name": "emerald_dart.json",
         "lang": {
             "en_US": "Emerald Dart",
@@ -4013,6 +4140,7 @@ window.AddData = {
         ]
     },
     "dec:emerald_fish": {
+        "file_path": "emerald_fish.json",
         "file_name": "emerald_fish.json",
         "lang": {
             "en_US": "Emerald Fish",
@@ -4025,10 +4153,10 @@ window.AddData = {
         ],
         "loot": [
             "loot_tables/gameplay/fishing/desert_fish.json",
-            "loot_tables/gameplay/fishing/jungle_fish.json",
-            "loot_tables/gameplay/fishing/ice_fish.json",
             "loot_tables/gameplay/fishing/fish.json",
-            "loot_tables/gameplay/fishing/ocean_fish.json"
+            "loot_tables/gameplay/fishing/jungle_fish.json",
+            "loot_tables/gameplay/fishing/ocean_fish.json",
+            "loot_tables/gameplay/fishing/ice_fish.json"
         ],
         "loot_by_entity": [
             "minecraft:fishing_hook"
@@ -4050,6 +4178,7 @@ window.AddData = {
         ]
     },
     "dec:emerald_helmet": {
+        "file_path": "emerald_helmet.json",
         "file_name": "emerald_helmet.json",
         "lang": {
             "en_US": "Emerald Hemlet",
@@ -4073,6 +4202,7 @@ window.AddData = {
         ]
     },
     "dec:emerald_leggings": {
+        "file_path": "emerald_leggings.json",
         "file_name": "emerald_leggings.json",
         "lang": {
             "en_US": "Emerald Leggings",
@@ -4096,6 +4226,7 @@ window.AddData = {
         ]
     },
     "dec:emerald_nugget": {
+        "file_path": "emerald_nugget.json",
         "file_name": "emerald_nugget.json",
         "lang": {
             "en_US": "Emerald Nugget",
@@ -4112,15 +4243,15 @@ window.AddData = {
             "dec:emerald_dart"
         ],
         "loot": [
-            "loot_tables/chests/haunted_house.json",
-            "loot_tables/chests/warehouse_of_watcher.json",
+            "loot_tables/items/red_bag.json",
             "loot_tables/blocks/end_emerald_ore.json",
             "loot_tables/chests/illusioner_house.json",
-            "loot_tables/blocks/nether_emerald_ore.json",
-            "loot_tables/chests/tower_of_watcher/ore.json",
+            "loot_tables/chests/haunted_house.json",
+            "loot_tables/chests/giant_tree_barrel.json",
             "loot_tables/entities/leaves_golem.json",
-            "loot_tables/items/red_bag.json",
-            "loot_tables/chests/giant_tree_barrel.json"
+            "loot_tables/chests/tower_of_watcher/ore.json",
+            "loot_tables/chests/warehouse_of_watcher.json",
+            "loot_tables/blocks/nether_emerald_ore.json"
         ],
         "loot_by_entity": [
             "dec:leaves_golem"
@@ -4148,6 +4279,9 @@ window.AddData = {
             ]
         },
         "loot_by_structure": {
+            "illusioner_house_1": [
+                "Chest"
+            ],
             "haunted_house_1": [
                 "Chest",
                 "Barrel"
@@ -4155,18 +4289,15 @@ window.AddData = {
             "haunted_house_2": [
                 "Chest"
             ],
-            "warehouse_of_watcher": [
-                "Barrel",
-                "Chest"
-            ],
-            "illusioner_house_1": [
-                "Chest"
-            ],
             "giant_tree": [
                 "Barrel"
             ],
             "giant_tree_with_ticking": [
                 "Barrel"
+            ],
+            "warehouse_of_watcher": [
+                "Barrel",
+                "Chest"
             ]
         },
         "annotation": [
@@ -4174,6 +4305,7 @@ window.AddData = {
         ]
     },
     "dec:emerald_pickaxe": {
+        "file_path": "emerald_pickaxe.json",
         "file_name": "emerald_pickaxe.json",
         "lang": {
             "en_US": "Emerald Pickaxe",
@@ -4195,6 +4327,7 @@ window.AddData = {
         ]
     },
     "dec:emerald_ring": {
+        "file_path": "emerald_ring.json",
         "file_name": "emerald_ring.json",
         "lang": {
             "en_US": "Emerald Ring",
@@ -4216,6 +4349,7 @@ window.AddData = {
         ]
     },
     "dec:emerald_staff": {
+        "file_path": "emerald_staff.json",
         "file_name": "emerald_staff.json",
         "lang": {
             "en_US": "Emerald Staff",
@@ -4239,6 +4373,7 @@ window.AddData = {
         ]
     },
     "dec:emerald_sword": {
+        "file_path": "emerald_sword.json",
         "file_name": "emerald_sword.json",
         "lang": {
             "en_US": "Emerald Sword",
@@ -4250,8 +4385,8 @@ window.AddData = {
         ],
         "ingredient": [],
         "loot": [
-            "loot_tables/entities/goblin_gear.json",
-            "loot_tables/template/weapon/melee_weapon/sword.json"
+            "loot_tables/template/weapon/melee_weapon/sword.json",
+            "loot_tables/entities/goblin_gear.json"
         ],
         "loot_by_entity": [
             "dec:goblin"
@@ -4272,6 +4407,7 @@ window.AddData = {
         ]
     },
     "dec:empty_totem": {
+        "file_path": "empty_totem.json",
         "file_name": "empty_totem.json",
         "lang": {
             "en_US": "Empty Totem",
@@ -4287,8 +4423,8 @@ window.AddData = {
             "dec:ocean_totem"
         ],
         "loot": [
-            "loot_tables/chests/ruined_muddy_4.json",
             "loot_tables/chests/muddy_altar.json",
+            "loot_tables/chests/ruined_muddy_4.json",
             "loot_tables/chests/ruined_house.json"
         ],
         "loot_by_entity": [],
@@ -4296,11 +4432,11 @@ window.AddData = {
         "loot_by_block": [],
         "loot_by_block_lang": {},
         "loot_by_structure": {
-            "ruined_muddy_4": [
-                "Chest",
+            "muddy_altar": [
                 "Barrel"
             ],
-            "muddy_altar": [
+            "ruined_muddy_4": [
+                "Chest",
                 "Barrel"
             ],
             "ruined_house_1": [
@@ -4315,6 +4451,7 @@ window.AddData = {
         ]
     },
     "dec:ender_bone": {
+        "file_path": "ender_bone.json",
         "file_name": "ender_bone.json",
         "lang": {
             "en_US": "Ender Bone",
@@ -4333,8 +4470,8 @@ window.AddData = {
         "loot": [
             "loot_tables/tasks/034.json",
             "loot_tables/entities/shadow_skeleton.json",
-            "loot_tables/entities/ender_snake.json",
-            "loot_tables/chests/end_vestiges.json"
+            "loot_tables/chests/end_vestiges.json",
+            "loot_tables/entities/ender_snake.json"
         ],
         "loot_by_entity": [
             "dec:shadow_skeleton",
@@ -4363,6 +4500,7 @@ window.AddData = {
         ]
     },
     "dec:ender_breath": {
+        "file_path": "ender_breath.json",
         "file_name": "ender_breath.json",
         "lang": {
             "en_US": "Ender Breath",
@@ -4400,6 +4538,7 @@ window.AddData = {
         ]
     },
     "dec:ender_core": {
+        "file_path": "ender_core.json",
         "file_name": "ender_core.json",
         "lang": {
             "en_US": "Ender Core",
@@ -4443,6 +4582,7 @@ window.AddData = {
         ]
     },
     "dec:ender_crystal_nucleus": {
+        "file_path": "ender_crystal_nucleus.json",
         "file_name": "ender_crystal_nucleus.json",
         "lang": {
             "en_US": "Ender Crystal Nucleus",
@@ -4466,6 +4606,7 @@ window.AddData = {
         ]
     },
     "dec:ender_egg": {
+        "file_path": "ender_egg.json",
         "file_name": "ender_egg.json",
         "lang": {
             "en_US": "Ender Egg",
@@ -4487,6 +4628,7 @@ window.AddData = {
         ]
     },
     "dec:ender_fish": {
+        "file_path": "ender_fish.json",
         "file_name": "ender_fish.json",
         "lang": {
             "en_US": "Ender Fish",
@@ -4496,11 +4638,11 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
+            "loot_tables/gameplay/fishing/fish.json",
             "loot_tables/gameplay/fishing/jungle_fish.json",
             "loot_tables/gameplay/fishing/end_fish.json",
-            "loot_tables/gameplay/fishing/ice_fish.json",
-            "loot_tables/gameplay/fishing/fish.json",
-            "loot_tables/gameplay/fishing/ocean_fish.json"
+            "loot_tables/gameplay/fishing/ocean_fish.json",
+            "loot_tables/gameplay/fishing/ice_fish.json"
         ],
         "loot_by_entity": [
             "minecraft:fishing_hook"
@@ -4521,6 +4663,7 @@ window.AddData = {
         ]
     },
     "dec:ender_mind": {
+        "file_path": "ender_mind.json",
         "file_name": "ender_mind.json",
         "lang": {
             "en_US": "Ender Mind",
@@ -4553,6 +4696,7 @@ window.AddData = {
         ]
     },
     "dec:ender_powder": {
+        "file_path": "ender_powder.json",
         "file_name": "ender_powder.json",
         "lang": {
             "en_US": "Ender Powder",
@@ -4599,6 +4743,7 @@ window.AddData = {
         ]
     },
     "dec:ender_ring": {
+        "file_path": "ender_ring.json",
         "file_name": "ender_ring.json",
         "lang": {
             "en_US": "Ender Ring",
@@ -4620,6 +4765,7 @@ window.AddData = {
         ]
     },
     "dec:ender_stone": {
+        "file_path": "ender_stone.json",
         "file_name": "ender_stone.json",
         "lang": {
             "en_US": "Ender Stone",
@@ -4650,6 +4796,7 @@ window.AddData = {
         ]
     },
     "dec:ender_substance": {
+        "file_path": "ender_substance.json",
         "file_name": "ender_substance.json",
         "lang": {
             "en_US": "Ender Substance",
@@ -4663,15 +4810,15 @@ window.AddData = {
             "dec:wither_substance"
         ],
         "loot": [
+            "loot_tables/chests/end_city_treasure.json",
             "loot_tables/entities/shulker.json",
-            "loot_tables/chests/end_vestiges.json",
+            "loot_tables/wb/4_x/ancient_stone.json",
             "loot_tables/wb/5_x/intentions.json",
             "loot_tables/gameplay/fishing/end_thing.json",
-            "loot_tables/wb/4_x/ancient_stone.json",
-            "loot_tables/entities/ender_snake.json",
-            "loot_tables/wb/3_x/headless_guard.json",
+            "loot_tables/chests/end_vestiges.json",
             "loot_tables/wb/2_x/magic_stoneman.json",
-            "loot_tables/chests/end_city_treasure.json"
+            "loot_tables/wb/3_x/headless_guard.json",
+            "loot_tables/entities/ender_snake.json"
         ],
         "loot_by_entity": [
             "minecraft:shulker",
@@ -4702,6 +4849,7 @@ window.AddData = {
         ]
     },
     "dec:energy_gem": {
+        "file_path": "energy_gem.json",
         "file_name": "energy_gem.json",
         "lang": {
             "en_US": "Energy Gem",
@@ -4732,6 +4880,7 @@ window.AddData = {
         ]
     },
     "dec:energy_ray_staff": {
+        "file_path": "energy_ray_staff.json",
         "file_name": "energy_ray_staff.json",
         "lang": {
             "en_US": "Energy Ray Staff",
@@ -4756,6 +4905,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:energy_totem": {
+        "file_path": "energy_totem.json",
         "file_name": "energy_totem.json",
         "lang": {
             "en_US": "Energy Totem",
@@ -4773,6 +4923,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:enriched_uranium": {
+        "file_path": "enriched_uranium.json",
         "file_name": "enriched_uranium.json",
         "lang": {
             "en_US": "Enriched Uranium",
@@ -4794,6 +4945,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:entity_soul": {
+        "file_path": "entity_soul.json",
         "file_name": "entity_soul.json",
         "lang": {
             "en_US": "Entity Soul",
@@ -4813,6 +4965,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:es_clothes": {
+        "file_path": "es_clothes.json",
         "file_name": "es_clothes.json",
         "lang": {
             "en_US": "Es Clothes",
@@ -4832,6 +4985,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:es_pants": {
+        "file_path": "es_pants.json",
         "file_name": "es_pants.json",
         "lang": {
             "en_US": "Es Pants",
@@ -4851,6 +5005,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:es_shoes": {
+        "file_path": "es_shoes.json",
         "file_name": "es_shoes.json",
         "lang": {
             "en_US": "Es Shoes",
@@ -4870,6 +5025,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:everlasting_winter_boots": {
+        "file_path": "everlasting_winter_boots.json",
         "file_name": "everlasting_winter_boots.json",
         "lang": {
             "en_US": "Everlasting Winter Boots",
@@ -4891,6 +5047,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:everlasting_winter_chestplate": {
+        "file_path": "everlasting_winter_chestplate.json",
         "file_name": "everlasting_winter_chestplate.json",
         "lang": {
             "en_US": "Everlasting Winter Chestplate",
@@ -4912,6 +5069,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:everlasting_winter_dagger": {
+        "file_path": "everlasting_winter_dagger.json",
         "file_name": "everlasting_winter_dagger.json",
         "lang": {
             "en_US": "Everlasting Winter Dagger",
@@ -4933,6 +5091,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:everlasting_winter_dart": {
+        "file_path": "everlasting_winter_dart.json",
         "file_name": "everlasting_winter_dart.json",
         "lang": {
             "en_US": "Everlasting Dart",
@@ -4954,6 +5113,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:everlasting_winter_flintlock": {
+        "file_path": "everlasting_winter_flintlock.json",
         "file_name": "everlasting_winter_flintlock.json",
         "lang": {
             "en_US": "Everlasting Winter Flintlock",
@@ -4975,6 +5135,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:everlasting_winter_heart": {
+        "file_path": "everlasting_winter_heart.json",
         "file_name": "everlasting_winter_heart.json",
         "lang": {
             "en_US": "Everlasting Winter Heart",
@@ -4998,6 +5159,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:everlasting_winter_helmet": {
+        "file_path": "everlasting_winter_helmet.json",
         "file_name": "everlasting_winter_helmet.json",
         "lang": {
             "en_US": "Everlasting Winter Helmet",
@@ -5019,6 +5181,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:everlasting_winter_ingot": {
+        "file_path": "everlasting_winter_ingot.json",
         "file_name": "everlasting_winter_ingot.json",
         "lang": {
             "en_US": "Everlasting Winter Ingot",
@@ -5041,8 +5204,8 @@ window.AddData = {
             "dec:the_imperial_sword"
         ],
         "loot": [
-            "loot_tables/entities/everlasting_winter_ghast.json",
-            "loot_tables/tasks/007.json"
+            "loot_tables/tasks/007.json",
+            "loot_tables/entities/everlasting_winter_ghast.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -5054,6 +5217,7 @@ window.AddData = {
         ]
     },
     "dec:everlasting_winter_leggings": {
+        "file_path": "everlasting_winter_leggings.json",
         "file_name": "everlasting_winter_leggings.json",
         "lang": {
             "en_US": "Everlasting Winter Leggings",
@@ -5075,6 +5239,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:everlasting_winter_sickle": {
+        "file_path": "everlasting_winter_sickle.json",
         "file_name": "everlasting_winter_sickle.json",
         "lang": {
             "en_US": "Everlasting Winter Sickle",
@@ -5096,6 +5261,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:everlasting_winter_staff": {
+        "file_path": "everlasting_winter_staff.json",
         "file_name": "everlasting_winter_staff.json",
         "lang": {
             "en_US": "Everlasting Winter Staff",
@@ -5129,6 +5295,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:everlasting_winter_stick": {
+        "file_path": "everlasting_winter_stick.json",
         "file_name": "everlasting_winter_stick.json",
         "lang": {
             "en_US": "Everlasting Winter Stick",
@@ -5157,6 +5324,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:everlasting_winter_sword": {
+        "file_path": "everlasting_winter_sword.json",
         "file_name": "everlasting_winter_sword.json",
         "lang": {
             "en_US": "Everlasting Winter Sword",
@@ -5178,6 +5346,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:experience_book": {
+        "file_path": "experience_book.json",
         "file_name": "experience_book.json",
         "lang": {
             "en_US": "Experience Book",
@@ -5187,8 +5356,8 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
-            "loot_tables/blocks/ice_bookshelf.json",
-            "loot_tables/items/experience_book.json"
+            "loot_tables/items/experience_book.json",
+            "loot_tables/blocks/ice_bookshelf.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -5209,6 +5378,7 @@ window.AddData = {
         ]
     },
     "dec:experience_book_empty": {
+        "file_path": "experience_book_empty.json",
         "file_name": "experience_book_empty.json",
         "lang": {
             "en_US": "Empty Experience Book",
@@ -5222,8 +5392,8 @@ window.AddData = {
             "dec:experience_book_pro_empty"
         ],
         "loot": [
-            "loot_tables/blocks/ice_bookshelf.json",
-            "loot_tables/items/experience_book_empty.json"
+            "loot_tables/items/experience_book_empty.json",
+            "loot_tables/blocks/ice_bookshelf.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -5242,6 +5412,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:experience_book_pro_empty": {
+        "file_path": "experience_book_pro_empty.json",
         "file_name": "experience_book_pro_empty.json",
         "lang": {
             "en_US": "Empty Experience Book Pro",
@@ -5261,6 +5432,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:experience_flower_seeds": {
+        "file_path": "experience_flower_seeds.json",
         "file_name": "experience_flower_seeds.json",
         "lang": {
             "en_US": "experience Flower Seeds",
@@ -5294,6 +5466,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:exploding_pellets": {
+        "file_path": "exploding_pellets.json",
         "file_name": "exploding_pellets.json",
         "lang": {
             "en_US": "Exploding Pellets",
@@ -5315,6 +5488,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:eye_of_nature": {
+        "file_path": "eye_of_nature.json",
         "file_name": "eye_of_nature.json",
         "lang": {
             "en_US": "Eye Of Nature",
@@ -5332,9 +5506,9 @@ window.AddData = {
             "dec:wood_leggings"
         ],
         "loot": [
-            "loot_tables/blocks/eye_of_nature_log.json",
             "loot_tables/tasks/004.json",
             "loot_tables/tasks/035.json",
+            "loot_tables/blocks/eye_of_nature_log.json",
             "loot_tables/entities/leaves_golem.json"
         ],
         "loot_by_entity": [
@@ -5363,6 +5537,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:final_crystal_nucleus": {
+        "file_path": "final_crystal_nucleus.json",
         "file_name": "final_crystal_nucleus.json",
         "lang": {
             "en_US": "Final Crystal Nucleus",
@@ -5384,6 +5559,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:fire_heart": {
+        "file_path": "fire_heart.json",
         "file_name": "fire_heart.json",
         "lang": {
             "en_US": "Fire Heart",
@@ -5416,6 +5592,7 @@ window.AddData = {
         ]
     },
     "dec:fire_ring": {
+        "file_path": "fire_ring.json",
         "file_name": "fire_ring.json",
         "lang": {
             "en_US": "Fire Ring",
@@ -5435,6 +5612,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:fire_totem": {
+        "file_path": "fire_totem.json",
         "file_name": "fire_totem.json",
         "lang": {
             "en_US": "Fire Totem",
@@ -5454,6 +5632,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:flare_magic_book": {
+        "file_path": "flare_magic_book.json",
         "file_name": "flare_magic_book.json",
         "lang": {
             "en_US": "Flare Magic Book",
@@ -5475,6 +5654,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:flintlock": {
+        "file_path": "flintlock.json",
         "file_name": "flintlock.json",
         "lang": {
             "en_US": "Flintlock",
@@ -5488,10 +5668,10 @@ window.AddData = {
             "dec:flintlock_pro"
         ],
         "loot": [
+            "loot_tables/template/weapon/range_weapon/range_weapon.json",
+            "loot_tables/entities/chest_monster.json",
             "loot_tables/chests/pirate_ship_small.json",
             "loot_tables/entities/chest_monster_trade.json",
-            "loot_tables/entities/chest_monster.json",
-            "loot_tables/template/weapon/range_weapon/range_weapon.json",
             "loot_tables/chests/hunter_house.json"
         ],
         "loot_by_entity": [
@@ -5518,6 +5698,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:flintlock_bullet": {
+        "file_path": "flintlock_bullet.json",
         "file_name": "flintlock_bullet.json",
         "lang": {
             "en_US": "Flintlock Bullet",
@@ -5550,6 +5731,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:flintlock_pro": {
+        "file_path": "flintlock_pro.json",
         "file_name": "flintlock_pro.json",
         "lang": {
             "en_US": "Flintlock Pro",
@@ -5585,6 +5767,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:flower_essence": {
+        "file_path": "flower_essence.json",
         "file_name": "flower_essence.json",
         "lang": {
             "en_US": "Flower Essence",
@@ -5608,6 +5791,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:following_particle": {
+        "file_path": "following_particle.json",
         "file_name": "following_particle.json",
         "lang": {
             "en_US": "Following Particle",
@@ -5637,6 +5821,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:formal_sytle_clothes": {
+        "file_path": "formal_sytle_clothes.json",
         "file_name": "formal_sytle_clothes.json",
         "lang": {
             "en_US": "Formal Sytle Clothes",
@@ -5665,6 +5850,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:formal_sytle_pants": {
+        "file_path": "formal_sytle_pants.json",
         "file_name": "formal_sytle_pants.json",
         "lang": {
             "en_US": "Formal Sytle Pants",
@@ -5693,6 +5879,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:frank_mask": {
+        "file_path": "frank_mask.json",
         "file_name": "frank_mask.json",
         "lang": {
             "en_US": "Frank Mask",
@@ -5702,8 +5889,8 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
-            "loot_tables/entities/armor_set_frank.json",
-            "loot_tables/template/mask.json"
+            "loot_tables/template/mask.json",
+            "loot_tables/entities/armor_set_frank.json"
         ],
         "loot_by_entity": [
             "minecraft:zombie"
@@ -5722,6 +5909,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:fried_egg": {
+        "file_path": "fried_egg.json",
         "file_name": "fried_egg.json",
         "lang": {
             "en_US": "Fried Egg",
@@ -5741,6 +5929,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:fried_melon_seed": {
+        "file_path": "fried_melon_seed.json",
         "file_name": "fried_melon_seed.json",
         "lang": {
             "en_US": "Fried Melon Seed",
@@ -5760,6 +5949,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:fritillary": {
+        "file_path": "fritillary.json",
         "file_name": "fritillary.json",
         "lang": {
             "en_US": "Fritillary",
@@ -5790,6 +5980,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:fritillary_seeds": {
+        "file_path": "fritillary_seeds.json",
         "file_name": "fritillary_seeds.json",
         "lang": {
             "en_US": "Fritillary Seeds",
@@ -5809,6 +6000,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:frozen_ball": {
+        "file_path": "frozen_ball.json",
         "file_name": "frozen_ball.json",
         "lang": {
             "en_US": "Frozen Ball",
@@ -5818,9 +6010,9 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
-            "loot_tables/template/weapon/thrown_weapon/sundries.json",
+            "loot_tables/tasks/007.json",
             "loot_tables/entities/everlasting_winter_ghast.json",
-            "loot_tables/tasks/007.json"
+            "loot_tables/template/weapon/thrown_weapon/sundries.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -5830,6 +6022,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:frozen_boots": {
+        "file_path": "frozen_boots.json",
         "file_name": "frozen_boots.json",
         "lang": {
             "en_US": "Frozen Boots",
@@ -5854,6 +6047,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:frozen_chestplate": {
+        "file_path": "frozen_chestplate.json",
         "file_name": "frozen_chestplate.json",
         "lang": {
             "en_US": "Frozen Chestplate",
@@ -5878,6 +6072,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:frozen_dart": {
+        "file_path": "frozen_dart.json",
         "file_name": "frozen_dart.json",
         "lang": {
             "en_US": "Frozen Dart",
@@ -5899,6 +6094,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:frozen_fish": {
+        "file_path": "frozen_fish.json",
         "file_name": "frozen_fish.json",
         "lang": {
             "en_US": "Frozen Fish",
@@ -5929,6 +6125,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:frozen_helmet": {
+        "file_path": "frozen_helmet.json",
         "file_name": "frozen_helmet.json",
         "lang": {
             "en_US": "Frozen Helmet",
@@ -5953,6 +6150,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:frozen_leggings": {
+        "file_path": "frozen_leggings.json",
         "file_name": "frozen_leggings.json",
         "lang": {
             "en_US": "Frozen Leggings",
@@ -5977,6 +6175,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:frozen_power": {
+        "file_path": "frozen_power.json",
         "file_name": "frozen_power.json",
         "lang": {
             "en_US": "Frozen Power",
@@ -5998,6 +6197,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:frozen_power_debris": {
+        "file_path": "frozen_power_debris.json",
         "file_name": "frozen_power_debris.json",
         "lang": {
             "en_US": "Frozen Power Debris",
@@ -6009,8 +6209,8 @@ window.AddData = {
             "dec:frozen_power"
         ],
         "loot": [
-            "loot_tables/entities/frozen_heart.json",
             "loot_tables/tasks/001.json",
+            "loot_tables/entities/frozen_heart.json",
             "loot_tables/chests/everlasting_winter_tower.json"
         ],
         "loot_by_entity": [
@@ -6034,6 +6234,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:frozen_ray_staff": {
+        "file_path": "frozen_ray_staff.json",
         "file_name": "frozen_ray_staff.json",
         "lang": {
             "en_US": "Frozen Ray Staff",
@@ -6058,6 +6259,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:frozen_staff": {
+        "file_path": "frozen_staff.json",
         "file_name": "frozen_staff.json",
         "lang": {
             "en_US": "Frozen Staff",
@@ -6089,6 +6291,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:ghost_dagger": {
+        "file_path": "ghost_dagger.json",
         "file_name": "ghost_dagger.json",
         "lang": {
             "en_US": "The Raider Of Soul",
@@ -6100,25 +6303,25 @@ window.AddData = {
         ],
         "ingredient": [],
         "loot": [
-            "loot_tables/entities/escaped_soul.json",
+            "loot_tables/template/weapon/melee_weapon/dagger.json",
             "loot_tables/entities/soul_soldier_dagger_equipment.json",
-            "loot_tables/template/weapon/melee_weapon/dagger.json"
+            "loot_tables/entities/escaped_soul.json"
         ],
         "loot_by_entity": [
+            "dec:soul_soldier",
             "dec:escaped_soul_3",
-            "dec:escaped_soul_entity",
-            "dec:soul_soldier"
+            "dec:escaped_soul_entity"
         ],
         "loot_by_entity_lang": {
             "en_US": [
+                "Soul Soldier",
                 "Escaped Soul",
-                "Escaped Soul",
-                "Soul Soldier"
+                "Escaped Soul"
             ],
             "zh_CN": [
+                "\u7075\u9b42\u58eb\u5175",
                 "\u9003\u9038\u4e4b\u9b42",
-                "\u9003\u9038\u4e4b\u9b42",
-                "\u7075\u9b42\u58eb\u5175"
+                "\u9003\u9038\u4e4b\u9b42"
             ]
         },
         "loot_by_block": [],
@@ -6127,6 +6330,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:ghost_dirt_wall": {
+        "file_path": "ghost_dirt_wall.json",
         "file_name": "ghost_dirt_wall.json",
         "lang": {
             "en_US": "Ghost Dirt Wall",
@@ -6148,6 +6352,7 @@ window.AddData = {
         ]
     },
     "dec:ghost_essence": {
+        "file_path": "ghost_essence.json",
         "file_name": "ghost_essence.json",
         "lang": {
             "en_US": "Ghost Essence",
@@ -6183,6 +6388,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:ghost_flintlock": {
+        "file_path": "ghost_flintlock.json",
         "file_name": "ghost_flintlock.json",
         "lang": {
             "en_US": "Ghost Flintlock",
@@ -6204,6 +6410,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:ghost_ingot": {
+        "file_path": "ghost_ingot.json",
         "file_name": "ghost_ingot.json",
         "lang": {
             "en_US": "Ghost Ingot",
@@ -6248,6 +6455,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:ghost_sickle": {
+        "file_path": "ghost_sickle.json",
         "file_name": "ghost_sickle.json",
         "lang": {
             "en_US": "The Reaper Of Soul",
@@ -6259,25 +6467,25 @@ window.AddData = {
         ],
         "ingredient": [],
         "loot": [
-            "loot_tables/entities/escaped_soul.json",
             "loot_tables/template/weapon/melee_weapon/sickle.json",
-            "loot_tables/entities/soul_soldier_sickle_or_sword_equipment.json"
+            "loot_tables/entities/soul_soldier_sickle_or_sword_equipment.json",
+            "loot_tables/entities/escaped_soul.json"
         ],
         "loot_by_entity": [
+            "dec:soul_soldier",
             "dec:escaped_soul_3",
-            "dec:escaped_soul_entity",
-            "dec:soul_soldier"
+            "dec:escaped_soul_entity"
         ],
         "loot_by_entity_lang": {
             "en_US": [
+                "Soul Soldier",
                 "Escaped Soul",
-                "Escaped Soul",
-                "Soul Soldier"
+                "Escaped Soul"
             ],
             "zh_CN": [
+                "\u7075\u9b42\u58eb\u5175",
                 "\u9003\u9038\u4e4b\u9b42",
-                "\u9003\u9038\u4e4b\u9b42",
-                "\u7075\u9b42\u58eb\u5175"
+                "\u9003\u9038\u4e4b\u9b42"
             ]
         },
         "loot_by_block": [],
@@ -6286,6 +6494,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:ghost_summoner": {
+        "file_path": "ghost_summoner.json",
         "file_name": "ghost_summoner.json",
         "lang": {
             "en_US": "Ghost Summoner",
@@ -6298,8 +6507,8 @@ window.AddData = {
         "ingredient": [],
         "loot": [
             "loot_tables/entities/escaped_soul.json",
-            "loot_tables/entities/soul_soldier_summon_equipment.json",
-            "loot_tables/template/weapon/summon_weapon/summon_weapon.json"
+            "loot_tables/template/weapon/summon_weapon/summon_weapon.json",
+            "loot_tables/entities/soul_soldier_summon_equipment.json"
         ],
         "loot_by_entity": [
             "dec:escaped_soul_3",
@@ -6324,6 +6533,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:ghost_sword": {
+        "file_path": "ghost_sword.json",
         "file_name": "ghost_sword.json",
         "lang": {
             "en_US": "The Absorber Of Soul",
@@ -6335,25 +6545,25 @@ window.AddData = {
         ],
         "ingredient": [],
         "loot": [
-            "loot_tables/entities/escaped_soul.json",
+            "loot_tables/template/weapon/melee_weapon/sword.json",
             "loot_tables/entities/soul_soldier_sickle_or_sword_equipment.json",
-            "loot_tables/template/weapon/melee_weapon/sword.json"
+            "loot_tables/entities/escaped_soul.json"
         ],
         "loot_by_entity": [
+            "dec:soul_soldier",
             "dec:escaped_soul_3",
-            "dec:escaped_soul_entity",
-            "dec:soul_soldier"
+            "dec:escaped_soul_entity"
         ],
         "loot_by_entity_lang": {
             "en_US": [
+                "Soul Soldier",
                 "Escaped Soul",
-                "Escaped Soul",
-                "Soul Soldier"
+                "Escaped Soul"
             ],
             "zh_CN": [
+                "\u7075\u9b42\u58eb\u5175",
                 "\u9003\u9038\u4e4b\u9b42",
-                "\u9003\u9038\u4e4b\u9b42",
-                "\u7075\u9b42\u58eb\u5175"
+                "\u9003\u9038\u4e4b\u9b42"
             ]
         },
         "loot_by_block": [],
@@ -6362,6 +6572,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:giant_ivy": {
+        "file_path": "giant_ivy.json",
         "file_name": "giant_ivy.json",
         "lang": {
             "en_US": "Giant Ivy",
@@ -6383,6 +6594,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:gingerbread_man": {
+        "file_path": "gingerbread_man.json",
         "file_name": "gingerbread_man.json",
         "lang": {
             "en_US": "Gingerbread Man",
@@ -6392,8 +6604,8 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
-            "loot_tables/items/christmas_sock.json",
-            "loot_tables/blocks/christmas_gift_block.json"
+            "loot_tables/blocks/christmas_gift_block.json",
+            "loot_tables/items/christmas_sock.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -6412,6 +6624,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:gingerbread_sword": {
+        "file_path": "gingerbread_sword.json",
         "file_name": "gingerbread_sword.json",
         "lang": {
             "en_US": "Gingerbread Sword",
@@ -6421,10 +6634,10 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
-            "loot_tables/items/christmas_sock.json",
             "loot_tables/blocks/christmas_gift_block.json",
-            "loot_tables/entities/gingerbread_man.json",
-            "loot_tables/template/weapon/melee_weapon/sword.json"
+            "loot_tables/template/weapon/melee_weapon/sword.json",
+            "loot_tables/items/christmas_sock.json",
+            "loot_tables/entities/gingerbread_man.json"
         ],
         "loot_by_entity": [
             "dec:gingerbread_man_by_totem"
@@ -6452,6 +6665,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:gingerbread_totem": {
+        "file_path": "gingerbread_totem.json",
         "file_name": "gingerbread_totem.json",
         "lang": {
             "en_US": "Gingerbread Totem",
@@ -6461,8 +6675,8 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
-            "loot_tables/items/christmas_sock.json",
-            "loot_tables/blocks/christmas_gift_block.json"
+            "loot_tables/blocks/christmas_gift_block.json",
+            "loot_tables/items/christmas_sock.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -6481,6 +6695,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:glamor_clothes": {
+        "file_path": "glamor_clothes.json",
         "file_name": "glamor_clothes.json",
         "lang": {
             "en_US": "Glamor Clothes",
@@ -6509,6 +6724,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:glamor_pants": {
+        "file_path": "glamor_pants.json",
         "file_name": "glamor_pants.json",
         "lang": {
             "en_US": "Glamor Pants",
@@ -6537,6 +6753,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:glamor_shoes": {
+        "file_path": "glamor_shoes.json",
         "file_name": "glamor_shoes.json",
         "lang": {
             "en_US": "Glamor Shoes",
@@ -6565,6 +6782,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:glass_axe": {
+        "file_path": "glass_axe.json",
         "file_name": "glass_axe.json",
         "lang": {
             "en_US": "Glass Axe",
@@ -6586,6 +6804,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:glass_ingot": {
+        "file_path": "glass_ingot.json",
         "file_name": "glass_ingot.json",
         "lang": {
             "en_US": "Glass Ingot",
@@ -6599,8 +6818,8 @@ window.AddData = {
         ],
         "loot": [
             "loot_tables/chests/tower_of_watcher/ore.json",
-            "loot_tables/tasks/006.json",
             "loot_tables/tasks/028.json",
+            "loot_tables/tasks/006.json",
             "loot_tables/tasks/025.json"
         ],
         "loot_by_entity": [],
@@ -6611,6 +6830,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:glass_pickaxe": {
+        "file_path": "glass_pickaxe.json",
         "file_name": "glass_pickaxe.json",
         "lang": {
             "en_US": "Glass Pickaxe",
@@ -6630,6 +6850,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:god_of_destroy": {
+        "file_path": "god_of_destroy.json",
         "file_name": "god_of_destroy.json",
         "lang": {
             "en_US": "God Of Destroy",
@@ -6649,6 +6870,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:god_of_sun": {
+        "file_path": "god_of_sun.json",
         "file_name": "god_of_sun.json",
         "lang": {
             "en_US": "God Of Sun",
@@ -6662,9 +6884,9 @@ window.AddData = {
             "dec:nightmare"
         ],
         "loot": [
+            "loot_tables/chests/deep_garden.json",
             "loot_tables/template/weapon/magic_weapon/staff.json",
-            "loot_tables/entities/nether_skeleton_wizard_gear.json",
-            "loot_tables/chests/deep_garden.json"
+            "loot_tables/entities/nether_skeleton_wizard_gear.json"
         ],
         "loot_by_entity": [
             "dec:nether_skeleton_wizard"
@@ -6687,6 +6909,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:golden_dagger": {
+        "file_path": "golden_dagger.json",
         "file_name": "golden_dagger.json",
         "lang": {
             "en_US": "Golden Dagger",
@@ -6720,6 +6943,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:golden_staff": {
+        "file_path": "golden_staff.json",
         "file_name": "golden_staff.json",
         "lang": {
             "en_US": "Golden Staff",
@@ -6751,6 +6975,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:gold_dart": {
+        "file_path": "gold_dart.json",
         "file_name": "gold_dart.json",
         "lang": {
             "en_US": "Gold Dart",
@@ -6773,6 +6998,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:gold_fish": {
+        "file_path": "gold_fish.json",
         "file_name": "gold_fish.json",
         "lang": {
             "en_US": "Gold Fish",
@@ -6785,10 +7011,10 @@ window.AddData = {
         ],
         "loot": [
             "loot_tables/gameplay/fishing/desert_fish.json",
-            "loot_tables/gameplay/fishing/jungle_fish.json",
-            "loot_tables/gameplay/fishing/ice_fish.json",
             "loot_tables/gameplay/fishing/fish.json",
-            "loot_tables/gameplay/fishing/ocean_fish.json"
+            "loot_tables/gameplay/fishing/jungle_fish.json",
+            "loot_tables/gameplay/fishing/ocean_fish.json",
+            "loot_tables/gameplay/fishing/ice_fish.json"
         ],
         "loot_by_entity": [
             "minecraft:fishing_hook"
@@ -6807,6 +7033,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:gold_ring": {
+        "file_path": "gold_ring.json",
         "file_name": "gold_ring.json",
         "lang": {
             "en_US": "Gold Ring",
@@ -6818,8 +7045,8 @@ window.AddData = {
             "dec:heart_ring"
         ],
         "loot": [
-            "loot_tables/entities/piglin_brute.json",
             "loot_tables/chests/muddy_altar.json",
+            "loot_tables/entities/piglin_brute.json",
             "loot_tables/entities/goblin.json"
         ],
         "loot_by_entity": [
@@ -6843,6 +7070,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:gold_sickle": {
+        "file_path": "gold_sickle.json",
         "file_name": "gold_sickle.json",
         "lang": {
             "en_US": "Golden Sickle",
@@ -6876,6 +7104,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:gold_yuanbao": {
+        "file_path": "gold_yuanbao.json",
         "file_name": "gold_yuanbao.json",
         "lang": {
             "en_US": "Gold Yuanbao",
@@ -6895,6 +7124,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:grapeshot_frozen_ball": {
+        "file_path": "grapeshot_frozen_ball.json",
         "file_name": "grapeshot_frozen_ball.json",
         "lang": {
             "en_US": "Grapeshot Frozen Ball",
@@ -6904,9 +7134,9 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
-            "loot_tables/template/weapon/thrown_weapon/sundries.json",
+            "loot_tables/tasks/007.json",
             "loot_tables/entities/everlasting_winter_ghast.json",
-            "loot_tables/tasks/007.json"
+            "loot_tables/template/weapon/thrown_weapon/sundries.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -6916,6 +7146,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:gray_shoes": {
+        "file_path": "gray_shoes.json",
         "file_name": "gray_shoes.json",
         "lang": {
             "en_US": "Gray Shoes",
@@ -6935,6 +7166,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:growth": {
+        "file_path": "growth.json",
         "file_name": "growth.json",
         "lang": {
             "en_US": "Growth",
@@ -6956,6 +7188,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:guide_book": {
+        "file_path": "guide_book.json",
         "file_name": "guide_book.json",
         "lang": {
             "en_US": "Guide Book",
@@ -6975,6 +7208,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:hanyi_clothes": {
+        "file_path": "hanyi_clothes.json",
         "file_name": "hanyi_clothes.json",
         "lang": {
             "en_US": "Hanyi Clothes",
@@ -7003,6 +7237,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:hanyi_hair_accessories": {
+        "file_path": "hanyi_hair_accessories.json",
         "file_name": "hanyi_hair_accessories.json",
         "lang": {
             "en_US": "Hanyi Hair Accessories",
@@ -7031,6 +7266,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:hanyi_pants": {
+        "file_path": "hanyi_pants.json",
         "file_name": "hanyi_pants.json",
         "lang": {
             "en_US": "Hanyi Pants",
@@ -7059,6 +7295,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:hanyi_shoes": {
+        "file_path": "hanyi_shoes.json",
         "file_name": "hanyi_shoes.json",
         "lang": {
             "en_US": "Hanyi Shoes",
@@ -7087,6 +7324,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:hard_lollipop": {
+        "file_path": "hard_lollipop.json",
         "file_name": "hard_lollipop.json",
         "lang": {
             "en_US": "Hard Lollipop",
@@ -7108,6 +7346,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:haste_potion": {
+        "file_path": "haste_potion.json",
         "file_name": "haste_potion.json",
         "lang": {
             "en_US": "Haste Potion",
@@ -7127,6 +7366,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:health_nugget": {
+        "file_path": "health_nugget.json",
         "file_name": "health_nugget.json",
         "lang": {
             "en_US": "Health Nugget",
@@ -7141,11 +7381,11 @@ window.AddData = {
             "dec:heart_ring"
         ],
         "loot": [
-            "loot_tables/chests/deep_garden.json",
-            "loot_tables/chests/nether_bridge.json",
+            "loot_tables/entities/blood_zombie.json",
             "loot_tables/entities/nether_phantom.json",
+            "loot_tables/chests/deep_garden.json",
             "loot_tables/entities/life_insect.json",
-            "loot_tables/entities/blood_zombie.json"
+            "loot_tables/chests/nether_bridge.json"
         ],
         "loot_by_entity": [
             "dec:nether_phantom",
@@ -7171,6 +7411,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:health_stone": {
+        "file_path": "health_stone.json",
         "file_name": "health_stone.json",
         "lang": {
             "en_US": "Health Stone",
@@ -7199,6 +7440,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:heart_egg": {
+        "file_path": "heart_egg.json",
         "file_name": "heart_egg.json",
         "lang": {
             "en_US": "Heart Egg",
@@ -7222,6 +7464,7 @@ window.AddData = {
         ]
     },
     "dec:heart_ring": {
+        "file_path": "heart_ring.json",
         "file_name": "heart_ring.json",
         "lang": {
             "en_US": "Heart Ring",
@@ -7243,6 +7486,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:hemp_rope": {
+        "file_path": "hemp_rope.json",
         "file_name": "hemp_rope.json",
         "lang": {
             "en_US": "Hemp Rope",
@@ -7271,6 +7515,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:herb_bag": {
+        "file_path": "herb_bag.json",
         "file_name": "herb_bag.json",
         "lang": {
             "en_US": "Herb Bag",
@@ -7282,12 +7527,12 @@ window.AddData = {
         ],
         "ingredient": [],
         "loot": [
-            "loot_tables/blocks/cave_crate.json",
-            "loot_tables/blocks/frozen_crate.json",
-            "loot_tables/chests/muddy_altar.json",
-            "loot_tables/entities/leaves_golem.json",
             "loot_tables/blocks/crate.json",
-            "loot_tables/chests/ruined_house.json"
+            "loot_tables/chests/muddy_altar.json",
+            "loot_tables/blocks/frozen_crate.json",
+            "loot_tables/chests/ruined_house.json",
+            "loot_tables/entities/leaves_golem.json",
+            "loot_tables/blocks/cave_crate.json"
         ],
         "loot_by_entity": [
             "dec:leaves_golem"
@@ -7316,6 +7561,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:high_concentration_uranium": {
+        "file_path": "high_concentration_uranium.json",
         "file_name": "high_concentration_uranium.json",
         "lang": {
             "en_US": "High Concentration Uranium",
@@ -7357,6 +7603,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:houttuynia": {
+        "file_path": "houttuynia.json",
         "file_name": "houttuynia.json",
         "lang": {
             "en_US": "Houttuynia",
@@ -7385,6 +7632,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:houttuynia_seeds": {
+        "file_path": "houttuynia_seeds.json",
         "file_name": "houttuynia_seeds.json",
         "lang": {
             "en_US": "Houttuynia Seeds",
@@ -7413,6 +7661,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:hunter_bullet_bag": {
+        "file_path": "hunter_bullet_bag.json",
         "file_name": "hunter_bullet_bag.json",
         "lang": {
             "en_US": "Hunter Bullet Bag",
@@ -7424,8 +7673,8 @@ window.AddData = {
             "dec:lava_bullet_bag"
         ],
         "loot": [
-            "loot_tables/chests/hunter_house.json",
-            "loot_tables/entities/goblin_sniper.json"
+            "loot_tables/entities/goblin_sniper.json",
+            "loot_tables/chests/hunter_house.json"
         ],
         "loot_by_entity": [
             "dec:goblin_sniper"
@@ -7451,6 +7700,7 @@ window.AddData = {
         ]
     },
     "dec:ice_brick": {
+        "file_path": "ice_brick.json",
         "file_name": "ice_brick.json",
         "lang": {
             "en_US": "Ice Brick",
@@ -7479,6 +7729,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:ice_cream": {
+        "file_path": "ice_cream.json",
         "file_name": "ice_cream.json",
         "lang": {
             "en_US": "Ice Cream",
@@ -7488,42 +7739,42 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
+            "loot_tables/entities/frozen_spider.json",
+            "loot_tables/entities/ice_spirit.json",
             "loot_tables/entities/ice_wizard.json",
             "loot_tables/entities/ice_monster.json",
-            "loot_tables/entities/ice_blaze.json",
-            "loot_tables/entities/ice_spirit.json",
             "loot_tables/chests/everlasting_winter_tower.json",
-            "loot_tables/entities/frozen_heart.json",
             "loot_tables/entities/ice_zombie.json",
-            "loot_tables/entities/frozen_spider.json"
+            "loot_tables/entities/frozen_heart.json",
+            "loot_tables/entities/ice_blaze.json"
         ],
         "loot_by_entity": [
+            "dec:frozen_spider",
+            "dec:ice_spirit",
             "dec:ice_wizard",
             "dec:ice_monster",
-            "dec:ice_blaze",
-            "dec:ice_spirit",
-            "dec:frozen_heart",
             "dec:ice_zombie",
-            "dec:frozen_spider"
+            "dec:frozen_heart",
+            "dec:ice_blaze"
         ],
         "loot_by_entity_lang": {
             "en_US": [
+                "Frozen Spider",
+                "Ice Spirit",
                 "Ice Wizard",
                 "Ice Monster",
-                "Ice Blaze",
-                "Ice Spirit",
-                "Frozen Heart",
                 "Ice Zombie",
-                "Frozen Spider"
+                "Frozen Heart",
+                "Ice Blaze"
             ],
             "zh_CN": [
+                "\u51b0\u51bb\u8718\u86db",
+                "\u51b0\u9b42",
                 "\u5bd2\u6f6e\u6cd5\u5e08",
                 "\u51b0\u96ea\u602a",
-                "\u5bd2\u971c\u4eba",
-                "\u51b0\u9b42",
-                "\u51b0\u51bb\u4e4b\u5fc3",
                 "\u5bd2\u51b0\u50f5\u5c38",
-                "\u51b0\u51bb\u8718\u86db"
+                "\u51b0\u51bb\u4e4b\u5fc3",
+                "\u5bd2\u971c\u4eba"
             ]
         },
         "loot_by_block": [],
@@ -7536,6 +7787,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:ice_heart": {
+        "file_path": "ice_heart.json",
         "file_name": "ice_heart.json",
         "lang": {
             "en_US": "Heart Of Ice",
@@ -7556,23 +7808,23 @@ window.AddData = {
             "dec:tear_from_dream"
         ],
         "loot": [
-            "loot_tables/entities/ice_wizard.json",
             "loot_tables/blocks/frozen_crate.json",
-            "loot_tables/entities/ice_monster.json",
-            "loot_tables/entities/ice_blaze.json",
             "loot_tables/entities/entity_soul.json",
+            "loot_tables/entities/ice_wizard.json",
+            "loot_tables/entities/ice_monster.json",
             "loot_tables/chests/everlasting_winter_tower.json",
-            "loot_tables/entities/frozen_heart.json",
-            "loot_tables/entities/everlasting_winter_ghast.json",
             "loot_tables/entities/ice_zombie.json",
+            "loot_tables/entities/everlasting_winter_ghast.json",
+            "loot_tables/entities/frozen_heart.json",
+            "loot_tables/entities/ice_blaze.json",
             "loot_tables/entities/escaped_soul.json"
         ],
         "loot_by_entity": [
             "dec:ice_wizard",
             "dec:ice_monster",
-            "dec:ice_blaze",
-            "dec:frozen_heart",
             "dec:ice_zombie",
+            "dec:frozen_heart",
+            "dec:ice_blaze",
             "dec:escaped_soul_3",
             "dec:escaped_soul_entity"
         ],
@@ -7580,18 +7832,18 @@ window.AddData = {
             "en_US": [
                 "Ice Wizard",
                 "Ice Monster",
-                "Ice Blaze",
-                "Frozen Heart",
                 "Ice Zombie",
+                "Frozen Heart",
+                "Ice Blaze",
                 "Escaped Soul",
                 "Escaped Soul"
             ],
             "zh_CN": [
                 "\u5bd2\u6f6e\u6cd5\u5e08",
                 "\u51b0\u96ea\u602a",
-                "\u5bd2\u971c\u4eba",
-                "\u51b0\u51bb\u4e4b\u5fc3",
                 "\u5bd2\u51b0\u50f5\u5c38",
+                "\u51b0\u51bb\u4e4b\u5fc3",
+                "\u5bd2\u971c\u4eba",
                 "\u9003\u9038\u4e4b\u9b42",
                 "\u9003\u9038\u4e4b\u9b42"
             ]
@@ -7608,6 +7860,7 @@ window.AddData = {
         ]
     },
     "dec:ice_ingot": {
+        "file_path": "ice_ingot.json",
         "file_name": "ice_ingot.json",
         "lang": {
             "en_US": "Ice Ingot",
@@ -7631,30 +7884,30 @@ window.AddData = {
         ],
         "loot": [
             "loot_tables/entities/ice_wizard.json",
-            "loot_tables/entities/ice_monster.json",
-            "loot_tables/entities/ice_blaze.json",
             "loot_tables/tasks/001.json",
+            "loot_tables/entities/ice_monster.json",
             "loot_tables/chests/everlasting_winter_tower.json",
-            "loot_tables/entities/frozen_heart.json"
+            "loot_tables/entities/frozen_heart.json",
+            "loot_tables/entities/ice_blaze.json"
         ],
         "loot_by_entity": [
             "dec:ice_wizard",
             "dec:ice_monster",
-            "dec:ice_blaze",
-            "dec:frozen_heart"
+            "dec:frozen_heart",
+            "dec:ice_blaze"
         ],
         "loot_by_entity_lang": {
             "en_US": [
                 "Ice Wizard",
                 "Ice Monster",
-                "Ice Blaze",
-                "Frozen Heart"
+                "Frozen Heart",
+                "Ice Blaze"
             ],
             "zh_CN": [
                 "\u5bd2\u6f6e\u6cd5\u5e08",
                 "\u51b0\u96ea\u602a",
-                "\u5bd2\u971c\u4eba",
-                "\u51b0\u51bb\u4e4b\u5fc3"
+                "\u51b0\u51bb\u4e4b\u5fc3",
+                "\u5bd2\u971c\u4eba"
             ]
         },
         "loot_by_block": [],
@@ -7667,6 +7920,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:ice_nugget": {
+        "file_path": "ice_nugget.json",
         "file_name": "ice_nugget.json",
         "lang": {
             "en_US": "Ice Nugget",
@@ -7680,39 +7934,39 @@ window.AddData = {
             "dec:ice_ingot"
         ],
         "loot": [
-            "loot_tables/entities/ice_wizard.json",
             "loot_tables/blocks/frozen_crate.json",
+            "loot_tables/entities/ice_wizard.json",
+            "loot_tables/gameplay/fishing/ice_treasure.json",
             "loot_tables/entities/ice_monster.json",
-            "loot_tables/entities/ice_blaze.json",
             "loot_tables/chests/everlasting_winter_tower.json",
-            "loot_tables/entities/frozen_heart.json",
             "loot_tables/entities/ice_zombie.json",
-            "loot_tables/gameplay/fishing/ice_treasure.json"
+            "loot_tables/entities/frozen_heart.json",
+            "loot_tables/entities/ice_blaze.json"
         ],
         "loot_by_entity": [
             "dec:ice_wizard",
+            "minecraft:fishing_hook",
             "dec:ice_monster",
-            "dec:ice_blaze",
-            "dec:frozen_heart",
             "dec:ice_zombie",
-            "minecraft:fishing_hook"
+            "dec:frozen_heart",
+            "dec:ice_blaze"
         ],
         "loot_by_entity_lang": {
             "en_US": [
                 "Ice Wizard",
+                "Fishing Hook",
                 "Ice Monster",
-                "Ice Blaze",
-                "Frozen Heart",
                 "Ice Zombie",
-                "Fishing Hook"
+                "Frozen Heart",
+                "Ice Blaze"
             ],
             "zh_CN": [
                 "\u5bd2\u6f6e\u6cd5\u5e08",
+                "\u9c7c\u94a9\t",
                 "\u51b0\u96ea\u602a",
-                "\u5bd2\u971c\u4eba",
-                "\u51b0\u51bb\u4e4b\u5fc3",
                 "\u5bd2\u51b0\u50f5\u5c38",
-                "\u9c7c\u94a9\t"
+                "\u51b0\u51bb\u4e4b\u5fc3",
+                "\u5bd2\u971c\u4eba"
             ]
         },
         "loot_by_block": [],
@@ -7725,6 +7979,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:ice_rod": {
+        "file_path": "ice_rod.json",
         "file_name": "ice_rod.json",
         "lang": {
             "en_US": "Ice Rod",
@@ -7748,27 +8003,27 @@ window.AddData = {
         ],
         "loot": [
             "loot_tables/blocks/frozen_crate.json",
-            "loot_tables/entities/ice_blaze.json",
+            "loot_tables/gameplay/fishing/ice_treasure.json",
             "loot_tables/chests/everlasting_winter_tower.json",
-            "loot_tables/entities/frozen_heart.json",
             "loot_tables/entities/everlasting_winter_ghast.json",
-            "loot_tables/gameplay/fishing/ice_treasure.json"
+            "loot_tables/entities/frozen_heart.json",
+            "loot_tables/entities/ice_blaze.json"
         ],
         "loot_by_entity": [
-            "dec:ice_blaze",
+            "minecraft:fishing_hook",
             "dec:frozen_heart",
-            "minecraft:fishing_hook"
+            "dec:ice_blaze"
         ],
         "loot_by_entity_lang": {
             "en_US": [
-                "Ice Blaze",
+                "Fishing Hook",
                 "Frozen Heart",
-                "Fishing Hook"
+                "Ice Blaze"
             ],
             "zh_CN": [
-                "\u5bd2\u971c\u4eba",
+                "\u9c7c\u94a9\t",
                 "\u51b0\u51bb\u4e4b\u5fc3",
-                "\u9c7c\u94a9\t"
+                "\u5bd2\u971c\u4eba"
             ]
         },
         "loot_by_block": [],
@@ -7781,6 +8036,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:ice_sword": {
+        "file_path": "ice_sword.json",
         "file_name": "ice_sword.json",
         "lang": {
             "en_US": "Ice Sword",
@@ -7804,6 +8060,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:illager_sword": {
+        "file_path": "illager_sword.json",
         "file_name": "illager_sword.json",
         "lang": {
             "en_US": "Illager Sword",
@@ -7816,8 +8073,8 @@ window.AddData = {
         ],
         "loot": [
             "loot_tables/template/weapon/melee_weapon/katana.json",
-            "loot_tables/entities/king_of_pillager_gear.json",
-            "loot_tables/entities/king_of_pillager.json"
+            "loot_tables/entities/king_of_pillager.json",
+            "loot_tables/entities/king_of_pillager_gear.json"
         ],
         "loot_by_entity": [
             "dec:king_of_pillager"
@@ -7836,6 +8093,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:infinite_crystal_nucleus_1": {
+        "file_path": "infinite_crystal_nucleus_1.json",
         "file_name": "infinite_crystal_nucleus_1.json",
         "lang": {
             "en_US": "Infinite Crystal Nucleus I",
@@ -7859,6 +8117,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:infinite_crystal_nucleus_2": {
+        "file_path": "infinite_crystal_nucleus_2.json",
         "file_name": "infinite_crystal_nucleus_2.json",
         "lang": {
             "en_US": "Infinite Crystal Nucleus II",
@@ -7882,6 +8141,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:infinite_crystal_nucleus_3": {
+        "file_path": "infinite_crystal_nucleus_3.json",
         "file_name": "infinite_crystal_nucleus_3.json",
         "lang": {
             "en_US": "Infinite Crystal Nucleus III",
@@ -7905,6 +8165,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:intestine": {
+        "file_path": "intestine.json",
         "file_name": "intestine.json",
         "lang": {
             "en_US": "Intestine",
@@ -7927,6 +8188,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:iron_apple": {
+        "file_path": "iron_apple.json",
         "file_name": "iron_apple.json",
         "lang": {
             "en_US": "Iron Apple",
@@ -7941,21 +8203,21 @@ window.AddData = {
             "dec:uranium_apple"
         ],
         "loot": [
-            "loot_tables/chests/ash_castle.json",
+            "loot_tables/chests/ash_castle_treasure.json",
+            "loot_tables/chests/muddy_altar.json",
             "loot_tables/chests/soul_room_nor.json",
-            "loot_tables/chests/bastion_other.json",
-            "loot_tables/chests/village/village_plains_house.json",
-            "loot_tables/chests/grave.json",
-            "loot_tables/chests/igloo_chest.json",
             "loot_tables/chests/woodland_mansion.json",
             "loot_tables/chests/ruined_muddy_4.json",
-            "loot_tables/chests/ruined_portal.json",
             "loot_tables/chests/bastion_bridge.json",
-            "loot_tables/chests/ash_castle_treasure.json",
+            "loot_tables/chests/grave.json",
+            "loot_tables/chests/ruined_portal.json",
+            "loot_tables/chests/ruined_house.json",
+            "loot_tables/chests/village/village_plains_house.json",
             "loot_tables/chests/bastion_treasure.json",
-            "loot_tables/chests/muddy_altar.json",
             "loot_tables/chests/bastion_hoglin_stable.json",
-            "loot_tables/chests/ruined_house.json"
+            "loot_tables/chests/ash_castle.json",
+            "loot_tables/chests/bastion_other.json",
+            "loot_tables/chests/igloo_chest.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -7963,8 +8225,11 @@ window.AddData = {
         "loot_by_block_lang": {},
         "loot_by_structure": {
             "ash_castle": [
-                "Barrel",
-                "Chest"
+                "Chest",
+                "Barrel"
+            ],
+            "muddy_altar": [
+                "Barrel"
             ],
             "soul_room_nor_4": [
                 "Chest"
@@ -7981,6 +8246,10 @@ window.AddData = {
             "soul_room_stair_5": [
                 "Chest"
             ],
+            "ruined_muddy_4": [
+                "Chest",
+                "Barrel"
+            ],
             "cemetery_1": [
                 "Chest"
             ],
@@ -7989,13 +8258,6 @@ window.AddData = {
             ],
             "grave_1": [
                 "Chest"
-            ],
-            "ruined_muddy_4": [
-                "Chest",
-                "Barrel"
-            ],
-            "muddy_altar": [
-                "Barrel"
             ],
             "ruined_house_1": [
                 "Barrel"
@@ -8007,6 +8269,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:iron_apple_enchanted": {
+        "file_path": "iron_apple_enchanted.json",
         "file_name": "iron_apple_enchanted.json",
         "lang": {
             "en_US": "Enchanted Iron Apple",
@@ -8018,12 +8281,12 @@ window.AddData = {
         ],
         "ingredient": [],
         "loot": [
+            "loot_tables/chests/end_city_treasure.json",
             "loot_tables/chests/monster_room.json",
             "loot_tables/chests/woodland_mansion.json",
             "loot_tables/chests/end_vestiges.json",
             "loot_tables/chests/desert_pyramid.json",
-            "loot_tables/chests/challenger_tower.json",
-            "loot_tables/chests/end_city_treasure.json"
+            "loot_tables/chests/challenger_tower.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -8040,6 +8303,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:iron_bow": {
+        "file_path": "iron_bow.json",
         "file_name": "iron_bow.json",
         "lang": {
             "en_US": "Iron Bow",
@@ -8057,6 +8321,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:iron_dagger": {
+        "file_path": "iron_dagger.json",
         "file_name": "iron_dagger.json",
         "lang": {
             "en_US": "Iron Dagger",
@@ -8068,27 +8333,27 @@ window.AddData = {
         ],
         "ingredient": [],
         "loot": [
-            "loot_tables/entities/goblin_gear.json",
             "loot_tables/entities/watcher_attack_equipment.json",
-            "loot_tables/template/weapon/melee_weapon/dagger.json",
             "loot_tables/chests/tower_of_watcher/weapon.json",
-            "loot_tables/entities/frank_equipment.json"
+            "loot_tables/template/weapon/melee_weapon/dagger.json",
+            "loot_tables/entities/frank_equipment.json",
+            "loot_tables/entities/goblin_gear.json"
         ],
         "loot_by_entity": [
-            "dec:goblin",
             "dec:watcher",
-            "minecraft:zombie"
+            "minecraft:zombie",
+            "dec:goblin"
         ],
         "loot_by_entity_lang": {
             "en_US": [
-                "Goblin",
                 "Watcher",
-                "Zombie"
+                "Zombie",
+                "Goblin"
             ],
             "zh_CN": [
-                "\u54e5\u5e03\u6797",
                 "\u770b\u5b88\u8005",
-                "\u50f5\u5c38\t"
+                "\u50f5\u5c38\t",
+                "\u54e5\u5e03\u6797"
             ]
         },
         "loot_by_block": [],
@@ -8097,6 +8362,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:iron_dart": {
+        "file_path": "iron_dart.json",
         "file_name": "iron_dart.json",
         "lang": {
             "en_US": "Iron Dart",
@@ -8112,9 +8378,9 @@ window.AddData = {
         ],
         "loot": [
             "loot_tables/entities/skeleton_assassin_iron_dart_.json",
-            "loot_tables/entities/skeleton_assassin_iron_dart_gear.json",
+            "loot_tables/chests/tower_of_watcher/weapon.json",
             "loot_tables/template/weapon/thrown_weapon/dart.json",
-            "loot_tables/chests/tower_of_watcher/weapon.json"
+            "loot_tables/entities/skeleton_assassin_iron_dart_gear.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -8124,6 +8390,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:iron_fish": {
+        "file_path": "iron_fish.json",
         "file_name": "iron_fish.json",
         "lang": {
             "en_US": "Iron Fish",
@@ -8136,10 +8403,10 @@ window.AddData = {
         ],
         "loot": [
             "loot_tables/gameplay/fishing/desert_fish.json",
-            "loot_tables/gameplay/fishing/jungle_fish.json",
-            "loot_tables/gameplay/fishing/ice_fish.json",
             "loot_tables/gameplay/fishing/fish.json",
-            "loot_tables/gameplay/fishing/ocean_fish.json"
+            "loot_tables/gameplay/fishing/jungle_fish.json",
+            "loot_tables/gameplay/fishing/ocean_fish.json",
+            "loot_tables/gameplay/fishing/ice_fish.json"
         ],
         "loot_by_entity": [
             "minecraft:fishing_hook"
@@ -8158,6 +8425,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:iron_key": {
+        "file_path": "iron_key.json",
         "file_name": "iron_key.json",
         "lang": {
             "en_US": "Iron Key",
@@ -8186,6 +8454,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:iron_sickle": {
+        "file_path": "iron_sickle.json",
         "file_name": "iron_sickle.json",
         "lang": {
             "en_US": "Iron Sickle",
@@ -8200,8 +8469,8 @@ window.AddData = {
         ],
         "loot": [
             "loot_tables/template/weapon/melee_weapon/sickle.json",
-            "loot_tables/entities/watcher_attack_equipment.json",
-            "loot_tables/chests/tower_of_watcher/weapon.json"
+            "loot_tables/chests/tower_of_watcher/weapon.json",
+            "loot_tables/entities/watcher_attack_equipment.json"
         ],
         "loot_by_entity": [
             "dec:watcher"
@@ -8220,6 +8489,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:iron_staff": {
+        "file_path": "iron_staff.json",
         "file_name": "iron_staff.json",
         "lang": {
             "en_US": "Iron Staff",
@@ -8248,6 +8518,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:iron_stick": {
+        "file_path": "iron_stick.json",
         "file_name": "iron_stick.json",
         "lang": {
             "en_US": "Iron Stick",
@@ -8291,6 +8562,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:jacket": {
+        "file_path": "jacket.json",
         "file_name": "jacket.json",
         "lang": {
             "en_US": "Jacket",
@@ -8310,6 +8582,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:jellyfish_staff": {
+        "file_path": "jellyfish_staff.json",
         "file_name": "jellyfish_staff.json",
         "lang": {
             "en_US": "Jellyfish Staff",
@@ -8331,6 +8604,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:jiuzhi_jacket": {
+        "file_path": "jiuzhi_jacket.json",
         "file_name": "jiuzhi_jacket.json",
         "lang": {
             "en_US": "Jiuzhi Jacket",
@@ -8359,6 +8633,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:jiuzhi_pants": {
+        "file_path": "jiuzhi_pants.json",
         "file_name": "jiuzhi_pants.json",
         "lang": {
             "en_US": "Jiuzhi Pants",
@@ -8387,6 +8662,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:jiuzhi_shoes": {
+        "file_path": "jiuzhi_shoes.json",
         "file_name": "jiuzhi_shoes.json",
         "lang": {
             "en_US": "Jiuzhi Shoes",
@@ -8415,6 +8691,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:knight_helmet": {
+        "file_path": "knight_helmet.json",
         "file_name": "knight_helmet.json",
         "lang": {
             "en_US": "Helmet Of Knight",
@@ -8434,6 +8711,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:lamprey": {
+        "file_path": "lamprey.json",
         "file_name": "lamprey.json",
         "lang": {
             "en_US": "Lamprey",
@@ -8462,6 +8740,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:lapis_apple": {
+        "file_path": "lapis_apple.json",
         "file_name": "lapis_apple.json",
         "lang": {
             "en_US": "Lapis Apple",
@@ -8471,63 +8750,64 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
-            "loot_tables/chests/monster_room.json",
-            "loot_tables/chests/igloo_chest.json",
-            "loot_tables/chests/stronghold_crossing.json",
-            "loot_tables/chests/shipwreck.json",
-            "loot_tables/chests/bastion_hoglin_stable.json",
-            "loot_tables/chests/abandoned_mineshaft.json",
-            "loot_tables/chests/challenger_tower.json",
-            "loot_tables/chests/stronghold_corridor.json",
-            "loot_tables/chests/ruined_portal.json",
+            "loot_tables/chests/underwater_ruin_small.json",
             "loot_tables/chests/pirate_ship_small.json",
-            "loot_tables/chests/nether_bridge.json",
+            "loot_tables/chests/plain_tower.json",
+            "loot_tables/chests/bastion_treasure.json",
+            "loot_tables/chests/shipwreck.json",
+            "loot_tables/chests/abandoned_mineshaft.json",
+            "loot_tables/chests/bastion_bridge.json",
+            "loot_tables/chests/ruined_portal.json",
+            "loot_tables/chests/shipwrecksupply.json",
             "loot_tables/chests/buriedtreasure.json",
-            "loot_tables/chests/ash_castle.json",
             "loot_tables/chests/jungle_temple.json",
-            "loot_tables/chests/bastion_other.json",
-            "loot_tables/chests/woodland_mansion.json",
-            "loot_tables/chests/shipwrecktreasure.json",
-            "loot_tables/chests/end_vestiges.json",
-            "loot_tables/chests/simple_dungeon.json",
+            "loot_tables/chests/stronghold_crossing.json",
+            "loot_tables/chests/bastion_hoglin_stable.json",
+            "loot_tables/chests/underwater_ruin_big.json",
             "loot_tables/chests/ash_castle_treasure.json",
+            "loot_tables/chests/end_city_treasure.json",
+            "loot_tables/chests/shipwrecktreasure.json",
+            "loot_tables/chests/woodland_mansion.json",
+            "loot_tables/chests/stronghold_library.json",
+            "loot_tables/chests/challenger_tower.json",
+            "loot_tables/chests/igloo_chest.json",
+            "loot_tables/chests/nether_bridge.json",
+            "loot_tables/chests/stronghold_corridor.json",
+            "loot_tables/chests/bastion_other.json",
+            "loot_tables/chests/monster_room.json",
+            "loot_tables/chests/end_vestiges.json",
             "loot_tables/chests/desert_pyramid.json",
             "loot_tables/chests/pillager_outpost.json",
-            "loot_tables/chests/stronghold_library.json",
-            "loot_tables/chests/underwater_ruin_big.json",
-            "loot_tables/chests/shipwrecksupply.json",
-            "loot_tables/chests/bastion_bridge.json",
-            "loot_tables/chests/bastion_treasure.json",
-            "loot_tables/chests/underwater_ruin_small.json",
-            "loot_tables/chests/plain_tower.json",
-            "loot_tables/chests/end_city_treasure.json"
+            "loot_tables/chests/simple_dungeon.json",
+            "loot_tables/chests/ash_castle.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
         "loot_by_block": [],
         "loot_by_block_lang": {},
         "loot_by_structure": {
-            "challenger_tower": [
-                "Chest"
-            ],
             "pirate_ship_small_1": [
                 "Chest"
-            ],
-            "ash_castle": [
-                "Barrel",
-                "Chest"
-            ],
-            "end_vestiges": [
-                "ShulkerBox"
             ],
             "plain_tower": [
                 "Chest",
                 "Barrel"
+            ],
+            "ash_castle": [
+                "Chest",
+                "Barrel"
+            ],
+            "challenger_tower": [
+                "Chest"
+            ],
+            "end_vestiges": [
+                "ShulkerBox"
             ]
         },
         "annotation": []
     },
     "dec:lapis_dagger": {
+        "file_path": "lapis_dagger.json",
         "file_name": "lapis_dagger.json",
         "lang": {
             "en_US": "Lapis Dagger",
@@ -8540,9 +8820,9 @@ window.AddData = {
         "ingredient": [],
         "loot": [
             "loot_tables/chests/enchanted_house.json",
+            "loot_tables/template/weapon/melee_weapon/dagger.json",
             "loot_tables/entities/goblin_gear.json",
-            "loot_tables/entities/enchant_illager.json",
-            "loot_tables/template/weapon/melee_weapon/dagger.json"
+            "loot_tables/entities/enchant_illager.json"
         ],
         "loot_by_entity": [
             "dec:goblin",
@@ -8568,6 +8848,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:lapis_magic_book": {
+        "file_path": "lapis_magic_book.json",
         "file_name": "lapis_magic_book.json",
         "lang": {
             "en_US": "Lapis Magic Book",
@@ -8579,10 +8860,10 @@ window.AddData = {
         ],
         "ingredient": [],
         "loot": [
-            "loot_tables/tasks/012.json",
             "loot_tables/template/magic_recover/sustained.json",
-            "loot_tables/blocks/ice_bookshelf.json",
             "loot_tables/chests/enchanted_house.json",
+            "loot_tables/tasks/012.json",
+            "loot_tables/blocks/ice_bookshelf.json",
             "loot_tables/entities/enchant_illager.json"
         ],
         "loot_by_entity": [
@@ -8615,6 +8896,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:lapis_nugget": {
+        "file_path": "lapis_nugget.json",
         "file_name": "lapis_nugget.json",
         "lang": {
             "en_US": "Lapis Nugget",
@@ -8628,13 +8910,13 @@ window.AddData = {
             "dec:lapis_by_nugget"
         ],
         "loot": [
-            "loot_tables/chests/haunted_house.json",
-            "loot_tables/chests/warehouse_of_watcher.json",
             "loot_tables/blocks/nether_lapis_ore.json",
-            "loot_tables/chests/illusioner_house.json",
             "loot_tables/chests/enchanted_house.json",
+            "loot_tables/chests/illusioner_house.json",
+            "loot_tables/chests/haunted_house.json",
+            "loot_tables/blocks/end_lapis_ore.json",
             "loot_tables/chests/tower_of_watcher/ore.json",
-            "loot_tables/blocks/end_lapis_ore.json"
+            "loot_tables/chests/warehouse_of_watcher.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -8653,6 +8935,12 @@ window.AddData = {
             ]
         },
         "loot_by_structure": {
+            "enchanted_house": [
+                "Barrel"
+            ],
+            "illusioner_house_1": [
+                "Chest"
+            ],
             "haunted_house_1": [
                 "Chest",
                 "Barrel"
@@ -8663,17 +8951,12 @@ window.AddData = {
             "warehouse_of_watcher": [
                 "Barrel",
                 "Chest"
-            ],
-            "illusioner_house_1": [
-                "Chest"
-            ],
-            "enchanted_house": [
-                "Barrel"
             ]
         },
         "annotation": []
     },
     "dec:lapis_staff": {
+        "file_path": "lapis_staff.json",
         "file_name": "lapis_staff.json",
         "lang": {
             "en_US": "Lapis Staff",
@@ -8695,6 +8978,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:lapis_sword": {
+        "file_path": "lapis_sword.json",
         "file_name": "lapis_sword.json",
         "lang": {
             "en_US": "Lapis Sword",
@@ -8706,10 +8990,10 @@ window.AddData = {
         ],
         "ingredient": [],
         "loot": [
+            "loot_tables/template/weapon/melee_weapon/sword.json",
             "loot_tables/chests/enchanted_house.json",
             "loot_tables/entities/goblin_gear.json",
-            "loot_tables/entities/enchant_illager.json",
-            "loot_tables/template/weapon/melee_weapon/sword.json"
+            "loot_tables/entities/enchant_illager.json"
         ],
         "loot_by_entity": [
             "dec:goblin",
@@ -8735,6 +9019,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:lava_boots": {
+        "file_path": "lava_boots.json",
         "file_name": "lava_boots.json",
         "lang": {
             "en_US": "Lava Boots",
@@ -8746,8 +9031,8 @@ window.AddData = {
         ],
         "ingredient": [],
         "loot": [
-            "loot_tables/template/armor/lava.json",
-            "loot_tables/chests/deep_garden.json"
+            "loot_tables/chests/deep_garden.json",
+            "loot_tables/template/armor/lava.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -8761,6 +9046,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:lava_bullet_bag": {
+        "file_path": "lava_bullet_bag.json",
         "file_name": "lava_bullet_bag.json",
         "lang": {
             "en_US": "Lava Bullet Bag",
@@ -8782,6 +9068,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:lava_chestplate": {
+        "file_path": "lava_chestplate.json",
         "file_name": "lava_chestplate.json",
         "lang": {
             "en_US": "Lava Chestplate",
@@ -8793,8 +9080,8 @@ window.AddData = {
         ],
         "ingredient": [],
         "loot": [
-            "loot_tables/template/armor/lava.json",
-            "loot_tables/chests/deep_garden.json"
+            "loot_tables/chests/deep_garden.json",
+            "loot_tables/template/armor/lava.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -8808,6 +9095,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:lava_dart": {
+        "file_path": "lava_dart.json",
         "file_name": "lava_dart.json",
         "lang": {
             "en_US": "Lava Dart",
@@ -8819,9 +9107,9 @@ window.AddData = {
         ],
         "ingredient": [],
         "loot": [
-            "loot_tables/tasks/000.json",
+            "loot_tables/chests/deep_garden.json",
             "loot_tables/template/weapon/thrown_weapon/dart.json",
-            "loot_tables/chests/deep_garden.json"
+            "loot_tables/tasks/000.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -8835,6 +9123,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:lava_flintlock": {
+        "file_path": "lava_flintlock.json",
         "file_name": "lava_flintlock.json",
         "lang": {
             "en_US": "Lava Flintlock",
@@ -8858,6 +9147,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:lava_helmet": {
+        "file_path": "lava_helmet.json",
         "file_name": "lava_helmet.json",
         "lang": {
             "en_US": "Lava Helmet",
@@ -8869,8 +9159,8 @@ window.AddData = {
         ],
         "ingredient": [],
         "loot": [
-            "loot_tables/template/armor/lava.json",
-            "loot_tables/chests/deep_garden.json"
+            "loot_tables/chests/deep_garden.json",
+            "loot_tables/template/armor/lava.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -8884,6 +9174,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:lava_ingot": {
+        "file_path": "lava_ingot.json",
         "file_name": "lava_ingot.json",
         "lang": {
             "en_US": "Lava Ingot",
@@ -8914,40 +9205,40 @@ window.AddData = {
             "dec:star_sword"
         ],
         "loot": [
-            "loot_tables/chests/ash_castle.json",
-            "loot_tables/entities/nether_skeleton.json",
-            "loot_tables/tasks/022.json",
-            "loot_tables/chests/deep_garden.json",
-            "loot_tables/entities/nether_skeleton_wizard.json",
-            "loot_tables/tasks/005.json",
-            "loot_tables/entities/nether_phantom.json",
             "loot_tables/chests/ash_castle_treasure.json",
+            "loot_tables/entities/nether_skeleton.json",
+            "loot_tables/entities/nether_phantom.json",
+            "loot_tables/chests/deep_garden.json",
+            "loot_tables/tasks/022.json",
+            "loot_tables/tasks/005.json",
             "loot_tables/chests/bastion_treasure.json",
-            "loot_tables/entities/nether_golem.json"
+            "loot_tables/entities/nether_golem.json",
+            "loot_tables/chests/ash_castle.json",
+            "loot_tables/entities/nether_skeleton_wizard.json"
         ],
         "loot_by_entity": [
             "dec:nether_skeleton",
-            "dec:nether_skeleton_wizard",
-            "dec:nether_phantom"
+            "dec:nether_phantom",
+            "dec:nether_skeleton_wizard"
         ],
         "loot_by_entity_lang": {
             "en_US": [
                 "Nether Skeleton",
-                "Nether Skeleton Wizard",
-                "Nether Phantom"
+                "Nether Phantom",
+                "Nether Skeleton Wizard"
             ],
             "zh_CN": [
                 "\u5730\u72f1\u9ab7\u9ac5",
-                "\u5730\u72f1\u9ab7\u9ac5\u6cd5\u5e08",
-                "\u5730\u72f1\u5e7b\u7ffc"
+                "\u5730\u72f1\u5e7b\u7ffc",
+                "\u5730\u72f1\u9ab7\u9ac5\u6cd5\u5e08"
             ]
         },
         "loot_by_block": [],
         "loot_by_block_lang": {},
         "loot_by_structure": {
             "ash_castle": [
-                "Barrel",
-                "Chest"
+                "Chest",
+                "Barrel"
             ],
             "deep_garden": [
                 "Chest"
@@ -8958,6 +9249,7 @@ window.AddData = {
         ]
     },
     "dec:lava_leggings": {
+        "file_path": "lava_leggings.json",
         "file_name": "lava_leggings.json",
         "lang": {
             "en_US": "Lava Leggings",
@@ -8969,8 +9261,8 @@ window.AddData = {
         ],
         "ingredient": [],
         "loot": [
-            "loot_tables/template/armor/lava.json",
-            "loot_tables/chests/deep_garden.json"
+            "loot_tables/chests/deep_garden.json",
+            "loot_tables/template/armor/lava.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -8984,6 +9276,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:lava_nugget": {
+        "file_path": "lava_nugget.json",
         "file_name": "lava_nugget.json",
         "lang": {
             "en_US": "Lava Nugget",
@@ -9000,27 +9293,27 @@ window.AddData = {
             "dec:spurt_egg"
         ],
         "loot": [
+            "loot_tables/entities/bomber.json",
             "loot_tables/chests/deep_garden.json",
-            "loot_tables/entities/lava_lizard.json",
             "loot_tables/entities/ash_blaze.json",
-            "loot_tables/chests/nether_bridge.json",
-            "loot_tables/entities/bomber.json"
+            "loot_tables/entities/lava_lizard.json",
+            "loot_tables/chests/nether_bridge.json"
         ],
         "loot_by_entity": [
-            "dec:lava_lizard",
+            "dec:bomber",
             "dec:ash_blaze",
-            "dec:bomber"
+            "dec:lava_lizard"
         ],
         "loot_by_entity_lang": {
             "en_US": [
-                "Lava Lizard",
+                "Bomber",
                 "Ash Blaze",
-                "Bomber"
+                "Lava Lizard"
             ],
             "zh_CN": [
-                "\u7194\u5ca9\u8725\u8734",
+                "\u8f70\u70b8\u8005",
                 "\u7070\u70ec\u70c8\u7130\u4eba",
-                "\u8f70\u70b8\u8005"
+                "\u7194\u5ca9\u8725\u8734"
             ]
         },
         "loot_by_block": [],
@@ -9033,6 +9326,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:lava_sword": {
+        "file_path": "lava_sword.json",
         "file_name": "lava_sword.json",
         "lang": {
             "en_US": "Lava Sword",
@@ -9046,9 +9340,9 @@ window.AddData = {
             "dec:star_sword"
         ],
         "loot": [
+            "loot_tables/chests/deep_garden.json",
             "loot_tables/entities/nether_skeleton_gear.json",
-            "loot_tables/template/weapon/melee_weapon/sword.json",
-            "loot_tables/chests/deep_garden.json"
+            "loot_tables/template/weapon/melee_weapon/sword.json"
         ],
         "loot_by_entity": [
             "dec:nether_skeleton"
@@ -9071,6 +9365,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:leaves_dagger": {
+        "file_path": "leaves_dagger.json",
         "file_name": "leaves_dagger.json",
         "lang": {
             "en_US": "Leaves Dagger",
@@ -9084,8 +9379,8 @@ window.AddData = {
             "dec:night_sword"
         ],
         "loot": [
-            "loot_tables/template/weapon/melee_weapon/dagger.json",
-            "loot_tables/entities/leaves_golem.json"
+            "loot_tables/entities/leaves_golem.json",
+            "loot_tables/template/weapon/melee_weapon/dagger.json"
         ],
         "loot_by_entity": [
             "dec:leaves_golem"
@@ -9104,6 +9399,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:leaves_knife": {
+        "file_path": "leaves_knife.json",
         "file_name": "leaves_knife.json",
         "lang": {
             "en_US": "Leaves Knife",
@@ -9115,8 +9411,8 @@ window.AddData = {
         ],
         "ingredient": [],
         "loot": [
-            "loot_tables/template/weapon/thrown_weapon/sundries.json",
-            "loot_tables/entities/leaves_golem.json"
+            "loot_tables/entities/leaves_golem.json",
+            "loot_tables/template/weapon/thrown_weapon/sundries.json"
         ],
         "loot_by_entity": [
             "dec:leaves_golem"
@@ -9135,6 +9431,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:leek": {
+        "file_path": "leek.json",
         "file_name": "leek.json",
         "lang": {
             "en_US": "Leek",
@@ -9146,8 +9443,8 @@ window.AddData = {
             "dec:furnace_leek"
         ],
         "loot": [
-            "loot_tables/blocks/leek_crop.json",
             "loot_tables/chests/ruined_stable.json",
+            "loot_tables/blocks/leek_crop.json",
             "loot_tables/chests/warehouse_of_watcher.json"
         ],
         "loot_by_entity": [],
@@ -9175,6 +9472,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:leek_cooked": {
+        "file_path": "leek_cooked.json",
         "file_name": "leek_cooked.json",
         "lang": {
             "en_US": "Cooked Leek",
@@ -9194,6 +9492,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:leek_seeds": {
+        "file_path": "leek_seeds.json",
         "file_name": "leek_seeds.json",
         "lang": {
             "en_US": "Leek Seeds",
@@ -9203,11 +9502,11 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
-            "loot_tables/blocks/leek_crop.json",
-            "loot_tables/chests/warehouse_of_watcher.json",
-            "loot_tables/gameplay/fishing/ocean_junk.json",
             "loot_tables/gameplay/fishing/jungle_junk.json",
-            "loot_tables/gameplay/fishing/junk.json"
+            "loot_tables/blocks/leek_crop.json",
+            "loot_tables/gameplay/fishing/ocean_junk.json",
+            "loot_tables/gameplay/fishing/junk.json",
+            "loot_tables/chests/warehouse_of_watcher.json"
         ],
         "loot_by_entity": [
             "minecraft:fishing_hook"
@@ -9240,6 +9539,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:lester_clothes": {
+        "file_path": "lester_clothes.json",
         "file_name": "lester_clothes.json",
         "lang": {
             "en_US": "Lester Clothes",
@@ -9268,6 +9568,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:lester_pants": {
+        "file_path": "lester_pants.json",
         "file_name": "lester_pants.json",
         "lang": {
             "en_US": "Lester Pants",
@@ -9296,6 +9597,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:lester_shoes": {
+        "file_path": "lester_shoes.json",
         "file_name": "lester_shoes.json",
         "lang": {
             "en_US": "Lester Shoes",
@@ -9324,6 +9626,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:levitation_cloud": {
+        "file_path": "levitation_cloud.json",
         "file_name": "levitation_cloud.json",
         "lang": {
             "en_US": "Levitation Cloud",
@@ -9345,6 +9648,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:lightning_stone": {
+        "file_path": "lightning_stone.json",
         "file_name": "lightning_stone.json",
         "lang": {
             "en_US": "Lightning Stone",
@@ -9368,6 +9672,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:lollipop": {
+        "file_path": "lollipop.json",
         "file_name": "lollipop.json",
         "lang": {
             "en_US": "Lollipop",
@@ -9391,6 +9696,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:long_bread": {
+        "file_path": "long_bread.json",
         "file_name": "long_bread.json",
         "lang": {
             "en_US": "Long Bread",
@@ -9402,8 +9708,8 @@ window.AddData = {
         ],
         "ingredient": [],
         "loot": [
-            "loot_tables/entities/goblin_gear.json",
-            "loot_tables/template/weapon/melee_weapon/sword.json"
+            "loot_tables/template/weapon/melee_weapon/sword.json",
+            "loot_tables/entities/goblin_gear.json"
         ],
         "loot_by_entity": [
             "dec:goblin"
@@ -9422,6 +9728,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:mace": {
+        "file_path": "mace.json",
         "file_name": "mace.json",
         "lang": {
             "en_US": "Mace",
@@ -9431,8 +9738,8 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
-            "loot_tables/entities/goblin_gear.json",
-            "loot_tables/template/weapon/melee_weapon/sword.json"
+            "loot_tables/template/weapon/melee_weapon/sword.json",
+            "loot_tables/entities/goblin_gear.json"
         ],
         "loot_by_entity": [
             "dec:goblin"
@@ -9451,6 +9758,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:magic_article": {
+        "file_path": "magic_article.json",
         "file_name": "magic_article.json",
         "lang": {
             "en_US": "Magic Article",
@@ -9470,6 +9778,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:magic_chest_debris": {
+        "file_path": "magic_chest_debris.json",
         "file_name": "magic_chest_debris.json",
         "lang": {
             "en_US": "Magic Chest Debris",
@@ -9498,6 +9807,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:magic_crystal": {
+        "file_path": "magic_crystal.json",
         "file_name": "magic_crystal.json",
         "lang": {
             "en_US": "Magic Crystal",
@@ -9522,6 +9832,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:magic_ice_cream": {
+        "file_path": "magic_ice_cream.json",
         "file_name": "magic_ice_cream.json",
         "lang": {
             "en_US": "Magic Ice Cream",
@@ -9531,34 +9842,34 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
+            "loot_tables/entities/ice_spirit.json",
             "loot_tables/entities/ice_wizard.json",
             "loot_tables/entities/ice_monster.json",
-            "loot_tables/entities/ice_blaze.json",
-            "loot_tables/entities/ice_spirit.json",
             "loot_tables/chests/everlasting_winter_tower.json",
-            "loot_tables/entities/ice_zombie.json"
+            "loot_tables/entities/ice_zombie.json",
+            "loot_tables/entities/ice_blaze.json"
         ],
         "loot_by_entity": [
+            "dec:ice_spirit",
             "dec:ice_wizard",
             "dec:ice_monster",
-            "dec:ice_blaze",
-            "dec:ice_spirit",
-            "dec:ice_zombie"
+            "dec:ice_zombie",
+            "dec:ice_blaze"
         ],
         "loot_by_entity_lang": {
             "en_US": [
+                "Ice Spirit",
                 "Ice Wizard",
                 "Ice Monster",
-                "Ice Blaze",
-                "Ice Spirit",
-                "Ice Zombie"
+                "Ice Zombie",
+                "Ice Blaze"
             ],
             "zh_CN": [
+                "\u51b0\u9b42",
                 "\u5bd2\u6f6e\u6cd5\u5e08",
                 "\u51b0\u96ea\u602a",
-                "\u5bd2\u971c\u4eba",
-                "\u51b0\u9b42",
-                "\u5bd2\u51b0\u50f5\u5c38"
+                "\u5bd2\u51b0\u50f5\u5c38",
+                "\u5bd2\u971c\u4eba"
             ]
         },
         "loot_by_block": [],
@@ -9571,6 +9882,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:magic_powder": {
+        "file_path": "magic_powder.json",
         "file_name": "magic_powder.json",
         "lang": {
             "en_US": "Magic Powder",
@@ -9591,26 +9903,23 @@ window.AddData = {
             "dec:magic_surge_core"
         ],
         "loot": [
-            "loot_tables/chests/soul_room_boss.json",
             "loot_tables/chests/soul_room_nor.json",
-            "loot_tables/tasks/037.json",
-            "loot_tables/chests/end_vestiges.json",
-            "loot_tables/tasks/005.json",
-            "loot_tables/chests/soul_room_har.json",
-            "loot_tables/chests/illusioner_house.json",
-            "loot_tables/wb/5_x/intentions.json",
             "loot_tables/wb/4_x/ancient_stone.json",
+            "loot_tables/wb/5_x/intentions.json",
+            "loot_tables/chests/end_vestiges.json",
+            "loot_tables/chests/soul_room_boss.json",
+            "loot_tables/wb/2_x/magic_stoneman.json",
+            "loot_tables/chests/illusioner_house.json",
             "loot_tables/wb/3_x/headless_guard.json",
-            "loot_tables/wb/2_x/magic_stoneman.json"
+            "loot_tables/chests/soul_room_har.json",
+            "loot_tables/tasks/005.json",
+            "loot_tables/tasks/037.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
         "loot_by_block": [],
         "loot_by_block_lang": {},
         "loot_by_structure": {
-            "soul_room_boss": [
-                "Chest"
-            ],
             "soul_room_nor_4": [
                 "Chest"
             ],
@@ -9629,19 +9938,23 @@ window.AddData = {
             "end_vestiges": [
                 "ShulkerBox"
             ],
+            "soul_room_boss": [
+                "Chest"
+            ],
+            "illusioner_house_1": [
+                "Chest"
+            ],
             "soul_room_har_1": [
                 "Chest"
             ],
             "soul_room_har_2": [
-                "Chest"
-            ],
-            "illusioner_house_1": [
                 "Chest"
             ]
         },
         "annotation": []
     },
     "dec:magic_scroll_blue": {
+        "file_path": "magic_scroll_blue.json",
         "file_name": "magic_scroll_blue.json",
         "lang": {
             "en_US": "Blue Magic Scroll",
@@ -9651,12 +9964,12 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
-            "loot_tables/wb/2_x/magic_stoneman.json",
-            "loot_tables/chests/spawn_bonus_chest.json",
-            "loot_tables/wb/5_x/intentions.json",
             "loot_tables/wb/4_x/ancient_stone.json",
-            "loot_tables/wb/3_x/headless_guard.json",
+            "loot_tables/wb/5_x/intentions.json",
+            "loot_tables/chests/spawn_bonus_chest.json",
             "loot_tables/blocks/magic_letter_box/magic_scroll_blue.json",
+            "loot_tables/wb/2_x/magic_stoneman.json",
+            "loot_tables/wb/3_x/headless_guard.json",
             "loot_tables/tasks/013.json"
         ],
         "loot_by_entity": [],
@@ -9667,6 +9980,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:magic_surge_core": {
+        "file_path": "magic_surge_core.json",
         "file_name": "magic_surge_core.json",
         "lang": {
             "en_US": "Magic Surge Core",
@@ -9686,6 +10000,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:melon_piece": {
+        "file_path": "melon_piece.json",
         "file_name": "melon_piece.json",
         "lang": {
             "en_US": "Melon Piece",
@@ -9705,6 +10020,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:mind_controller": {
+        "file_path": "mind_controller.json",
         "file_name": "mind_controller.json",
         "lang": {
             "en_US": "Mind Controller",
@@ -9715,8 +10031,8 @@ window.AddData = {
         "ingredient": [],
         "loot": [
             "loot_tables/entities/shadow_of_deep.json",
-            "loot_tables/entities/elf_of_deep.json",
             "loot_tables/entities/elf_of_deep_ranged_gear.json",
+            "loot_tables/entities/elf_of_deep.json",
             "loot_tables/template/weapon/thrown_weapon/sundries.json"
         ],
         "loot_by_entity": [
@@ -9739,6 +10055,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:mysterious_key": {
+        "file_path": "mysterious_key.json",
         "file_name": "mysterious_key.json",
         "lang": {
             "en_US": "Mysterious Key",
@@ -9758,6 +10075,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:mysterious_key_debris": {
+        "file_path": "mysterious_key_debris.json",
         "file_name": "mysterious_key_debris.json",
         "lang": {
             "en_US": "Mysterious Key Debris",
@@ -9794,6 +10112,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:natural_ring": {
+        "file_path": "natural_ring.json",
         "file_name": "natural_ring.json",
         "lang": {
             "en_US": "Natural Ring",
@@ -9822,6 +10141,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:natural_spear": {
+        "file_path": "natural_spear.json",
         "file_name": "natural_spear.json",
         "lang": {
             "en_US": "Natural Spear",
@@ -9853,6 +10173,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:nature_essence": {
+        "file_path": "nature_essence.json",
         "file_name": "nature_essence.json",
         "lang": {
             "en_US": "Nature Essence",
@@ -9872,6 +10193,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:nautilus_alive": {
+        "file_path": "nautilus_alive.json",
         "file_name": "nautilus_alive.json",
         "lang": {
             "en_US": "Nautilus Alive",
@@ -9881,21 +10203,21 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
-            "loot_tables/entities/nautilus.json",
-            "loot_tables/gameplay/fishing/ocean_fish.json"
+            "loot_tables/gameplay/fishing/ocean_fish.json",
+            "loot_tables/entities/nautilus.json"
         ],
         "loot_by_entity": [
-            "dec:nautilus",
-            "minecraft:fishing_hook"
+            "minecraft:fishing_hook",
+            "dec:nautilus"
         ],
         "loot_by_entity_lang": {
             "en_US": [
-                "Nautilus",
-                "Fishing Hook"
+                "Fishing Hook",
+                "Nautilus"
             ],
             "zh_CN": [
-                "\u9e66\u9e49\u87ba",
-                "\u9c7c\u94a9\t"
+                "\u9c7c\u94a9\t",
+                "\u9e66\u9e49\u87ba"
             ]
         },
         "loot_by_block": [],
@@ -9904,6 +10226,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:netherite_dagger": {
+        "file_path": "netherite_dagger.json",
         "file_name": "netherite_dagger.json",
         "lang": {
             "en_US": "Netherite Dagger",
@@ -9927,6 +10250,7 @@ window.AddData = {
         ]
     },
     "dec:netherite_dart": {
+        "file_path": "netherite_dart.json",
         "file_name": "netherite_dart.json",
         "lang": {
             "en_US": "Netherite Dart",
@@ -9948,6 +10272,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:netherite_sickle": {
+        "file_path": "netherite_sickle.json",
         "file_name": "netherite_sickle.json",
         "lang": {
             "en_US": "Netherite Sickle",
@@ -9969,6 +10294,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:nightmare": {
+        "file_path": "nightmare.json",
         "file_name": "nightmare.json",
         "lang": {
             "en_US": "Nightmare",
@@ -9990,6 +10316,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:night_sword": {
+        "file_path": "night_sword.json",
         "file_name": "night_sword.json",
         "lang": {
             "en_US": "The Night",
@@ -10011,6 +10338,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:ocean_totem": {
+        "file_path": "ocean_totem.json",
         "file_name": "ocean_totem.json",
         "lang": {
             "en_US": "Ocean Totem",
@@ -10030,6 +10358,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:old_book": {
+        "file_path": "old_book.json",
         "file_name": "old_book.json",
         "lang": {
             "en_US": "Ancient Book",
@@ -10058,6 +10387,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:paraffin_bucket": {
+        "file_path": "paraffin_bucket.json",
         "file_name": "paraffin_bucket.json",
         "lang": {
             "en_US": "Paraffin Bucket",
@@ -10077,6 +10407,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:perch": {
+        "file_path": "perch.json",
         "file_name": "perch.json",
         "lang": {
             "en_US": "Perch",
@@ -10107,6 +10438,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:perch_cooked": {
+        "file_path": "perch_cooked.json",
         "file_name": "perch_cooked.json",
         "lang": {
             "en_US": "Cooked Perch",
@@ -10126,6 +10458,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:piglin_chestplate": {
+        "file_path": "piglin_chestplate.json",
         "file_name": "piglin_chestplate.json",
         "lang": {
             "en_US": "Piglin Chestplate",
@@ -10145,6 +10478,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:piglin_leggings": {
+        "file_path": "piglin_leggings.json",
         "file_name": "piglin_leggings.json",
         "lang": {
             "en_US": "Piglin Leggings",
@@ -10164,6 +10498,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:pine_cone": {
+        "file_path": "pine_cone.json",
         "file_name": "pine_cone.json",
         "lang": {
             "en_US": "Pine Cone",
@@ -10173,9 +10508,9 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
+            "loot_tables/entities/blood_zombie.json",
             "loot_tables/entities/zombie.json",
-            "loot_tables/entities/lurk_zombie.json",
-            "loot_tables/entities/blood_zombie.json"
+            "loot_tables/entities/lurk_zombie.json"
         ],
         "loot_by_entity": [
             "dec:mushroom_zombie",
@@ -10218,6 +10553,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:pink_jellyfish": {
+        "file_path": "pink_jellyfish.json",
         "file_name": "pink_jellyfish.json",
         "lang": {
             "en_US": "Pink Jellyfish",
@@ -10246,6 +10582,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:pirate_bullet_bag": {
+        "file_path": "pirate_bullet_bag.json",
         "file_name": "pirate_bullet_bag.json",
         "lang": {
             "en_US": "Pirate Bullet Bag",
@@ -10274,6 +10611,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:poison_bag": {
+        "file_path": "poison_bag.json",
         "file_name": "poison_bag.json",
         "lang": {
             "en_US": "Poison Bag",
@@ -10285,22 +10623,22 @@ window.AddData = {
         ],
         "ingredient": [],
         "loot": [
-            "loot_tables/template/weapon/thrown_weapon/sundries.json",
+            "loot_tables/entities/swamp_golem.json",
             "loot_tables/entities/swamp_drowned.json",
-            "loot_tables/entities/swamp_golem.json"
+            "loot_tables/template/weapon/thrown_weapon/sundries.json"
         ],
         "loot_by_entity": [
-            "dec:swamp_drowned",
-            "dec:swamp_golem"
+            "dec:swamp_golem",
+            "dec:swamp_drowned"
         ],
         "loot_by_entity_lang": {
             "en_US": [
-                "Swamp Drowned",
-                "Swamp Golem"
+                "Swamp Golem",
+                "Swamp Drowned"
             ],
             "zh_CN": [
-                "\u6de4\u9ab8",
-                "\u6cbc\u6cfd\u5de8\u602a"
+                "\u6cbc\u6cfd\u5de8\u602a",
+                "\u6de4\u9ab8"
             ]
         },
         "loot_by_block": [],
@@ -10309,6 +10647,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:poison_dart": {
+        "file_path": "poison_dart.json",
         "file_name": "poison_dart.json",
         "lang": {
             "en_US": "Poison Dart",
@@ -10318,10 +10657,10 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
-            "loot_tables/template/weapon/thrown_weapon/sundries.json",
             "loot_tables/entities/skeleton_assassin_poison_dart.json",
             "loot_tables/entities/skeleton_assassin_poison_dart_gear.json",
-            "loot_tables/entities/leaves_golem.json"
+            "loot_tables/entities/leaves_golem.json",
+            "loot_tables/template/weapon/thrown_weapon/sundries.json"
         ],
         "loot_by_entity": [
             "dec:leaves_golem"
@@ -10340,6 +10679,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:poison_fish": {
+        "file_path": "poison_fish.json",
         "file_name": "poison_fish.json",
         "lang": {
             "en_US": "Poison Fish",
@@ -10368,6 +10708,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:poison_gland": {
+        "file_path": "poison_gland.json",
         "file_name": "poison_gland.json",
         "lang": {
             "en_US": "Poison Gland",
@@ -10380,8 +10721,8 @@ window.AddData = {
             "dec:spider_staff"
         ],
         "loot": [
-            "loot_tables/chests/jungle_temple.json",
-            "loot_tables/entities/jungle_spider.json"
+            "loot_tables/entities/jungle_spider.json",
+            "loot_tables/chests/jungle_temple.json"
         ],
         "loot_by_entity": [
             "dec:jungle_spider"
@@ -10400,6 +10741,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:pollution_algae": {
+        "file_path": "pollution_algae.json",
         "file_name": "pollution_algae.json",
         "lang": {
             "en_US": "Pollutional Algae",
@@ -10415,32 +10757,32 @@ window.AddData = {
             "dec:vortex"
         ],
         "loot": [
+            "loot_tables/gameplay/fishing/ocean_junk.json",
+            "loot_tables/gameplay/fishing/ice_junk.json",
+            "loot_tables/entities/sea_urchin.json",
             "loot_tables/tasks/032.json",
             "loot_tables/entities/swamp_drowned.json",
             "loot_tables/gameplay/fishing/junk.json",
-            "loot_tables/entities/sea_urchin.json",
-            "loot_tables/gameplay/fishing/ocean_junk.json",
-            "loot_tables/gameplay/fishing/ice_junk.json",
-            "loot_tables/entities/drowned.json",
-            "loot_tables/entities/swamp_golem.json"
+            "loot_tables/entities/swamp_golem.json",
+            "loot_tables/entities/drowned.json"
         ],
         "loot_by_entity": [
-            "dec:swamp_drowned",
             "minecraft:fishing_hook",
             "dec:sea_urchin",
+            "dec:swamp_drowned",
             "dec:swamp_golem"
         ],
         "loot_by_entity_lang": {
             "en_US": [
-                "Swamp Drowned",
                 "Fishing Hook",
                 "Sea Uranium",
+                "Swamp Drowned",
                 "Swamp Golem"
             ],
             "zh_CN": [
-                "\u6de4\u9ab8",
                 "\u9c7c\u94a9\t",
                 "\u6d77\u80c6",
+                "\u6de4\u9ab8",
                 "\u6cbc\u6cfd\u5de8\u602a"
             ]
         },
@@ -10450,6 +10792,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:potato_rice": {
+        "file_path": "potato_rice.json",
         "file_name": "potato_rice.json",
         "lang": {
             "en_US": "Ptato Rice",
@@ -10476,6 +10819,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:pulse_stone": {
+        "file_path": "pulse_stone.json",
         "file_name": "pulse_stone.json",
         "lang": {
             "en_US": "Pulse Stone",
@@ -10502,6 +10846,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:pure_ingot": {
+        "file_path": "pure_ingot.json",
         "file_name": "pure_ingot.json",
         "lang": {
             "en_US": "Pure Ingot",
@@ -10528,6 +10873,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:radiate_crystal": {
+        "file_path": "radiate_crystal.json",
         "file_name": "radiate_crystal.json",
         "lang": {
             "en_US": "Radiate Crystal",
@@ -10549,6 +10895,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:radiate_spreader": {
+        "file_path": "radiate_spreader.json",
         "file_name": "radiate_spreader.json",
         "lang": {
             "en_US": "Radiate Spreader",
@@ -10570,6 +10917,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:radiate_sword": {
+        "file_path": "radiate_sword.json",
         "file_name": "radiate_sword.json",
         "lang": {
             "en_US": "Radiate Sword",
@@ -10591,6 +10939,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:redstone_apple": {
+        "file_path": "redstone_apple.json",
         "file_name": "redstone_apple.json",
         "lang": {
             "en_US": "Redstone Apple",
@@ -10622,6 +10971,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:redstone_apple_enchanted": {
+        "file_path": "redstone_apple_enchanted.json",
         "file_name": "redstone_apple_enchanted.json",
         "lang": {
             "en_US": "Enchanted Redstone Apple",
@@ -10641,6 +10991,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:red_bag": {
+        "file_path": "red_bag.json",
         "file_name": "red_bag.json",
         "lang": {
             "en_US": "Red Bag",
@@ -10676,6 +11027,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:red_gem": {
+        "file_path": "red_gem.json",
         "file_name": "red_gem.json",
         "lang": {
             "en_US": "Red Gem",
@@ -10697,6 +11049,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:red_gem_debris": {
+        "file_path": "red_gem_debris.json",
         "file_name": "red_gem_debris.json",
         "lang": {
             "en_US": "Red Gem Debris",
@@ -10709,54 +11062,54 @@ window.AddData = {
             "dec:red_gem"
         ],
         "loot": [
-            "loot_tables/chests/monster_room.json",
-            "loot_tables/chests/igloo_chest.json",
-            "loot_tables/chests/spawn_bonus_chest.json",
-            "loot_tables/chests/stronghold_crossing.json",
-            "loot_tables/chests/shipwreck.json",
-            "loot_tables/chests/bastion_hoglin_stable.json",
-            "loot_tables/chests/abandoned_mineshaft.json",
-            "loot_tables/chests/challenger_tower.json",
-            "loot_tables/chests/stronghold_corridor.json",
-            "loot_tables/chests/giant_tree_barrel.json",
-            "loot_tables/chests/grave.json",
-            "loot_tables/chests/deep_garden.json",
+            "loot_tables/chests/underwater_ruin_small.json",
+            "loot_tables/chests/goblin_house_1.json",
             "loot_tables/chests/pirate_ship_small.json",
-            "loot_tables/chests/warehouse_of_watcher.json",
-            "loot_tables/chests/nether_bridge.json",
-            "loot_tables/chests/buriedtreasure.json",
-            "loot_tables/chests/ash_castle.json",
-            "loot_tables/chests/jungle_temple.json",
-            "loot_tables/chests/bastion_other.json",
+            "loot_tables/chests/deep_garden.json",
+            "loot_tables/chests/grave.json",
+            "loot_tables/chests/enchanted_house.json",
             "loot_tables/chests/soul_room_boss.json",
+            "loot_tables/chests/plain_tower.json",
+            "loot_tables/chests/bastion_treasure.json",
+            "loot_tables/chests/shipwreck.json",
+            "loot_tables/chests/tower_of_watcher/ore.json",
+            "loot_tables/chests/ruined_muddy_4.json",
+            "loot_tables/chests/abandoned_mineshaft.json",
+            "loot_tables/chests/muddy_altar.json",
+            "loot_tables/chests/spawn_bonus_chest.json",
+            "loot_tables/chests/bastion_bridge.json",
+            "loot_tables/chests/ruined_stable.json",
+            "loot_tables/chests/shipwrecksupply.json",
+            "loot_tables/chests/soul_room_har.json",
+            "loot_tables/chests/haunted_house.json",
+            "loot_tables/chests/buriedtreasure.json",
+            "loot_tables/chests/jungle_temple.json",
+            "loot_tables/chests/stronghold_crossing.json",
+            "loot_tables/chests/bastion_hoglin_stable.json",
+            "loot_tables/chests/underwater_ruin_big.json",
+            "loot_tables/chests/ash_castle_treasure.json",
+            "loot_tables/chests/end_city_treasure.json",
+            "loot_tables/chests/shipwrecktreasure.json",
             "loot_tables/chests/soul_room_nor.json",
             "loot_tables/chests/woodland_mansion.json",
-            "loot_tables/chests/haunted_house.json",
-            "loot_tables/chests/end_vestiges.json",
-            "loot_tables/chests/shipwrecktreasure.json",
-            "loot_tables/blocks/red_gem_ore.json",
-            "loot_tables/chests/simple_dungeon.json",
-            "loot_tables/chests/everlasting_winter_tower.json",
-            "loot_tables/chests/ash_castle_treasure.json",
-            "loot_tables/chests/soul_room_har.json",
-            "loot_tables/chests/muddy_altar.json",
-            "loot_tables/chests/pillager_outpost.json",
             "loot_tables/chests/stronghold_library.json",
-            "loot_tables/chests/underwater_ruin_big.json",
-            "loot_tables/chests/shipwrecksupply.json",
-            "loot_tables/chests/ruined_muddy_4.json",
-            "loot_tables/chests/bastion_bridge.json",
             "loot_tables/chests/illusioner_house.json",
-            "loot_tables/chests/bastion_treasure.json",
-            "loot_tables/chests/effigy_2.json",
-            "loot_tables/chests/enchanted_house.json",
-            "loot_tables/chests/underwater_ruin_small.json",
-            "loot_tables/chests/tower_of_watcher/ore.json",
-            "loot_tables/chests/plain_tower.json",
-            "loot_tables/chests/end_city_treasure.json",
-            "loot_tables/chests/ruined_stable.json",
+            "loot_tables/chests/giant_tree_barrel.json",
+            "loot_tables/chests/challenger_tower.json",
+            "loot_tables/chests/igloo_chest.json",
+            "loot_tables/chests/nether_bridge.json",
+            "loot_tables/chests/warehouse_of_watcher.json",
+            "loot_tables/chests/bastion_other.json",
+            "loot_tables/chests/stronghold_corridor.json",
+            "loot_tables/chests/monster_room.json",
+            "loot_tables/chests/end_vestiges.json",
+            "loot_tables/chests/pillager_outpost.json",
+            "loot_tables/chests/everlasting_winter_tower.json",
             "loot_tables/chests/ruined_house.json",
-            "loot_tables/chests/goblin_house_1.json"
+            "loot_tables/blocks/red_gem_ore.json",
+            "loot_tables/chests/effigy_2.json",
+            "loot_tables/chests/simple_dungeon.json",
+            "loot_tables/chests/ash_castle.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -10772,14 +11125,14 @@ window.AddData = {
             ]
         },
         "loot_by_structure": {
-            "challenger_tower": [
+            "goblin_house_1": [
                 "Chest"
             ],
-            "giant_tree": [
-                "Barrel"
+            "pirate_ship_small_1": [
+                "Chest"
             ],
-            "giant_tree_with_ticking": [
-                "Barrel"
+            "deep_garden": [
+                "Chest"
             ],
             "cemetery_1": [
                 "Chest"
@@ -10790,22 +11143,42 @@ window.AddData = {
             "grave_1": [
                 "Chest"
             ],
-            "deep_garden": [
-                "Chest"
-            ],
-            "pirate_ship_small_1": [
-                "Chest"
-            ],
-            "warehouse_of_watcher": [
-                "Barrel",
-                "Chest"
-            ],
-            "ash_castle": [
-                "Barrel",
-                "Chest"
+            "enchanted_house": [
+                "Barrel"
             ],
             "soul_room_boss": [
                 "Chest"
+            ],
+            "plain_tower": [
+                "Chest",
+                "Barrel"
+            ],
+            "ruined_muddy_4": [
+                "Chest",
+                "Barrel"
+            ],
+            "muddy_altar": [
+                "Barrel"
+            ],
+            "ruined_stable": [
+                "Barrel"
+            ],
+            "soul_room_har_1": [
+                "Chest"
+            ],
+            "soul_room_har_2": [
+                "Chest"
+            ],
+            "haunted_house_1": [
+                "Chest",
+                "Barrel"
+            ],
+            "haunted_house_2": [
+                "Chest"
+            ],
+            "ash_castle": [
+                "Chest",
+                "Barrel"
             ],
             "soul_room_nor_4": [
                 "Chest"
@@ -10822,11 +11195,20 @@ window.AddData = {
             "soul_room_stair_5": [
                 "Chest"
             ],
-            "haunted_house_1": [
-                "Chest",
+            "illusioner_house_1": [
+                "Chest"
+            ],
+            "giant_tree": [
                 "Barrel"
             ],
-            "haunted_house_2": [
+            "giant_tree_with_ticking": [
+                "Barrel"
+            ],
+            "challenger_tower": [
+                "Chest"
+            ],
+            "warehouse_of_watcher": [
+                "Barrel",
                 "Chest"
             ],
             "end_vestiges": [
@@ -10835,48 +11217,20 @@ window.AddData = {
             "everlasting_winter_tower": [
                 "Chest"
             ],
-            "soul_room_har_1": [
-                "Chest"
-            ],
-            "soul_room_har_2": [
-                "Chest"
-            ],
-            "muddy_altar": [
-                "Barrel"
-            ],
-            "ruined_muddy_4": [
-                "Chest",
-                "Barrel"
-            ],
-            "illusioner_house_1": [
-                "Chest"
-            ],
-            "effigy_2": [
-                "Chest"
-            ],
-            "enchanted_house": [
-                "Barrel"
-            ],
-            "plain_tower": [
-                "Chest",
-                "Barrel"
-            ],
-            "ruined_stable": [
-                "Barrel"
-            ],
             "ruined_house_1": [
                 "Barrel"
             ],
             "ruined_house_2": [
                 "Barrel"
             ],
-            "goblin_house_1": [
+            "effigy_2": [
                 "Chest"
             ]
         },
         "annotation": []
     },
     "dec:resistance_potion": {
+        "file_path": "resistance_potion.json",
         "file_name": "resistance_potion.json",
         "lang": {
             "en_US": "Resistance Potion",
@@ -10897,6 +11251,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:rice": {
+        "file_path": "rice.json",
         "file_name": "rice.json",
         "lang": {
             "en_US": "Rice",
@@ -10911,29 +11266,29 @@ window.AddData = {
             "dec:rice_wine"
         ],
         "loot": [
-            "loot_tables/entities/swamp_drowned.json",
-            "loot_tables/entities/swamp_golem.json",
-            "loot_tables/chests/warehouse_of_watcher.json",
             "loot_tables/gameplay/fishing/ocean_junk.json",
             "loot_tables/gameplay/fishing/ice_junk.json",
+            "loot_tables/gameplay/fishing/junk.json",
+            "loot_tables/entities/swamp_drowned.json",
+            "loot_tables/entities/swamp_golem.json",
             "loot_tables/entities/drowned.json",
-            "loot_tables/gameplay/fishing/junk.json"
+            "loot_tables/chests/warehouse_of_watcher.json"
         ],
         "loot_by_entity": [
+            "minecraft:fishing_hook",
             "dec:swamp_drowned",
-            "dec:swamp_golem",
-            "minecraft:fishing_hook"
+            "dec:swamp_golem"
         ],
         "loot_by_entity_lang": {
             "en_US": [
+                "Fishing Hook",
                 "Swamp Drowned",
-                "Swamp Golem",
-                "Fishing Hook"
+                "Swamp Golem"
             ],
             "zh_CN": [
+                "\u9c7c\u94a9\t",
                 "\u6de4\u9ab8",
-                "\u6cbc\u6cfd\u5de8\u602a",
-                "\u9c7c\u94a9\t"
+                "\u6cbc\u6cfd\u5de8\u602a"
             ]
         },
         "loot_by_block": [],
@@ -10947,6 +11302,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:rice_seeds": {
+        "file_path": "rice_seeds.json",
         "file_name": "rice_seeds.json",
         "lang": {
             "en_US": "Rice Seeds",
@@ -10958,11 +11314,11 @@ window.AddData = {
             "dec:rice"
         ],
         "loot": [
-            "loot_tables/chests/warehouse_of_watcher.json",
-            "loot_tables/gameplay/fishing/ocean_junk.json",
-            "loot_tables/gameplay/fishing/jungle_junk.json",
             "loot_tables/blocks/rice_crop.json",
-            "loot_tables/gameplay/fishing/junk.json"
+            "loot_tables/gameplay/fishing/jungle_junk.json",
+            "loot_tables/gameplay/fishing/ocean_junk.json",
+            "loot_tables/gameplay/fishing/junk.json",
+            "loot_tables/chests/warehouse_of_watcher.json"
         ],
         "loot_by_entity": [
             "minecraft:fishing_hook"
@@ -10995,6 +11351,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:rice_wine": {
+        "file_path": "rice_wine.json",
         "file_name": "rice_wine.json",
         "lang": {
             "en_US": "Rice Wine",
@@ -11024,6 +11381,7 @@ window.AddData = {
         ]
     },
     "dec:rough_steel": {
+        "file_path": "rough_steel.json",
         "file_name": "rough_steel.json",
         "lang": {
             "en_US": "Rough Steel",
@@ -11045,6 +11403,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:rupert_boots": {
+        "file_path": "rupert_boots.json",
         "file_name": "rupert_boots.json",
         "lang": {
             "en_US": "Rupert Boots",
@@ -11066,6 +11425,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:rupert_chestplate": {
+        "file_path": "rupert_chestplate.json",
         "file_name": "rupert_chestplate.json",
         "lang": {
             "en_US": "Rupert Chestplate",
@@ -11087,6 +11447,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:rupert_helmet": {
+        "file_path": "rupert_helmet.json",
         "file_name": "rupert_helmet.json",
         "lang": {
             "en_US": "Rupert Helmet",
@@ -11108,6 +11469,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:rupert_leggings": {
+        "file_path": "rupert_leggings.json",
         "file_name": "rupert_leggings.json",
         "lang": {
             "en_US": "Rupert Leggings",
@@ -11129,6 +11491,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:sardine": {
+        "file_path": "sardine.json",
         "file_name": "sardine.json",
         "lang": {
             "en_US": "Sardine",
@@ -11157,6 +11520,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:scale_sword": {
+        "file_path": "scale_sword.json",
         "file_name": "scale_sword.json",
         "lang": {
             "en_US": "Scale Sword",
@@ -11179,6 +11543,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:scimitar": {
+        "file_path": "scimitar.json",
         "file_name": "scimitar.json",
         "lang": {
             "en_US": "Scimitar",
@@ -11188,24 +11553,24 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
-            "loot_tables/chests/pirate_ship_small.json",
-            "loot_tables/entities/pirate_melee_gear.json",
+            "loot_tables/template/weapon/melee_weapon/sword.json",
             "loot_tables/entities/king_of_pillager.json",
-            "loot_tables/entities/skeleton_knight_commander_melee_gear.json",
-            "loot_tables/template/weapon/melee_weapon/sword.json"
+            "loot_tables/entities/pirate_melee_gear.json",
+            "loot_tables/chests/pirate_ship_small.json",
+            "loot_tables/entities/skeleton_knight_commander_melee_gear.json"
         ],
         "loot_by_entity": [
-            "dec:pirate",
-            "dec:king_of_pillager"
+            "dec:king_of_pillager",
+            "dec:pirate"
         ],
         "loot_by_entity_lang": {
             "en_US": [
-                "Pirate",
-                "King Of Pillager"
+                "King Of Pillager",
+                "Pirate"
             ],
             "zh_CN": [
-                "\u6d77\u76d7",
-                "\u63a0\u593a\u8005\u4e4b\u738b"
+                "\u63a0\u593a\u8005\u4e4b\u738b",
+                "\u6d77\u76d7"
             ]
         },
         "loot_by_block": [],
@@ -11218,6 +11583,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:sea_urchin": {
+        "file_path": "sea_urchin.json",
         "file_name": "sea_urchin.json",
         "lang": {
             "en_US": "Sea Urchin",
@@ -11246,6 +11612,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:shadow_crystal": {
+        "file_path": "shadow_crystal.json",
         "file_name": "shadow_crystal.json",
         "lang": {
             "en_US": "Shadow Crystal",
@@ -11257,8 +11624,8 @@ window.AddData = {
         ],
         "ingredient": [],
         "loot": [
-            "loot_tables/entities/shadow_crystal_fail.json",
             "loot_tables/chests/end_city_treasure.json",
+            "loot_tables/entities/shadow_crystal_fail.json",
             "loot_tables/chests/end_vestiges.json"
         ],
         "loot_by_entity": [],
@@ -11273,6 +11640,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:shadow_feather": {
+        "file_path": "shadow_feather.json",
         "file_name": "shadow_feather.json",
         "lang": {
             "en_US": "Shadow Feather",
@@ -11292,6 +11660,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:sharp_coral": {
+        "file_path": "sharp_coral.json",
         "file_name": "sharp_coral.json",
         "lang": {
             "en_US": "Sharp Coral",
@@ -11317,6 +11686,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:shell": {
+        "file_path": "shell.json",
         "file_name": "shell.json",
         "lang": {
             "en_US": "Shell",
@@ -11347,6 +11717,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:short_flintlock": {
+        "file_path": "short_flintlock.json",
         "file_name": "short_flintlock.json",
         "lang": {
             "en_US": "Short Flintlock",
@@ -11358,11 +11729,11 @@ window.AddData = {
         ],
         "ingredient": [],
         "loot": [
-            "loot_tables/chests/pirate_ship_small.json",
-            "loot_tables/entities/chest_monster_trade.json",
             "loot_tables/entities/pirate_ranged_gear.json",
-            "loot_tables/entities/chest_monster.json",
             "loot_tables/template/weapon/range_weapon/range_weapon.json",
+            "loot_tables/chests/pirate_ship_small.json",
+            "loot_tables/entities/chest_monster.json",
+            "loot_tables/entities/chest_monster_trade.json",
             "loot_tables/chests/hunter_house.json"
         ],
         "loot_by_entity": [
@@ -11392,6 +11763,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:shulker_helmet": {
+        "file_path": "shulker_helmet.json",
         "file_name": "shulker_helmet.json",
         "lang": {
             "en_US": "Shulker Helmet",
@@ -11411,6 +11783,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:simple_car": {
+        "file_path": "simple_car.json",
         "file_name": "simple_car.json",
         "lang": {
             "en_US": "Simple Car",
@@ -11432,6 +11805,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:simple_glider": {
+        "file_path": "simple_glider.json",
         "file_name": "simple_glider.json",
         "lang": {
             "en_US": "Simple Glider",
@@ -11451,6 +11825,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:skeleton_fish": {
+        "file_path": "skeleton_fish.json",
         "file_name": "skeleton_fish.json",
         "lang": {
             "en_US": "Skeleton Fish",
@@ -11481,6 +11856,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:slime_axe": {
+        "file_path": "slime_axe.json",
         "file_name": "slime_axe.json",
         "lang": {
             "en_US": "Slime Axe",
@@ -11502,6 +11878,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:slime_pickaxe": {
+        "file_path": "slime_pickaxe.json",
         "file_name": "slime_pickaxe.json",
         "lang": {
             "en_US": "Slime Pickaxe",
@@ -11521,6 +11898,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:sliver_yuanbao": {
+        "file_path": "sliver_yuanbao.json",
         "file_name": "sliver_yuanbao.json",
         "lang": {
             "en_US": "Sliver Yuanbao",
@@ -11540,6 +11918,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:small_stone": {
+        "file_path": "small_stone.json",
         "file_name": "small_stone.json",
         "lang": {
             "en_US": "Small Stone",
@@ -11556,42 +11935,43 @@ window.AddData = {
         ],
         "loot": [
             "loot_tables/entities/rumorer.json",
-            "loot_tables/blocks/cave_crate.json",
-            "loot_tables/entities/small_stone.json",
-            "loot_tables/blocks/radiate_stone.json",
-            "loot_tables/blocks/small_stone.json",
             "loot_tables/template/weapon/range_weapon/range_weapon.json",
-            "loot_tables/blocks/stone_heap.json"
+            "loot_tables/entities/small_stone.json",
+            "loot_tables/blocks/stone_heap.json",
+            "loot_tables/blocks/small_stone.json",
+            "loot_tables/blocks/radiate_stone.json",
+            "loot_tables/blocks/cave_crate.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
         "loot_by_block": [
-            "dec:radiate_stone",
-            "dec:radiate_stonebrick",
-            "dec:small_stone_block_entity",
             "dec:stone_heap",
-            "dec:stone_road"
+            "dec:stone_road",
+            "dec:small_stone_block_entity",
+            "dec:radiate_stone",
+            "dec:radiate_stonebrick"
         ],
         "loot_by_block_lang": {
             "en_US": [
-                "Radiate Stone",
-                "Radiate Stonebrick",
-                "Small Stone",
                 "Stone Heap",
-                "Stone Road"
+                "Stone Road",
+                "Small Stone",
+                "Radiate Stone",
+                "Radiate Stonebrick"
             ],
             "zh_CN": [
-                "\u8f90\u5c04\u77f3\u5934",
-                "\u8f90\u5c04\u77f3\u7816",
-                "\u5c0f\u77f3\u5b50",
                 "\u77f3\u5806",
-                "\u77f3\u5b50\u8def"
+                "\u77f3\u5b50\u8def",
+                "\u5c0f\u77f3\u5b50",
+                "\u8f90\u5c04\u77f3\u5934",
+                "\u8f90\u5c04\u77f3\u7816"
             ]
         },
         "loot_by_structure": {},
         "annotation": []
     },
     "dec:small_stone_block": {
+        "file_path": "small_stone_block.json",
         "file_name": "small_stone_block.json",
         "lang": {
             "en_US": "Small Stone Block",
@@ -11613,6 +11993,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:snailfish": {
+        "file_path": "snailfish.json",
         "file_name": "snailfish.json",
         "lang": {
             "en_US": "Snailfish",
@@ -11643,6 +12024,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:snowball_magic_book": {
+        "file_path": "snowball_magic_book.json",
         "file_name": "snowball_magic_book.json",
         "lang": {
             "en_US": "Snowball Magic Book",
@@ -11652,24 +12034,24 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
-            "loot_tables/entities/ice_blaze.json",
             "loot_tables/blocks/ice_bookshelf.json",
-            "loot_tables/entities/frozen_heart.json",
             "loot_tables/entities/everlasting_winter_ghast.json",
+            "loot_tables/entities/frozen_heart.json",
+            "loot_tables/entities/ice_blaze.json",
             "loot_tables/template/weapon/magic_weapon/book.json"
         ],
         "loot_by_entity": [
-            "dec:ice_blaze",
-            "dec:frozen_heart"
+            "dec:frozen_heart",
+            "dec:ice_blaze"
         ],
         "loot_by_entity_lang": {
             "en_US": [
-                "Ice Blaze",
-                "Frozen Heart"
+                "Frozen Heart",
+                "Ice Blaze"
             ],
             "zh_CN": [
-                "\u5bd2\u971c\u4eba",
-                "\u51b0\u51bb\u4e4b\u5fc3"
+                "\u51b0\u51bb\u4e4b\u5fc3",
+                "\u5bd2\u971c\u4eba"
             ]
         },
         "loot_by_block": [
@@ -11687,6 +12069,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:snow_lotus": {
+        "file_path": "snow_lotus.json",
         "file_name": "snow_lotus.json",
         "lang": {
             "en_US": "Snow Lotus",
@@ -11716,6 +12099,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:soul": {
+        "file_path": "soul.json",
         "file_name": "soul.json",
         "lang": {
             "en_US": "Soul",
@@ -11729,9 +12113,9 @@ window.AddData = {
             "dec:tear_from_dream"
         ],
         "loot": [
-            "loot_tables/chests/soul_room_boss.json",
             "loot_tables/chests/soul_room_nor.json",
             "loot_tables/tasks/040.json",
+            "loot_tables/chests/soul_room_boss.json",
             "loot_tables/chests/soul_room_har.json",
             "loot_tables/entities/soul_insect.json",
             "loot_tables/entities/soul_soldier.json"
@@ -11753,9 +12137,6 @@ window.AddData = {
         "loot_by_block": [],
         "loot_by_block_lang": {},
         "loot_by_structure": {
-            "soul_room_boss": [
-                "Chest"
-            ],
             "soul_room_nor_4": [
                 "Chest"
             ],
@@ -11771,6 +12152,9 @@ window.AddData = {
             "soul_room_stair_5": [
                 "Chest"
             ],
+            "soul_room_boss": [
+                "Chest"
+            ],
             "soul_room_har_1": [
                 "Chest"
             ],
@@ -11781,6 +12165,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:soul_blaze_rod": {
+        "file_path": "soul_blaze_rod.json",
         "file_name": "soul_blaze_rod.json",
         "lang": {
             "en_US": "Soul Blaze Rod",
@@ -11817,6 +12202,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:soul_fireball": {
+        "file_path": "soul_fireball.json",
         "file_name": "soul_fireball.json",
         "lang": {
             "en_US": "Soul Fireball",
@@ -11826,9 +12212,9 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
-            "loot_tables/template/weapon/thrown_weapon/sundries.json",
             "loot_tables/tasks/002.json",
-            "loot_tables/entities/soul_blaze.json"
+            "loot_tables/entities/soul_blaze.json",
+            "loot_tables/template/weapon/thrown_weapon/sundries.json"
         ],
         "loot_by_entity": [
             "dec:soul"
@@ -11847,6 +12233,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:soul_key": {
+        "file_path": "soul_key.json",
         "file_name": "soul_key.json",
         "lang": {
             "en_US": "Soul Key",
@@ -11856,14 +12243,20 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
-            "loot_tables/chests/soul_room_nor.json",
-            "loot_tables/chests/soul_room_har.json"
+            "loot_tables/chests/soul_room_har.json",
+            "loot_tables/chests/soul_room_nor.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
         "loot_by_block": [],
         "loot_by_block_lang": {},
         "loot_by_structure": {
+            "soul_room_har_1": [
+                "Chest"
+            ],
+            "soul_room_har_2": [
+                "Chest"
+            ],
             "soul_room_nor_4": [
                 "Chest"
             ],
@@ -11878,17 +12271,12 @@ window.AddData = {
             ],
             "soul_room_stair_5": [
                 "Chest"
-            ],
-            "soul_room_har_1": [
-                "Chest"
-            ],
-            "soul_room_har_2": [
-                "Chest"
             ]
         },
         "annotation": []
     },
     "dec:soul_staff": {
+        "file_path": "soul_staff.json",
         "file_name": "soul_staff.json",
         "lang": {
             "en_US": "The Breath Of Soul",
@@ -11900,34 +12288,31 @@ window.AddData = {
         ],
         "ingredient": [],
         "loot": [
-            "loot_tables/chests/soul_room_boss.json",
-            "loot_tables/tasks/002.json",
             "loot_tables/chests/soul_room_nor.json",
-            "loot_tables/entities/soul_skeleton_gear.json",
+            "loot_tables/tasks/002.json",
+            "loot_tables/entities/soul_soldier_staff_equipment.json",
             "loot_tables/template/weapon/magic_weapon/staff.json",
-            "loot_tables/chests/soul_room_har.json",
-            "loot_tables/entities/soul_soldier_staff_equipment.json"
+            "loot_tables/chests/soul_room_boss.json",
+            "loot_tables/entities/soul_skeleton_gear.json",
+            "loot_tables/chests/soul_room_har.json"
         ],
         "loot_by_entity": [
-            "dec:soul_skeleton",
-            "dec:soul_soldier"
+            "dec:soul_soldier",
+            "dec:soul_skeleton"
         ],
         "loot_by_entity_lang": {
             "en_US": [
-                "Soul Skeleton",
-                "Soul Soldier"
+                "Soul Soldier",
+                "Soul Skeleton"
             ],
             "zh_CN": [
-                "\u7075\u9b42\u9ab7\u9ac5",
-                "\u7075\u9b42\u58eb\u5175"
+                "\u7075\u9b42\u58eb\u5175",
+                "\u7075\u9b42\u9ab7\u9ac5"
             ]
         },
         "loot_by_block": [],
         "loot_by_block_lang": {},
         "loot_by_structure": {
-            "soul_room_boss": [
-                "Chest"
-            ],
             "soul_room_nor_4": [
                 "Chest"
             ],
@@ -11941,6 +12326,9 @@ window.AddData = {
                 "Chest"
             ],
             "soul_room_stair_5": [
+                "Chest"
+            ],
+            "soul_room_boss": [
                 "Chest"
             ],
             "soul_room_har_1": [
@@ -11953,6 +12341,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:soybean": {
+        "file_path": "soybean.json",
         "file_name": "soybean.json",
         "lang": {
             "en_US": "Soybean",
@@ -11964,12 +12353,12 @@ window.AddData = {
             "dec:tofu"
         ],
         "loot": [
+            "loot_tables/entities/blood_zombie.json",
             "loot_tables/entities/ruined_muddy_brushable_block.json",
-            "loot_tables/chests/warehouse_of_watcher.json",
-            "loot_tables/entities/zombie.json",
             "loot_tables/chests/ruined_stable.json",
-            "loot_tables/blocks/soybean_crop.json",
-            "loot_tables/entities/blood_zombie.json"
+            "loot_tables/entities/zombie.json",
+            "loot_tables/chests/warehouse_of_watcher.json",
+            "loot_tables/blocks/soybean_crop.json"
         ],
         "loot_by_entity": [
             "dec:mushroom_zombie",
@@ -12045,17 +12434,18 @@ window.AddData = {
             "ruined_stonecutter": [
                 "BrushableBlock"
             ],
+            "ruined_stable": [
+                "Barrel"
+            ],
             "warehouse_of_watcher": [
                 "Barrel",
                 "Chest"
-            ],
-            "ruined_stable": [
-                "Barrel"
             ]
         },
         "annotation": []
     },
     "dec:spider_staff": {
+        "file_path": "spider_staff.json",
         "file_name": "spider_staff.json",
         "lang": {
             "en_US": "Spider Staff",
@@ -12088,6 +12478,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:spiral_shell": {
+        "file_path": "spiral_shell.json",
         "file_name": "spiral_shell.json",
         "lang": {
             "en_US": "Spiral Shell",
@@ -12118,6 +12509,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:spurt_egg": {
+        "file_path": "spurt_egg.json",
         "file_name": "spurt_egg.json",
         "lang": {
             "en_US": "Spurt Egg",
@@ -12139,6 +12531,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:star_debris": {
+        "file_path": "star_debris.json",
         "file_name": "star_debris.json",
         "lang": {
             "en_US": "Star Debris",
@@ -12154,9 +12547,9 @@ window.AddData = {
         ],
         "loot": [
             "loot_tables/blocks/crate.json",
-            "loot_tables/wb/2_x/magic_stoneman.json",
+            "loot_tables/tasks/020.json",
             "loot_tables/entities/star.json",
-            "loot_tables/tasks/020.json"
+            "loot_tables/wb/2_x/magic_stoneman.json"
         ],
         "loot_by_entity": [
             "dec:star"
@@ -12175,6 +12568,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:star_flintlock": {
+        "file_path": "star_flintlock.json",
         "file_name": "star_flintlock.json",
         "lang": {
             "en_US": "Star Flintlock",
@@ -12196,6 +12590,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:star_sword": {
+        "file_path": "star_sword.json",
         "file_name": "star_sword.json",
         "lang": {
             "en_US": "The Bursting Star",
@@ -12219,6 +12614,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:steel_battleaxe": {
+        "file_path": "steel_battleaxe.json",
         "file_name": "steel_battleaxe.json",
         "lang": {
             "en_US": "Steel Battleaxe",
@@ -12232,9 +12628,9 @@ window.AddData = {
             "dec:furnace_steel_battleaxe"
         ],
         "loot": [
-            "loot_tables/template/weapon/melee_weapon/axe.json",
+            "loot_tables/chests/tower_of_watcher/weapon.json",
             "loot_tables/entities/watcher_attack_equipment.json",
-            "loot_tables/chests/tower_of_watcher/weapon.json"
+            "loot_tables/template/weapon/melee_weapon/axe.json"
         ],
         "loot_by_entity": [
             "dec:watcher"
@@ -12253,6 +12649,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:steel_boots": {
+        "file_path": "steel_boots.json",
         "file_name": "steel_boots.json",
         "lang": {
             "en_US": "Steel Boots",
@@ -12274,6 +12671,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:steel_chestplate": {
+        "file_path": "steel_chestplate.json",
         "file_name": "steel_chestplate.json",
         "lang": {
             "en_US": "Steel Chestplate",
@@ -12295,6 +12693,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:steel_dagger": {
+        "file_path": "steel_dagger.json",
         "file_name": "steel_dagger.json",
         "lang": {
             "en_US": "Steel Dagger",
@@ -12308,23 +12707,23 @@ window.AddData = {
             "dec:furnace_steel_dagger"
         ],
         "loot": [
-            "loot_tables/entities/goblin_gear.json",
+            "loot_tables/chests/tower_of_watcher/weapon.json",
             "loot_tables/entities/watcher_attack_equipment.json",
-            "loot_tables/template/weapon/melee_weapon/dagger.json",
-            "loot_tables/chests/tower_of_watcher/weapon.json"
+            "loot_tables/entities/goblin_gear.json",
+            "loot_tables/template/weapon/melee_weapon/dagger.json"
         ],
         "loot_by_entity": [
-            "dec:goblin",
-            "dec:watcher"
+            "dec:watcher",
+            "dec:goblin"
         ],
         "loot_by_entity_lang": {
             "en_US": [
-                "Goblin",
-                "Watcher"
+                "Watcher",
+                "Goblin"
             ],
             "zh_CN": [
-                "\u54e5\u5e03\u6797",
-                "\u770b\u5b88\u8005"
+                "\u770b\u5b88\u8005",
+                "\u54e5\u5e03\u6797"
             ]
         },
         "loot_by_block": [],
@@ -12333,6 +12732,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:steel_dart": {
+        "file_path": "steel_dart.json",
         "file_name": "steel_dart.json",
         "lang": {
             "en_US": "Steel Dart",
@@ -12355,6 +12755,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:steel_helmet": {
+        "file_path": "steel_helmet.json",
         "file_name": "steel_helmet.json",
         "lang": {
             "en_US": "Steel Helmet",
@@ -12376,6 +12777,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:steel_ingot": {
+        "file_path": "steel_ingot.json",
         "file_name": "steel_ingot.json",
         "lang": {
             "en_US": "Steel Ingot",
@@ -12417,25 +12819,25 @@ window.AddData = {
         ],
         "loot": [
             "loot_tables/EPIC/entities/cannon_cart.json",
-            "loot_tables/entities/chest_monster_trade.json",
-            "loot_tables/entities/simple_car.json",
             "loot_tables/entities/chest_monster.json",
+            "loot_tables/entities/simple_car.json",
+            "loot_tables/entities/chest_monster_trade.json",
             "loot_tables/entities/simple_glider.json"
         ],
         "loot_by_entity": [
-            "dec:simple_car",
             "dec:chest_monster",
+            "dec:simple_car",
             "dec:simple_glider"
         ],
         "loot_by_entity_lang": {
             "en_US": [
-                "Simple Car",
                 "Chest Monster",
+                "Simple Car",
                 "Simple Glider"
             ],
             "zh_CN": [
-                "\u7b80\u5355\u5c0f\u8f66",
                 "\u7bb1\u5b50\u602a",
+                "\u7b80\u5355\u5c0f\u8f66",
                 "\u7b80\u5355\u6ed1\u7fd4\u673a"
             ]
         },
@@ -12445,6 +12847,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:steel_leggings": {
+        "file_path": "steel_leggings.json",
         "file_name": "steel_leggings.json",
         "lang": {
             "en_US": "Steel Leggings",
@@ -12466,6 +12869,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:steel_nugget": {
+        "file_path": "steel_nugget.json",
         "file_name": "steel_nugget.json",
         "lang": {
             "en_US": "Steel Nugget",
@@ -12513,6 +12917,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:steel_sickle": {
+        "file_path": "steel_sickle.json",
         "file_name": "steel_sickle.json",
         "lang": {
             "en_US": "Steel Sickle",
@@ -12527,22 +12932,22 @@ window.AddData = {
         ],
         "loot": [
             "loot_tables/template/weapon/melee_weapon/sickle.json",
-            "loot_tables/entities/goblin_gear.json",
+            "loot_tables/chests/tower_of_watcher/weapon.json",
             "loot_tables/entities/watcher_attack_equipment.json",
-            "loot_tables/chests/tower_of_watcher/weapon.json"
+            "loot_tables/entities/goblin_gear.json"
         ],
         "loot_by_entity": [
-            "dec:goblin",
-            "dec:watcher"
+            "dec:watcher",
+            "dec:goblin"
         ],
         "loot_by_entity_lang": {
             "en_US": [
-                "Goblin",
-                "Watcher"
+                "Watcher",
+                "Goblin"
             ],
             "zh_CN": [
-                "\u54e5\u5e03\u6797",
-                "\u770b\u5b88\u8005"
+                "\u770b\u5b88\u8005",
+                "\u54e5\u5e03\u6797"
             ]
         },
         "loot_by_block": [],
@@ -12551,6 +12956,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:steel_sword": {
+        "file_path": "steel_sword.json",
         "file_name": "steel_sword.json",
         "lang": {
             "en_US": "Steel Sword",
@@ -12564,23 +12970,23 @@ window.AddData = {
             "dec:furnace_steel_sword"
         ],
         "loot": [
-            "loot_tables/entities/goblin_gear.json",
-            "loot_tables/entities/watcher_attack_equipment.json",
             "loot_tables/template/weapon/melee_weapon/sword.json",
-            "loot_tables/chests/tower_of_watcher/weapon.json"
+            "loot_tables/chests/tower_of_watcher/weapon.json",
+            "loot_tables/entities/watcher_attack_equipment.json",
+            "loot_tables/entities/goblin_gear.json"
         ],
         "loot_by_entity": [
-            "dec:goblin",
-            "dec:watcher"
+            "dec:watcher",
+            "dec:goblin"
         ],
         "loot_by_entity_lang": {
             "en_US": [
-                "Goblin",
-                "Watcher"
+                "Watcher",
+                "Goblin"
             ],
             "zh_CN": [
-                "\u54e5\u5e03\u6797",
-                "\u770b\u5b88\u8005"
+                "\u770b\u5b88\u8005",
+                "\u54e5\u5e03\u6797"
             ]
         },
         "loot_by_block": [],
@@ -12589,6 +12995,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:sticky_ash": {
+        "file_path": "sticky_ash.json",
         "file_name": "sticky_ash.json",
         "lang": {
             "en_US": "Sticky Ash",
@@ -12600,8 +13007,8 @@ window.AddData = {
         ],
         "ingredient": [],
         "loot": [
-            "loot_tables/chests/ash_castle.json",
-            "loot_tables/chests/ash_castle_treasure.json"
+            "loot_tables/chests/ash_castle_treasure.json",
+            "loot_tables/chests/ash_castle.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -12609,8 +13016,8 @@ window.AddData = {
         "loot_by_block_lang": {},
         "loot_by_structure": {
             "ash_castle": [
-                "Barrel",
-                "Chest"
+                "Chest",
+                "Barrel"
             ]
         },
         "annotation": [
@@ -12618,6 +13025,7 @@ window.AddData = {
         ]
     },
     "dec:stones_bag": {
+        "file_path": "stones_bag.json",
         "file_name": "stones_bag.json",
         "lang": {
             "en_US": "Stones Bag",
@@ -12629,18 +13037,18 @@ window.AddData = {
             "dec:archer_stones_bag"
         ],
         "loot": [
-            "loot_tables/blocks/cave_crate.json",
-            "loot_tables/blocks/frozen_crate.json",
-            "loot_tables/chests/grave.json",
-            "loot_tables/entities/ruined_muddy_brushable_block.json",
-            "loot_tables/chests/haunted_house.json",
-            "loot_tables/chests/shipwrecksupply.json",
+            "loot_tables/blocks/crate.json",
             "loot_tables/chests/shipwrecktreasure.json",
-            "loot_tables/chests/guard_tower.json",
+            "loot_tables/blocks/frozen_crate.json",
+            "loot_tables/entities/ruined_muddy_brushable_block.json",
+            "loot_tables/chests/grave.json",
+            "loot_tables/chests/shipwrecksupply.json",
+            "loot_tables/chests/haunted_house.json",
             "loot_tables/chests/stronghold_crossing.json",
             "loot_tables/chests/shipwreck.json",
-            "loot_tables/blocks/crate.json",
             "loot_tables/chests/stronghold_corridor.json",
+            "loot_tables/chests/guard_tower.json",
+            "loot_tables/blocks/cave_crate.json",
             "loot_tables/chests/hunter_house.json"
         ],
         "loot_by_entity": [],
@@ -12648,15 +13056,6 @@ window.AddData = {
         "loot_by_block": [],
         "loot_by_block_lang": {},
         "loot_by_structure": {
-            "cemetery_1": [
-                "Chest"
-            ],
-            "cemetery_2": [
-                "Chest"
-            ],
-            "grave_1": [
-                "Chest"
-            ],
             "effigy_1": [
                 "BrushableBlock"
             ],
@@ -12687,6 +13086,15 @@ window.AddData = {
             "ruined_stonecutter": [
                 "BrushableBlock"
             ],
+            "cemetery_1": [
+                "Chest"
+            ],
+            "cemetery_2": [
+                "Chest"
+            ],
+            "grave_1": [
+                "Chest"
+            ],
             "haunted_house_1": [
                 "Chest",
                 "Barrel"
@@ -12711,6 +13119,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:stone_boots": {
+        "file_path": "stone_boots.json",
         "file_name": "stone_boots.json",
         "lang": {
             "en_US": "Stone Boots",
@@ -12732,6 +13141,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:stone_chestplate": {
+        "file_path": "stone_chestplate.json",
         "file_name": "stone_chestplate.json",
         "lang": {
             "en_US": "Stone Chestplate",
@@ -12753,6 +13163,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:stone_dagger": {
+        "file_path": "stone_dagger.json",
         "file_name": "stone_dagger.json",
         "lang": {
             "en_US": "Stone Dagger",
@@ -12784,6 +13195,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:stone_dart": {
+        "file_path": "stone_dart.json",
         "file_name": "stone_dart.json",
         "lang": {
             "en_US": "Stone Dart",
@@ -12796,8 +13208,8 @@ window.AddData = {
         ],
         "ingredient": [],
         "loot": [
-            "loot_tables/template/weapon/thrown_weapon/sundries.json",
-            "loot_tables/chests/tower_of_watcher/weapon.json"
+            "loot_tables/chests/tower_of_watcher/weapon.json",
+            "loot_tables/template/weapon/thrown_weapon/sundries.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -12807,6 +13219,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:stone_helmet": {
+        "file_path": "stone_helmet.json",
         "file_name": "stone_helmet.json",
         "lang": {
             "en_US": "Stone Helmet",
@@ -12828,6 +13241,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:stone_leggings": {
+        "file_path": "stone_leggings.json",
         "file_name": "stone_leggings.json",
         "lang": {
             "en_US": "Stone Leggings",
@@ -12849,6 +13263,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:storm_battleaxe": {
+        "file_path": "storm_battleaxe.json",
         "file_name": "storm_battleaxe.json",
         "lang": {
             "en_US": "Storm Battleaxe",
@@ -12869,6 +13284,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:storm_flintlock": {
+        "file_path": "storm_flintlock.json",
         "file_name": "storm_flintlock.json",
         "lang": {
             "en_US": "Storm Flintlock",
@@ -12889,6 +13305,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:storm_giant_sword": {
+        "file_path": "storm_giant_sword.json",
         "file_name": "storm_giant_sword.json",
         "lang": {
             "en_US": "Storm Giant Sword",
@@ -12909,6 +13326,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:storm_staff": {
+        "file_path": "storm_staff.json",
         "file_name": "storm_staff.json",
         "lang": {
             "en_US": "Storm Staff",
@@ -12918,8 +13336,8 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
-            "loot_tables/template/weapon/magic_weapon/staff.json",
-            "loot_tables/entities/abyssal_controller.json"
+            "loot_tables/entities/abyssal_controller.json",
+            "loot_tables/template/weapon/magic_weapon/staff.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -12929,6 +13347,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:straw_rope": {
+        "file_path": "straw_rope.json",
         "file_name": "straw_rope.json",
         "lang": {
             "en_US": "Straw Rope",
@@ -12952,6 +13371,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:stray_chestplate": {
+        "file_path": "stray_chestplate.json",
         "file_name": "stray_chestplate.json",
         "lang": {
             "en_US": "Stray Chestplate",
@@ -12980,6 +13400,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:stray_helmet": {
+        "file_path": "stray_helmet.json",
         "file_name": "stray_helmet.json",
         "lang": {
             "en_US": "Stray Helmet",
@@ -13008,6 +13429,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:stray_leggings": {
+        "file_path": "stray_leggings.json",
         "file_name": "stray_leggings.json",
         "lang": {
             "en_US": "Stray Leggings",
@@ -13036,6 +13458,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:stream_dart": {
+        "file_path": "stream_dart.json",
         "file_name": "stream_dart.json",
         "lang": {
             "en_US": "Stream Dart",
@@ -13057,6 +13480,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:stream_stone": {
+        "file_path": "stream_stone.json",
         "file_name": "stream_stone.json",
         "lang": {
             "en_US": "Stream Stone",
@@ -13079,41 +13503,42 @@ window.AddData = {
             "dec:wind_of_shadow"
         ],
         "loot": [
-            "loot_tables/chests/warehouse_of_watcher.json",
-            "loot_tables/entities/chest_monster_trade.json",
-            "loot_tables/entities/chest_monster.json",
-            "loot_tables/entities/king_of_pillager.json",
             "loot_tables/chests/abandoned_mineshaft.json",
-            "loot_tables/chests/goblin_house_1.json"
+            "loot_tables/chests/goblin_house_1.json",
+            "loot_tables/entities/king_of_pillager.json",
+            "loot_tables/entities/chest_monster.json",
+            "loot_tables/chests/warehouse_of_watcher.json",
+            "loot_tables/entities/chest_monster_trade.json"
         ],
         "loot_by_entity": [
-            "dec:chest_monster",
-            "dec:king_of_pillager"
+            "dec:king_of_pillager",
+            "dec:chest_monster"
         ],
         "loot_by_entity_lang": {
             "en_US": [
-                "Chest Monster",
-                "King Of Pillager"
+                "King Of Pillager",
+                "Chest Monster"
             ],
             "zh_CN": [
-                "\u7bb1\u5b50\u602a",
-                "\u63a0\u593a\u8005\u4e4b\u738b"
+                "\u63a0\u593a\u8005\u4e4b\u738b",
+                "\u7bb1\u5b50\u602a"
             ]
         },
         "loot_by_block": [],
         "loot_by_block_lang": {},
         "loot_by_structure": {
-            "warehouse_of_watcher": [
-                "Barrel",
+            "goblin_house_1": [
                 "Chest"
             ],
-            "goblin_house_1": [
+            "warehouse_of_watcher": [
+                "Barrel",
                 "Chest"
             ]
         },
         "annotation": []
     },
     "dec:striped_pants": {
+        "file_path": "striped_pants.json",
         "file_name": "striped_pants.json",
         "lang": {
             "en_US": "Striped Pants",
@@ -13133,6 +13558,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:sun_stone": {
+        "file_path": "sun_stone.json",
         "file_name": "sun_stone.json",
         "lang": {
             "en_US": "Sun Stone",
@@ -13155,6 +13581,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:super_armor_core0": {
+        "file_path": "super_armor_core0.json",
         "file_name": "super_armor_core0.json",
         "lang": {
             "en_US": " Empty Super Armor Core",
@@ -13176,6 +13603,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:super_armor_core1": {
+        "file_path": "super_armor_core1.json",
         "file_name": "super_armor_core1.json",
         "lang": {
             "en_US": "Super Armor Core I",
@@ -13195,6 +13623,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:super_armor_core2": {
+        "file_path": "super_armor_core2.json",
         "file_name": "super_armor_core2.json",
         "lang": {
             "en_US": "Super Armor Core II",
@@ -13214,6 +13643,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:super_armor_core3": {
+        "file_path": "super_armor_core3.json",
         "file_name": "super_armor_core3.json",
         "lang": {
             "en_US": "Super Armor Core III",
@@ -13235,6 +13665,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:super_armor_core4": {
+        "file_path": "super_armor_core4.json",
         "file_name": "super_armor_core4.json",
         "lang": {
             "en_US": "Super Armor Core IV",
@@ -13256,6 +13687,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:super_armor_core5": {
+        "file_path": "super_armor_core5.json",
         "file_name": "super_armor_core5.json",
         "lang": {
             "en_US": "Super Armor Core V",
@@ -13277,6 +13709,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:super_armor_core6": {
+        "file_path": "super_armor_core6.json",
         "file_name": "super_armor_core6.json",
         "lang": {
             "en_US": "Super Armor Core VI",
@@ -13298,6 +13731,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:super_armor_core7": {
+        "file_path": "super_armor_core7.json",
         "file_name": "super_armor_core7.json",
         "lang": {
             "en_US": "Super Armor Core VII",
@@ -13319,6 +13753,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:super_armor_core8": {
+        "file_path": "super_armor_core8.json",
         "file_name": "super_armor_core8.json",
         "lang": {
             "en_US": "Super Armor Core Max",
@@ -13340,6 +13775,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:sword_fish": {
+        "file_path": "sword_fish.json",
         "file_name": "sword_fish.json",
         "lang": {
             "en_US": "Sword Fish",
@@ -13351,8 +13787,8 @@ window.AddData = {
             "dec:the_imperial_sword"
         ],
         "loot": [
-            "loot_tables/template/weapon/melee_weapon/sword.json",
-            "loot_tables/gameplay/fishing/ocean_fish.json"
+            "loot_tables/gameplay/fishing/ocean_fish.json",
+            "loot_tables/template/weapon/melee_weapon/sword.json"
         ],
         "loot_by_entity": [
             "minecraft:fishing_hook"
@@ -13371,6 +13807,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:sword_of_deep": {
+        "file_path": "sword_of_deep.json",
         "file_name": "sword_of_deep.json",
         "lang": {
             "en_US": "Black Domain",
@@ -13381,8 +13818,8 @@ window.AddData = {
         "ingredient": [],
         "loot": [
             "loot_tables/entities/host_of_deep_gear.json",
-            "loot_tables/entities/host_of_deep.json",
-            "loot_tables/template/weapon/melee_weapon/sword.json"
+            "loot_tables/template/weapon/melee_weapon/sword.json",
+            "loot_tables/entities/host_of_deep.json"
         ],
         "loot_by_entity": [
             "dec:host_of_deep_1",
@@ -13404,6 +13841,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:sword_of_guard": {
+        "file_path": "sword_of_guard.json",
         "file_name": "sword_of_guard.json",
         "lang": {
             "en_US": "The Spirit Of Guard",
@@ -13424,6 +13862,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:sword_of_halloween": {
+        "file_path": "sword_of_halloween.json",
         "file_name": "sword_of_halloween.json",
         "lang": {
             "en_US": "Sword Of Halloween",
@@ -13443,6 +13882,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:tear_from_dream": {
+        "file_path": "tear_from_dream.json",
         "file_name": "tear_from_dream.json",
         "lang": {
             "en_US": "Tear from Dream",
@@ -13462,6 +13902,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:the_blade": {
+        "file_path": "the_blade.json",
         "file_name": "the_blade.json",
         "lang": {
             "en_US": "The Blade",
@@ -13485,6 +13926,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:the_imperial_sword": {
+        "file_path": "the_imperial_sword.json",
         "file_name": "the_imperial_sword.json",
         "lang": {
             "en_US": "the Imperial Sword",
@@ -13507,6 +13949,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:throwable_bomb": {
+        "file_path": "throwable_bomb.json",
         "file_name": "throwable_bomb.json",
         "lang": {
             "en_US": "Throwable Bomb",
@@ -13528,6 +13971,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:thunder_rapier": {
+        "file_path": "thunder_rapier.json",
         "file_name": "thunder_rapier.json",
         "lang": {
             "en_US": "Thunder Rapier",
@@ -13549,6 +13993,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:thunder_staff": {
+        "file_path": "thunder_staff.json",
         "file_name": "thunder_staff.json",
         "lang": {
             "en_US": "Thunder Staff",
@@ -13570,6 +14015,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:time_compass": {
+        "file_path": "time_compass.json",
         "file_name": "time_compass.json",
         "lang": {
             "en_US": "Time Compass",
@@ -13598,6 +14044,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:tofu": {
+        "file_path": "tofu.json",
         "file_name": "tofu.json",
         "lang": {
             "en_US": "Tofu",
@@ -13624,6 +14071,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:tropical_fish": {
+        "file_path": "tropical_fish.json",
         "file_name": "tropical_fish.json",
         "lang": {
             "en_US": "Tropical Fish",
@@ -13635,21 +14083,21 @@ window.AddData = {
             "dec:furnace_tropical_fish"
         ],
         "loot": [
-            "loot_tables/entities/tropicalfish.json",
-            "loot_tables/gameplay/fishing/ocean_fish.json"
+            "loot_tables/gameplay/fishing/ocean_fish.json",
+            "loot_tables/entities/tropicalfish.json"
         ],
         "loot_by_entity": [
-            "minecraft:tropicalfish",
-            "minecraft:fishing_hook"
+            "minecraft:fishing_hook",
+            "minecraft:tropicalfish"
         ],
         "loot_by_entity_lang": {
             "en_US": [
-                "Tropical Fish",
-                "Fishing Hook"
+                "Fishing Hook",
+                "Tropical Fish"
             ],
             "zh_CN": [
-                "\u70ed\u5e26\u9c7c\t",
-                "\u9c7c\u94a9\t"
+                "\u9c7c\u94a9\t",
+                "\u70ed\u5e26\u9c7c\t"
             ]
         },
         "loot_by_block": [],
@@ -13658,6 +14106,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:tropical_fish_cooked": {
+        "file_path": "tropical_fish_cooked.json",
         "file_name": "tropical_fish_cooked.json",
         "lang": {
             "en_US": "Cooked Tropical Fish",
@@ -13677,6 +14126,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:turtle_boots": {
+        "file_path": "turtle_boots.json",
         "file_name": "turtle_boots.json",
         "lang": {
             "en_US": "Turtle Boots",
@@ -13696,6 +14146,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:turtle_chestplate": {
+        "file_path": "turtle_chestplate.json",
         "file_name": "turtle_chestplate.json",
         "lang": {
             "en_US": "Turtle Chestplate",
@@ -13715,6 +14166,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:turtle_leggings": {
+        "file_path": "turtle_leggings.json",
         "file_name": "turtle_leggings.json",
         "lang": {
             "en_US": "Turtle Leggings",
@@ -13734,6 +14186,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:turtle_sword": {
+        "file_path": "turtle_sword.json",
         "file_name": "turtle_sword.json",
         "lang": {
             "en_US": "Turtle Sword",
@@ -13755,6 +14208,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:uniform_clothes": {
+        "file_path": "uniform_clothes.json",
         "file_name": "uniform_clothes.json",
         "lang": {
             "en_US": "Uniform Clothes",
@@ -13783,6 +14237,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:uniform_pants": {
+        "file_path": "uniform_pants.json",
         "file_name": "uniform_pants.json",
         "lang": {
             "en_US": "Uniform Pants",
@@ -13811,6 +14266,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:unknow_book": {
+        "file_path": "unknow_book.json",
         "file_name": "unknow_book.json",
         "lang": {
             "en_US": "Unknow Book",
@@ -13822,28 +14278,28 @@ window.AddData = {
             "dec:lapis_magic_book"
         ],
         "loot": [
-            "loot_tables/chests/monster_room.json",
+            "loot_tables/chests/soul_room_boss.json",
             "loot_tables/blocks/ice_bookshelf.json",
             "loot_tables/chests/abandoned_mineshaft.json",
-            "loot_tables/chests/challenger_tower.json",
-            "loot_tables/gameplay/fishing/junk.json",
-            "loot_tables/chests/nether_bridge.json",
-            "loot_tables/gameplay/fishing/ice_junk.json",
-            "loot_tables/gameplay/fishing/end_thing.json",
             "loot_tables/gameplay/fishing/jungle_junk.json",
-            "loot_tables/chests/jungle_temple.json",
-            "loot_tables/chests/soul_room_boss.json",
-            "loot_tables/chests/soul_room_nor.json",
-            "loot_tables/chests/woodland_mansion.json",
-            "loot_tables/chests/shipwrecktreasure.json",
-            "loot_tables/chests/end_vestiges.json",
-            "loot_tables/chests/simple_dungeon.json",
             "loot_tables/chests/soul_room_har.json",
-            "loot_tables/gameplay/fishing/ocean_junk.json",
-            "loot_tables/chests/desert_pyramid.json",
-            "loot_tables/chests/stronghold_library.json",
+            "loot_tables/chests/jungle_temple.json",
             "loot_tables/chests/underwater_ruin_big.json",
-            "loot_tables/chests/end_city_treasure.json"
+            "loot_tables/chests/soul_room_nor.json",
+            "loot_tables/chests/end_city_treasure.json",
+            "loot_tables/chests/shipwrecktreasure.json",
+            "loot_tables/chests/woodland_mansion.json",
+            "loot_tables/chests/stronghold_library.json",
+            "loot_tables/gameplay/fishing/ocean_junk.json",
+            "loot_tables/gameplay/fishing/ice_junk.json",
+            "loot_tables/chests/challenger_tower.json",
+            "loot_tables/chests/nether_bridge.json",
+            "loot_tables/chests/monster_room.json",
+            "loot_tables/chests/end_vestiges.json",
+            "loot_tables/gameplay/fishing/end_thing.json",
+            "loot_tables/chests/desert_pyramid.json",
+            "loot_tables/chests/simple_dungeon.json",
+            "loot_tables/gameplay/fishing/junk.json"
         ],
         "loot_by_entity": [
             "minecraft:fishing_hook"
@@ -13868,10 +14324,13 @@ window.AddData = {
             ]
         },
         "loot_by_structure": {
-            "challenger_tower": [
+            "soul_room_boss": [
                 "Chest"
             ],
-            "soul_room_boss": [
+            "soul_room_har_1": [
+                "Chest"
+            ],
+            "soul_room_har_2": [
                 "Chest"
             ],
             "soul_room_nor_4": [
@@ -13889,19 +14348,17 @@ window.AddData = {
             "soul_room_stair_5": [
                 "Chest"
             ],
+            "challenger_tower": [
+                "Chest"
+            ],
             "end_vestiges": [
                 "ShulkerBox"
-            ],
-            "soul_room_har_1": [
-                "Chest"
-            ],
-            "soul_room_har_2": [
-                "Chest"
             ]
         },
         "annotation": []
     },
     "dec:uranium": {
+        "file_path": "uranium.json",
         "file_name": "uranium.json",
         "lang": {
             "en_US": "Uranium",
@@ -13945,6 +14402,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:uranium_apple": {
+        "file_path": "uranium_apple.json",
         "file_name": "uranium_apple.json",
         "lang": {
             "en_US": "Uranium Apple",
@@ -13966,6 +14424,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:village_guardian": {
+        "file_path": "village_guardian.json",
         "file_name": "village_guardian.json",
         "lang": {
             "en_US": "Village Guardian",
@@ -13975,13 +14434,13 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
+            "loot_tables/template/weapon/melee_weapon/sword.json",
+            "loot_tables/entities/king_of_pillager.json",
             "loot_tables/chests/tower_of_watcher/weapon.json",
             "loot_tables/chests/village/village_toolsmith.json",
-            "loot_tables/chests/guard_tower.json",
             "loot_tables/chests/village/village_armorer.json",
-            "loot_tables/entities/king_of_pillager.json",
             "loot_tables/chests/village/village_weaponsmith.json",
-            "loot_tables/template/weapon/melee_weapon/sword.json"
+            "loot_tables/chests/guard_tower.json"
         ],
         "loot_by_entity": [
             "dec:king_of_pillager"
@@ -14011,6 +14470,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:void_whispering_dagger": {
+        "file_path": "void_whispering_dagger.json",
         "file_name": "void_whispering_dagger.json",
         "lang": {
             "en_US": "The Void Whispering",
@@ -14020,8 +14480,8 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
-            "loot_tables/template/weapon/melee_weapon/dagger.json",
-            "loot_tables/entities/host_of_deep.json"
+            "loot_tables/entities/host_of_deep.json",
+            "loot_tables/template/weapon/melee_weapon/dagger.json"
         ],
         "loot_by_entity": [
             "dec:host_of_deep_2"
@@ -14040,6 +14500,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:vortex": {
+        "file_path": "vortex.json",
         "file_name": "vortex.json",
         "lang": {
             "en_US": "Vortex",
@@ -14066,6 +14527,7 @@ window.AddData = {
         ]
     },
     "dec:warden_sword": {
+        "file_path": "warden_sword.json",
         "file_name": "warden_sword.json",
         "lang": {
             "en_US": "Warden Sword",
@@ -14075,8 +14537,8 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
-            "loot_tables/entities/warden.json",
-            "loot_tables/template/weapon/melee_weapon/sword.json"
+            "loot_tables/template/weapon/melee_weapon/sword.json",
+            "loot_tables/entities/warden.json"
         ],
         "loot_by_entity": [
             "minecraft:warden"
@@ -14095,6 +14557,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:waste": {
+        "file_path": "waste.json",
         "file_name": "waste.json",
         "lang": {
             "en_US": "Waste",
@@ -14134,6 +14597,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:wave_magic_book": {
+        "file_path": "wave_magic_book.json",
         "file_name": "wave_magic_book.json",
         "lang": {
             "en_US": "Wave Magic Book",
@@ -14156,6 +14620,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:wet_paper": {
+        "file_path": "wet_paper.json",
         "file_name": "wet_paper.json",
         "lang": {
             "en_US": "Wet Paper",
@@ -14178,6 +14643,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:white_shoes": {
+        "file_path": "white_shoes.json",
         "file_name": "white_shoes.json",
         "lang": {
             "en_US": "White Shoes",
@@ -14206,6 +14672,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:white_t_shirt": {
+        "file_path": "white_t_shirt.json",
         "file_name": "white_t_shirt.json",
         "lang": {
             "en_US": "White T Shirt",
@@ -14234,6 +14701,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:wind_dagger": {
+        "file_path": "wind_dagger.json",
         "file_name": "wind_dagger.json",
         "lang": {
             "en_US": "Wind Dagger",
@@ -14255,6 +14723,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:wind_of_shadow": {
+        "file_path": "wind_of_shadow.json",
         "file_name": "wind_of_shadow.json",
         "lang": {
             "en_US": "Wind Of Shadow",
@@ -14284,6 +14753,7 @@ window.AddData = {
         ]
     },
     "dec:wine_glass": {
+        "file_path": "wine_glass.json",
         "file_name": "wine_glass.json",
         "lang": {
             "en_US": "Wine Glass",
@@ -14312,6 +14782,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:wings_from_deep": {
+        "file_path": "wings_from_deep.json",
         "file_name": "wings_from_deep.json",
         "lang": {
             "en_US": "Wings From Deep",
@@ -14329,6 +14800,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:witch_hat": {
+        "file_path": "witch_hat.json",
         "file_name": "witch_hat.json",
         "lang": {
             "en_US": "Witch Hat",
@@ -14357,6 +14829,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:wither_substance": {
+        "file_path": "wither_substance.json",
         "file_name": "wither_substance.json",
         "lang": {
             "en_US": "Wither Substance",
@@ -14370,9 +14843,9 @@ window.AddData = {
             "dec:skull1"
         ],
         "loot": [
-            "loot_tables/tasks/039.json",
             "loot_tables/entities/warped_skeleton.json",
-            "loot_tables/entities/wither_skeleton.json"
+            "loot_tables/entities/wither_skeleton.json",
+            "loot_tables/tasks/039.json"
         ],
         "loot_by_entity": [
             "dec:warped_skeleton",
@@ -14394,6 +14867,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:wooden_dagger": {
+        "file_path": "wooden_dagger.json",
         "file_name": "wooden_dagger.json",
         "lang": {
             "en_US": "Wooden Dagger",
@@ -14427,6 +14901,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:wooden_enchant_book": {
+        "file_path": "wooden_enchant_book.json",
         "file_name": "wooden_enchant_book.json",
         "lang": {
             "en_US": "Wooden Enchant Book",
@@ -14436,8 +14911,8 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
-            "loot_tables/entities/enchant_illager.json",
-            "loot_tables/template/weapon/summon_weapon/summon_weapon.json"
+            "loot_tables/template/weapon/summon_weapon/summon_weapon.json",
+            "loot_tables/entities/enchant_illager.json"
         ],
         "loot_by_entity": [
             "dec:enchant_illager_2"
@@ -14456,6 +14931,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:wooden_staff": {
+        "file_path": "wooden_staff.json",
         "file_name": "wooden_staff.json",
         "lang": {
             "en_US": "Wooden Staff",
@@ -14469,8 +14945,8 @@ window.AddData = {
             "dec:energy_ray_staff"
         ],
         "loot": [
-            "loot_tables/entities/skeleton_wizard_gear.json",
-            "loot_tables/template/weapon/magic_weapon/staff.json"
+            "loot_tables/template/weapon/magic_weapon/staff.json",
+            "loot_tables/entities/skeleton_wizard_gear.json"
         ],
         "loot_by_entity": [
             "dec:skeleton_wizard"
@@ -14489,6 +14965,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:wood_boots": {
+        "file_path": "wood_boots.json",
         "file_name": "wood_boots.json",
         "lang": {
             "en_US": "Wood Boots",
@@ -14528,6 +15005,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:wood_chestplate": {
+        "file_path": "wood_chestplate.json",
         "file_name": "wood_chestplate.json",
         "lang": {
             "en_US": "Wood Chestplate",
@@ -14567,6 +15045,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:wood_dart": {
+        "file_path": "wood_dart.json",
         "file_name": "wood_dart.json",
         "lang": {
             "en_US": "Wood Dart",
@@ -14589,6 +15068,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:wood_helmet": {
+        "file_path": "wood_helmet.json",
         "file_name": "wood_helmet.json",
         "lang": {
             "en_US": "Wood Helmet",
@@ -14628,6 +15108,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:wood_leggings": {
+        "file_path": "wood_leggings.json",
         "file_name": "wood_leggings.json",
         "lang": {
             "en_US": "Wood Leggings",
@@ -14667,6 +15148,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:yellow_jellyfish": {
+        "file_path": "yellow_jellyfish.json",
         "file_name": "yellow_jellyfish.json",
         "lang": {
             "en_US": "Yellow Jellyfish",
@@ -14695,6 +15177,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:zombie_brain": {
+        "file_path": "zombie_brain.json",
         "file_name": "zombie_brain.json",
         "lang": {
             "en_US": "Zombie Brain",
@@ -14708,21 +15191,24 @@ window.AddData = {
             "dec:furnace_zombie_brain"
         ],
         "loot": [
-            "loot_tables/entities/swamp_drowned.json",
-            "loot_tables/entities/zombie.json",
-            "loot_tables/chests/simple_dungeon.json",
-            "loot_tables/gameplay/fishing/ocean_junk.json",
-            "loot_tables/entities/zombie_pigman.json",
-            "loot_tables/gameplay/fishing/ice_junk.json",
+            "loot_tables/entities/blood_zombie.json",
+            "loot_tables/entities/mummy.json",
             "loot_tables/entities/ice_zombie.json",
             "loot_tables/entities/lurk_zombie.json",
-            "loot_tables/entities/drowned.json",
-            "loot_tables/entities/mummy.json",
-            "loot_tables/entities/blood_zombie.json",
-            "loot_tables/gameplay/fishing/junk.json"
+            "loot_tables/gameplay/fishing/ice_junk.json",
+            "loot_tables/entities/zombie_pigman.json",
+            "loot_tables/gameplay/fishing/ocean_junk.json",
+            "loot_tables/entities/zombie.json",
+            "loot_tables/chests/simple_dungeon.json",
+            "loot_tables/entities/swamp_drowned.json",
+            "loot_tables/gameplay/fishing/junk.json",
+            "loot_tables/entities/drowned.json"
         ],
         "loot_by_entity": [
-            "dec:swamp_drowned",
+            "dec:mummy",
+            "dec:ice_zombie",
+            "dec:lurk_zombie",
+            "minecraft:fishing_hook",
             "dec:mushroom_zombie",
             "dec:watcher",
             "minecraft:zombie",
@@ -14731,14 +15217,14 @@ window.AddData = {
             "minecraft:husk",
             "minecraft:zombie_villager",
             "minecraft:zombie_villager_v2",
-            "minecraft:fishing_hook",
-            "dec:ice_zombie",
-            "dec:lurk_zombie",
-            "dec:mummy"
+            "dec:swamp_drowned"
         ],
         "loot_by_entity_lang": {
             "en_US": [
-                "Swamp Drowned",
+                "Mummy",
+                "Ice Zombie",
+                "Lurk Zombie",
+                "Fishing Hook",
                 "Mushroom Zombie",
                 "Watcher",
                 "Zombie",
@@ -14747,13 +15233,13 @@ window.AddData = {
                 "Husk",
                 "Zombie Villager",
                 "Zombie Villager",
-                "Fishing Hook",
-                "Ice Zombie",
-                "Lurk Zombie",
-                "Mummy"
+                "Swamp Drowned"
             ],
             "zh_CN": [
-                "\u6de4\u9ab8",
+                "\u6728\u4e43\u4f0a",
+                "\u5bd2\u51b0\u50f5\u5c38",
+                "\u6f5c\u58f0\u50f5\u5c38",
+                "\u9c7c\u94a9\t",
                 "\u771f\u83cc\u50f5\u5c38",
                 "\u770b\u5b88\u8005",
                 "\u50f5\u5c38\t",
@@ -14762,10 +15248,7 @@ window.AddData = {
                 "\u5c38\u58f3\t",
                 "\u50f5\u5c38\u6751\u6c11\t",
                 "\u602a\u4eba\u6751\u6c11\t",
-                "\u9c7c\u94a9\t",
-                "\u5bd2\u51b0\u50f5\u5c38",
-                "\u6f5c\u58f0\u50f5\u5c38",
-                "\u6728\u4e43\u4f0a"
+                "\u6de4\u9ab8"
             ]
         },
         "loot_by_block": [],
@@ -14774,6 +15257,7 @@ window.AddData = {
         "annotation": []
     },
     "dec:zombie_fish": {
+        "file_path": "zombie_fish.json",
         "file_name": "zombie_fish.json",
         "lang": {
             "en_US": "Zommbie Fish",
@@ -14809,6 +15293,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:conveyor_issue": {
+        "file_path": "1_x\\conveyor_issue.json",
         "file_name": "conveyor_issue.json",
         "lang": {
             "en_US": "Teleport Stone [Teleport]",
@@ -14828,6 +15313,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:currency_1": {
+        "file_path": "1_x\\currency_1.json",
         "file_name": "currency_1.json",
         "lang": {
             "en_US": "Yellow Gem",
@@ -14845,6 +15331,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:currency_2": {
+        "file_path": "1_x\\currency_2.json",
         "file_name": "currency_2.json",
         "lang": {
             "en_US": "Blue Gem",
@@ -14862,6 +15349,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:currency_3": {
+        "file_path": "1_x\\currency_3.json",
         "file_name": "currency_3.json",
         "lang": {
             "en_US": "Purple Gem",
@@ -14879,6 +15367,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:currency_4": {
+        "file_path": "1_x\\currency_4.json",
         "file_name": "currency_4.json",
         "lang": {
             "en_US": "Ruby",
@@ -14896,6 +15385,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:staff_barrier": {
+        "file_path": "1_x\\staff_barrier.json",
         "file_name": "staff_barrier.json",
         "lang": {
             "en_US": "Barrier Staff",
@@ -14915,6 +15405,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:start_key": {
+        "file_path": "1_x\\start_key.json",
         "file_name": "start_key.json",
         "lang": {
             "en_US": "Starting Key",
@@ -14934,6 +15425,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:message": {
+        "file_path": "2_x\\message.json",
         "file_name": "message.json",
         "lang": {
             "en_US": "A piece of paper, use Multifunctional Summon Table to read it",
@@ -14953,6 +15445,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:particle_flame": {
+        "file_path": "2_x\\particle_flame.json",
         "file_name": "particle_flame.json",
         "lang": {
             "en_US": "Fire Particles",
@@ -14972,6 +15465,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:particle_halo": {
+        "file_path": "2_x\\particle_halo.json",
         "file_name": "particle_halo.json",
         "lang": {
             "en_US": "Halo Particles",
@@ -14991,6 +15485,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:particle_love": {
+        "file_path": "2_x\\particle_love.json",
         "file_name": "particle_love.json",
         "lang": {
             "en_US": "Heart Particles",
@@ -15010,6 +15505,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:particle_rune": {
+        "file_path": "2_x\\particle_rune.json",
         "file_name": "particle_rune.json",
         "lang": {
             "en_US": "Texts Particles",
@@ -15029,6 +15525,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:particle_store": {
+        "file_path": "2_x\\particle_store.json",
         "file_name": "particle_store.json",
         "lang": {
             "en_US": "Particle Settings",
@@ -15048,6 +15545,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:staff_frost": {
+        "file_path": "2_x\\staff_frost.json",
         "file_name": "staff_frost.json",
         "lang": {
             "en_US": "Frozen Wand",
@@ -15067,6 +15565,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:staff_light": {
+        "file_path": "2_x\\staff_light.json",
         "file_name": "staff_light.json",
         "lang": {
             "en_US": "Shining Wand",
@@ -15086,6 +15585,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:power": {
+        "file_path": "3_x\\power.json",
         "file_name": "power.json",
         "lang": {
             "en_US": "Status viewer",
@@ -15105,6 +15605,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:staff_fire": {
+        "file_path": "3_x\\staff_fire.json",
         "file_name": "staff_fire.json",
         "lang": {
             "en_US": "Blaze Wand",
@@ -15126,6 +15627,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:staff_summon": {
+        "file_path": "3_x\\staff_summon.json",
         "file_name": "staff_summon.json",
         "lang": {
             "en_US": "God Wand",
@@ -15145,6 +15647,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:staff_wind": {
+        "file_path": "3_x\\staff_wind.json",
         "file_name": "staff_wind.json",
         "lang": {
             "en_US": "Wind Wand",
@@ -15164,6 +15667,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_bloodsucking_f": {
+        "file_path": "3_x\\sword_bloodsucking_f.json",
         "file_name": "sword_bloodsucking_f.json",
         "lang": {
             "en_US": "Bloodthirsty sword",
@@ -15183,6 +15687,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_bluemark": {
+        "file_path": "3_x\\sword_bluemark.json",
         "file_name": "sword_bluemark.json",
         "lang": {
             "en_US": "Sword of the Sword congratulations to discovering eggs!This addon is Supported by B.M.S Blue Market Studio",
@@ -15202,6 +15707,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_forget_f": {
+        "file_path": "3_x\\sword_forget_f.json",
         "file_name": "sword_forget_f.json",
         "lang": {
             "en_US": "Forgotten Sword",
@@ -15221,6 +15727,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_guard": {
+        "file_path": "3_x\\sword_guard.json",
         "file_name": "sword_guard.json",
         "lang": {
             "en_US": "Guardian Sword",
@@ -15240,6 +15747,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_ink_f": {
+        "file_path": "3_x\\sword_ink_f.json",
         "file_name": "sword_ink_f.json",
         "lang": {
             "en_US": "Ink Sword",
@@ -15259,6 +15767,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_seal_f": {
+        "file_path": "3_x\\sword_seal_f.json",
         "file_name": "sword_seal_f.json",
         "lang": {
             "en_US": "Seal Sword",
@@ -15278,6 +15787,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_water_f": {
+        "file_path": "3_x\\sword_water_f.json",
         "file_name": "sword_water_f.json",
         "lang": {
             "en_US": "Rain Curtain Sword",
@@ -15297,6 +15807,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:staff_burn": {
+        "file_path": "5_x\\staff_burn.json",
         "file_name": "staff_burn.json",
         "lang": {
             "en_US": "Lv.82 Burning Wand",
@@ -15316,6 +15827,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:staff_governor": {
+        "file_path": "5_x\\staff_governor.json",
         "file_name": "staff_governor.json",
         "lang": {
             "en_US": "LV.100 [Trailer] Staff of the Governor",
@@ -15333,6 +15845,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_fly": {
+        "file_path": "5_x\\sword_fly.json",
         "file_name": "sword_fly.json",
         "lang": {
             "en_US": "Lv.82 Ling Emperor Divine Sword",
@@ -15352,6 +15865,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_intentions": {
+        "file_path": "5_x\\sword_intentions.json",
         "file_name": "sword_intentions.json",
         "lang": {
             "en_US": "The Ultimate Psychokinesis Sword",
@@ -15361,8 +15875,8 @@ window.AddData = {
         "rec": [],
         "ingredient": [],
         "loot": [
-            "loot_tables/wb/5_x/intentions.json",
-            "loot_tables/wb_item/sword_intentions.json"
+            "loot_tables/wb_item/sword_intentions.json",
+            "loot_tables/wb/5_x/intentions.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -15372,6 +15886,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_ink_g": {
+        "file_path": "6_x\\sword_ink_g.json",
         "file_name": "sword_ink_g.json",
         "lang": {
             "en_US": "[Trailer] Passing Shadow ink marks",
@@ -15389,6 +15904,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_bloodsucking_boots": {
+        "file_path": "armor\\armor_bloodsucking_boots.json",
         "file_name": "armor_bloodsucking_boots.json",
         "lang": {
             "en_US": "bloodsucking boots",
@@ -15410,6 +15926,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_bloodsucking_chestplate": {
+        "file_path": "armor\\armor_bloodsucking_chestplate.json",
         "file_name": "armor_bloodsucking_chestplate.json",
         "lang": {
             "en_US": "bloodsucking chestplate",
@@ -15431,6 +15948,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_bloodsucking_helmet": {
+        "file_path": "armor\\armor_bloodsucking_helmet.json",
         "file_name": "armor_bloodsucking_helmet.json",
         "lang": {
             "en_US": "bloodsucking helmet",
@@ -15452,6 +15970,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_bloodsucking_leggings": {
+        "file_path": "armor\\armor_bloodsucking_leggings.json",
         "file_name": "armor_bloodsucking_leggings.json",
         "lang": {
             "en_US": "bloodsucking leggings",
@@ -15473,6 +15992,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_equipment_boots": {
+        "file_path": "armor\\armor_equipment_boots.json",
         "file_name": "armor_equipment_boots.json",
         "lang": {
             "en_US": "equipment boots",
@@ -15494,6 +16014,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_equipment_chestplate": {
+        "file_path": "armor\\armor_equipment_chestplate.json",
         "file_name": "armor_equipment_chestplate.json",
         "lang": {
             "en_US": "equipment chestplate",
@@ -15515,6 +16036,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_equipment_helmet": {
+        "file_path": "armor\\armor_equipment_helmet.json",
         "file_name": "armor_equipment_helmet.json",
         "lang": {
             "en_US": "equipment helmet",
@@ -15536,6 +16058,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_equipment_leggings": {
+        "file_path": "armor\\armor_equipment_leggings.json",
         "file_name": "armor_equipment_leggings.json",
         "lang": {
             "en_US": "equipment leggings",
@@ -15557,6 +16080,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_forget_boots": {
+        "file_path": "armor\\armor_forget_boots.json",
         "file_name": "armor_forget_boots.json",
         "lang": {
             "en_US": "forget boots",
@@ -15578,6 +16102,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_forget_chestplate": {
+        "file_path": "armor\\armor_forget_chestplate.json",
         "file_name": "armor_forget_chestplate.json",
         "lang": {
             "en_US": "forget chestplate",
@@ -15599,6 +16124,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_forget_helmet": {
+        "file_path": "armor\\armor_forget_helmet.json",
         "file_name": "armor_forget_helmet.json",
         "lang": {
             "en_US": "forget helmet",
@@ -15620,6 +16146,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_forget_leggings": {
+        "file_path": "armor\\armor_forget_leggings.json",
         "file_name": "armor_forget_leggings.json",
         "lang": {
             "en_US": "forget leggings",
@@ -15641,6 +16168,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_ink_boots": {
+        "file_path": "armor\\armor_ink_boots.json",
         "file_name": "armor_ink_boots.json",
         "lang": {
             "en_US": "ink boots",
@@ -15662,6 +16190,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_ink_chestplate": {
+        "file_path": "armor\\armor_ink_chestplate.json",
         "file_name": "armor_ink_chestplate.json",
         "lang": {
             "en_US": "ink chestplate",
@@ -15683,6 +16212,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_ink_helmet": {
+        "file_path": "armor\\armor_ink_helmet.json",
         "file_name": "armor_ink_helmet.json",
         "lang": {
             "en_US": "ink helmet",
@@ -15704,6 +16234,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_ink_leggings": {
+        "file_path": "armor\\armor_ink_leggings.json",
         "file_name": "armor_ink_leggings.json",
         "lang": {
             "en_US": "ink leggings",
@@ -15725,6 +16256,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_seal_boots": {
+        "file_path": "armor\\armor_seal_boots.json",
         "file_name": "armor_seal_boots.json",
         "lang": {
             "en_US": "seal boots",
@@ -15746,6 +16278,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_seal_chestplate": {
+        "file_path": "armor\\armor_seal_chestplate.json",
         "file_name": "armor_seal_chestplate.json",
         "lang": {
             "en_US": "seal chestplate",
@@ -15767,6 +16300,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_seal_helmet": {
+        "file_path": "armor\\armor_seal_helmet.json",
         "file_name": "armor_seal_helmet.json",
         "lang": {
             "en_US": "seal helmet",
@@ -15788,6 +16322,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_seal_leggings": {
+        "file_path": "armor\\armor_seal_leggings.json",
         "file_name": "armor_seal_leggings.json",
         "lang": {
             "en_US": "seal leggings",
@@ -15809,6 +16344,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_senior_bloodsucking_boots": {
+        "file_path": "armor\\armor_senior_bloodsucking_boots.json",
         "file_name": "armor_senior_bloodsucking_boots.json",
         "lang": {
             "en_US": "senior_bloodsucking boots",
@@ -15828,6 +16364,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_senior_bloodsucking_chestplate": {
+        "file_path": "armor\\armor_senior_bloodsucking_chestplate.json",
         "file_name": "armor_senior_bloodsucking_chestplate.json",
         "lang": {
             "en_US": "senior_bloodsucking chestplate",
@@ -15847,6 +16384,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_senior_bloodsucking_helmet": {
+        "file_path": "armor\\armor_senior_bloodsucking_helmet.json",
         "file_name": "armor_senior_bloodsucking_helmet.json",
         "lang": {
             "en_US": "senior_bloodsucking helmet",
@@ -15866,6 +16404,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_senior_bloodsucking_leggings": {
+        "file_path": "armor\\armor_senior_bloodsucking_leggings.json",
         "file_name": "armor_senior_bloodsucking_leggings.json",
         "lang": {
             "en_US": "senior_bloodsucking leggings",
@@ -15885,6 +16424,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_senior_equipment_boots": {
+        "file_path": "armor\\armor_senior_equipment_boots.json",
         "file_name": "armor_senior_equipment_boots.json",
         "lang": {
             "en_US": "senior_equipment boots",
@@ -15904,6 +16444,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_senior_equipment_chestplate": {
+        "file_path": "armor\\armor_senior_equipment_chestplate.json",
         "file_name": "armor_senior_equipment_chestplate.json",
         "lang": {
             "en_US": "senior_equipment chestplate",
@@ -15923,6 +16464,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_senior_equipment_helmet": {
+        "file_path": "armor\\armor_senior_equipment_helmet.json",
         "file_name": "armor_senior_equipment_helmet.json",
         "lang": {
             "en_US": "senior_equipment helmet",
@@ -15942,6 +16484,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_senior_equipment_leggings": {
+        "file_path": "armor\\armor_senior_equipment_leggings.json",
         "file_name": "armor_senior_equipment_leggings.json",
         "lang": {
             "en_US": "senior_equipment leggings",
@@ -15961,6 +16504,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_senior_forget_boots": {
+        "file_path": "armor\\armor_senior_forget_boots.json",
         "file_name": "armor_senior_forget_boots.json",
         "lang": {
             "en_US": "senior_forget boots",
@@ -15980,6 +16524,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_senior_forget_chestplate": {
+        "file_path": "armor\\armor_senior_forget_chestplate.json",
         "file_name": "armor_senior_forget_chestplate.json",
         "lang": {
             "en_US": "senior_forget chestplate",
@@ -15999,6 +16544,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_senior_forget_helmet": {
+        "file_path": "armor\\armor_senior_forget_helmet.json",
         "file_name": "armor_senior_forget_helmet.json",
         "lang": {
             "en_US": "senior_forget helmet",
@@ -16018,6 +16564,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_senior_forget_leggings": {
+        "file_path": "armor\\armor_senior_forget_leggings.json",
         "file_name": "armor_senior_forget_leggings.json",
         "lang": {
             "en_US": "senior_forget leggings",
@@ -16037,6 +16584,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_senior_ink_boots": {
+        "file_path": "armor\\armor_senior_ink_boots.json",
         "file_name": "armor_senior_ink_boots.json",
         "lang": {
             "en_US": "senior_ink boots",
@@ -16056,6 +16604,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_senior_ink_chestplate": {
+        "file_path": "armor\\armor_senior_ink_chestplate.json",
         "file_name": "armor_senior_ink_chestplate.json",
         "lang": {
             "en_US": "senior_ink chestplate",
@@ -16075,6 +16624,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_senior_ink_helmet": {
+        "file_path": "armor\\armor_senior_ink_helmet.json",
         "file_name": "armor_senior_ink_helmet.json",
         "lang": {
             "en_US": "senior_ink helmet",
@@ -16094,6 +16644,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_senior_ink_leggings": {
+        "file_path": "armor\\armor_senior_ink_leggings.json",
         "file_name": "armor_senior_ink_leggings.json",
         "lang": {
             "en_US": "senior_ink leggings",
@@ -16113,6 +16664,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_senior_seal_boots": {
+        "file_path": "armor\\armor_senior_seal_boots.json",
         "file_name": "armor_senior_seal_boots.json",
         "lang": {
             "en_US": "senior_seal boots",
@@ -16132,6 +16684,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_senior_seal_chestplate": {
+        "file_path": "armor\\armor_senior_seal_chestplate.json",
         "file_name": "armor_senior_seal_chestplate.json",
         "lang": {
             "en_US": "senior_seal chestplate",
@@ -16151,6 +16704,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_senior_seal_helmet": {
+        "file_path": "armor\\armor_senior_seal_helmet.json",
         "file_name": "armor_senior_seal_helmet.json",
         "lang": {
             "en_US": "senior_seal helmet",
@@ -16170,6 +16724,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_senior_seal_leggings": {
+        "file_path": "armor\\armor_senior_seal_leggings.json",
         "file_name": "armor_senior_seal_leggings.json",
         "lang": {
             "en_US": "senior_seal leggings",
@@ -16189,6 +16744,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_senior_water_boots": {
+        "file_path": "armor\\armor_senior_water_boots.json",
         "file_name": "armor_senior_water_boots.json",
         "lang": {
             "en_US": "senior_water boots",
@@ -16208,6 +16764,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_senior_water_chestplate": {
+        "file_path": "armor\\armor_senior_water_chestplate.json",
         "file_name": "armor_senior_water_chestplate.json",
         "lang": {
             "en_US": "senior_water chestplate",
@@ -16227,6 +16784,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_senior_water_helmet": {
+        "file_path": "armor\\armor_senior_water_helmet.json",
         "file_name": "armor_senior_water_helmet.json",
         "lang": {
             "en_US": "senior_water helmet",
@@ -16246,6 +16804,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_senior_water_leggings": {
+        "file_path": "armor\\armor_senior_water_leggings.json",
         "file_name": "armor_senior_water_leggings.json",
         "lang": {
             "en_US": "senior_water leggings",
@@ -16265,6 +16824,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_water_boots": {
+        "file_path": "armor\\armor_water_boots.json",
         "file_name": "armor_water_boots.json",
         "lang": {
             "en_US": "water boots",
@@ -16286,6 +16846,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_water_chestplate": {
+        "file_path": "armor\\armor_water_chestplate.json",
         "file_name": "armor_water_chestplate.json",
         "lang": {
             "en_US": "water chestplate",
@@ -16307,6 +16868,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_water_helmet": {
+        "file_path": "armor\\armor_water_helmet.json",
         "file_name": "armor_water_helmet.json",
         "lang": {
             "en_US": "water helmet",
@@ -16328,6 +16890,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:armor_water_leggings": {
+        "file_path": "armor\\armor_water_leggings.json",
         "file_name": "armor_water_leggings.json",
         "lang": {
             "en_US": "water leggings",
@@ -16349,6 +16912,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:axex_equipment_a": {
+        "file_path": "base\\axex_equipment_a.json",
         "file_name": "axex_equipment_a.json",
         "lang": {
             "en_US": "MagicAX",
@@ -16368,6 +16932,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:base_core_a": {
+        "file_path": "base\\base_core_a.json",
         "file_name": "base_core_a.json",
         "lang": {
             "en_US": "Simple Magic Core\t",
@@ -16390,6 +16955,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:base_core_b": {
+        "file_path": "base\\base_core_b.json",
         "file_name": "base_core_b.json",
         "lang": {
             "en_US": "Normal Magic Core\t",
@@ -16413,6 +16979,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:base_core_c": {
+        "file_path": "base\\base_core_c.json",
         "file_name": "base_core_c.json",
         "lang": {
             "en_US": "Exquisite Magic Core\t",
@@ -16435,6 +17002,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:base_core_d": {
+        "file_path": "base\\base_core_d.json",
         "file_name": "base_core_d.json",
         "lang": {
             "en_US": "Pro Magic Core\t",
@@ -16459,6 +17027,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:base_core_e": {
+        "file_path": "base\\base_core_e.json",
         "file_name": "base_core_e.json",
         "lang": {
             "en_US": "Master Magic Core\t",
@@ -16480,6 +17049,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:base_core_f": {
+        "file_path": "base\\base_core_f.json",
         "file_name": "base_core_f.json",
         "lang": {
             "en_US": "Shining Magic Core\t",
@@ -16501,6 +17071,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:base_core_g": {
+        "file_path": "base\\base_core_g.json",
         "file_name": "base_core_g.json",
         "lang": {
             "en_US": "God Magic Core\t",
@@ -16523,6 +17094,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:book_cache": {
+        "file_path": "base\\book_cache.json",
         "file_name": "book_cache.json",
         "lang": {
             "en_US": "wb:book_cache",
@@ -16542,6 +17114,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:crystal_evolution": {
+        "file_path": "base\\crystal_evolution.json",
         "file_name": "crystal_evolution.json",
         "lang": {
             "en_US": "Crafting Gem\t",
@@ -16569,6 +17142,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:crystal_fuse": {
+        "file_path": "base\\crystal_fuse.json",
         "file_name": "crystal_fuse.json",
         "lang": {
             "en_US": "Fusion Gem\t",
@@ -16618,6 +17192,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:element_base": {
+        "file_path": "base\\element_base.json",
         "file_name": "element_base.json",
         "lang": {
             "en_US": "Basical Magic Power",
@@ -16647,6 +17222,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:element_bluemark": {
+        "file_path": "base\\element_bluemark.json",
         "file_name": "element_bluemark.json",
         "lang": {
             "en_US": "Lv.? BlueMark logo That's an Easter Egg! This addon is popularized by BMS: BlueMarkStudio.\t",
@@ -16668,6 +17244,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:element_bright": {
+        "file_path": "base\\element_bright.json",
         "file_name": "element_bright.json",
         "lang": {
             "en_US": "Light Power\t",
@@ -16689,6 +17266,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:element_flame": {
+        "file_path": "base\\element_flame.json",
         "file_name": "element_flame.json",
         "lang": {
             "en_US": "wb:element_flame",
@@ -16703,8 +17281,8 @@ window.AddData = {
             "wb:staff_burn"
         ],
         "loot": [
-            "loot_tables/wb/3_x/headless_guard.json",
-            "loot_tables/wb/4_x/ancient_stone.json"
+            "loot_tables/wb/4_x/ancient_stone.json",
+            "loot_tables/wb/3_x/headless_guard.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -16714,6 +17292,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:element_frost": {
+        "file_path": "base\\element_frost.json",
         "file_name": "element_frost.json",
         "lang": {
             "en_US": "Ice Power\t",
@@ -16737,6 +17316,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:element_soil": {
+        "file_path": "base\\element_soil.json",
         "file_name": "element_soil.json",
         "lang": {
             "en_US": "Earth Power\t",
@@ -16760,6 +17340,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:element_summon": {
+        "file_path": "base\\element_summon.json",
         "file_name": "element_summon.json",
         "lang": {
             "en_US": "God Power\t",
@@ -16781,6 +17362,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:element_wind": {
+        "file_path": "base\\element_wind.json",
         "file_name": "element_wind.json",
         "lang": {
             "en_US": "Wind Power\t",
@@ -16803,6 +17385,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:mineral_energy_boundary": {
+        "file_path": "base\\mineral_energy_boundary.json",
         "file_name": "mineral_energy_boundary.json",
         "lang": {
             "en_US": "Ruby Ingot [Normal]",
@@ -16835,6 +17418,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:mineral_energy_seal": {
+        "file_path": "base\\mineral_energy_seal.json",
         "file_name": "mineral_energy_seal.json",
         "lang": {
             "en_US": "Ashes Ingot [Normal]",
@@ -16867,6 +17451,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:mineral_energy_water": {
+        "file_path": "base\\mineral_energy_water.json",
         "file_name": "mineral_energy_water.json",
         "lang": {
             "en_US": "Water Ingot [Normal]",
@@ -16899,6 +17484,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:mineral_magic_barrier": {
+        "file_path": "base\\mineral_magic_barrier.json",
         "file_name": "mineral_magic_barrier.json",
         "lang": {
             "en_US": "Dimension Ingot [Normal]",
@@ -16924,6 +17510,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:mineral_magic_equipment": {
+        "file_path": "base\\mineral_magic_equipment.json",
         "file_name": "mineral_magic_equipment.json",
         "lang": {
             "en_US": "Magic Ingot [Normal]",
@@ -16958,6 +17545,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:mineral_magic_forget": {
+        "file_path": "base\\mineral_magic_forget.json",
         "file_name": "mineral_magic_forget.json",
         "lang": {
             "en_US": "Forgotten Ingot [Normal]",
@@ -16990,6 +17578,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:mineral_magic_ink": {
+        "file_path": "base\\mineral_magic_ink.json",
         "file_name": "mineral_magic_ink.json",
         "lang": {
             "en_US": "Ink Ingot [Normal]",
@@ -17022,6 +17611,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:mineral_senior_boundary": {
+        "file_path": "base\\mineral_senior_boundary.json",
         "file_name": "mineral_senior_boundary.json",
         "lang": {
             "en_US": "Ruby Ingot [Exquisite]",
@@ -17053,6 +17643,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:mineral_senior_equipment": {
+        "file_path": "base\\mineral_senior_equipment.json",
         "file_name": "mineral_senior_equipment.json",
         "lang": {
             "en_US": "Magic Ingot[Exquisite]",
@@ -17079,8 +17670,8 @@ window.AddData = {
             "wb:staff_base"
         ],
         "loot": [
-            "loot_tables/wb/5_x/intentions.json",
-            "loot_tables/wb/4_x/ancient_stone.json"
+            "loot_tables/wb/4_x/ancient_stone.json",
+            "loot_tables/wb/5_x/intentions.json"
         ],
         "loot_by_entity": [],
         "loot_by_entity_lang": {},
@@ -17090,6 +17681,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:mineral_senior_forget": {
+        "file_path": "base\\mineral_senior_forget.json",
         "file_name": "mineral_senior_forget.json",
         "lang": {
             "en_US": "Forgotten Ingot [Exquisite]",
@@ -17121,6 +17713,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:mineral_senior_ink": {
+        "file_path": "base\\mineral_senior_ink.json",
         "file_name": "mineral_senior_ink.json",
         "lang": {
             "en_US": "Ink Ingot [Exquisite]",
@@ -17152,6 +17745,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:mineral_senior_seal": {
+        "file_path": "base\\mineral_senior_seal.json",
         "file_name": "mineral_senior_seal.json",
         "lang": {
             "en_US": "Ashes Ingot [Exquisite]",
@@ -17183,6 +17777,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:mineral_senior_water": {
+        "file_path": "base\\mineral_senior_water.json",
         "file_name": "mineral_senior_water.json",
         "lang": {
             "en_US": "Water Ingot [Exquisite]",
@@ -17214,6 +17809,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:pickaxex_equipment_a": {
+        "file_path": "base\\pickaxex_equipment_a.json",
         "file_name": "pickaxex_equipment_a.json",
         "lang": {
             "en_US": "Magic pickaxe",
@@ -17233,6 +17829,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:skill_tracking_arrow": {
+        "file_path": "base\\skill_tracking_arrow.json",
         "file_name": "skill_tracking_arrow.json",
         "lang": {
             "en_US": "wb:skill_tracking_arrow",
@@ -17250,6 +17847,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:staff_base": {
+        "file_path": "base\\staff_base.json",
         "file_name": "staff_base.json",
         "lang": {
             "en_US": "Base of Wand\t",
@@ -17279,6 +17877,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_bloodsucking_a": {
+        "file_path": "base\\sword_bloodsucking_a.json",
         "file_name": "sword_bloodsucking_a.json",
         "lang": {
             "en_US": "Bloodthirsty Sword",
@@ -17300,6 +17899,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_bloodsucking_b": {
+        "file_path": "base\\sword_bloodsucking_b.json",
         "file_name": "sword_bloodsucking_b.json",
         "lang": {
             "en_US": "Bloodthirsty Sword",
@@ -17321,6 +17921,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_bloodsucking_c": {
+        "file_path": "base\\sword_bloodsucking_c.json",
         "file_name": "sword_bloodsucking_c.json",
         "lang": {
             "en_US": "Bloodthirsty Sword",
@@ -17342,6 +17943,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_bloodsucking_d": {
+        "file_path": "base\\sword_bloodsucking_d.json",
         "file_name": "sword_bloodsucking_d.json",
         "lang": {
             "en_US": "Bloodthirsty Sword",
@@ -17363,6 +17965,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_bloodsucking_e": {
+        "file_path": "base\\sword_bloodsucking_e.json",
         "file_name": "sword_bloodsucking_e.json",
         "lang": {
             "en_US": "Bloodthirsty Sword",
@@ -17384,6 +17987,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_equipment_a": {
+        "file_path": "base\\sword_equipment_a.json",
         "file_name": "sword_equipment_a.json",
         "lang": {
             "en_US": "Magic Sword",
@@ -17405,6 +18009,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_equipment_b": {
+        "file_path": "base\\sword_equipment_b.json",
         "file_name": "sword_equipment_b.json",
         "lang": {
             "en_US": "Magic Sword",
@@ -17426,6 +18031,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_equipment_c": {
+        "file_path": "base\\sword_equipment_c.json",
         "file_name": "sword_equipment_c.json",
         "lang": {
             "en_US": "Magic Sword",
@@ -17445,6 +18051,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_flashlight": {
+        "file_path": "base\\sword_flashlight.json",
         "file_name": "sword_flashlight.json",
         "lang": {
             "en_US": "wb:sword_flashlight",
@@ -17462,6 +18069,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_forget_a": {
+        "file_path": "base\\sword_forget_a.json",
         "file_name": "sword_forget_a.json",
         "lang": {
             "en_US": "forgotten sword",
@@ -17483,6 +18091,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_forget_b": {
+        "file_path": "base\\sword_forget_b.json",
         "file_name": "sword_forget_b.json",
         "lang": {
             "en_US": "forgotten sword",
@@ -17504,6 +18113,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_forget_c": {
+        "file_path": "base\\sword_forget_c.json",
         "file_name": "sword_forget_c.json",
         "lang": {
             "en_US": "forgotten sword",
@@ -17525,6 +18135,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_forget_d": {
+        "file_path": "base\\sword_forget_d.json",
         "file_name": "sword_forget_d.json",
         "lang": {
             "en_US": "forgotten sword",
@@ -17546,6 +18157,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_forget_e": {
+        "file_path": "base\\sword_forget_e.json",
         "file_name": "sword_forget_e.json",
         "lang": {
             "en_US": "forgotten sword",
@@ -17567,6 +18179,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_ink_a": {
+        "file_path": "base\\sword_ink_a.json",
         "file_name": "sword_ink_a.json",
         "lang": {
             "en_US": "Ink Sword",
@@ -17588,6 +18201,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_ink_b": {
+        "file_path": "base\\sword_ink_b.json",
         "file_name": "sword_ink_b.json",
         "lang": {
             "en_US": "Ink Sword",
@@ -17609,6 +18223,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_ink_c": {
+        "file_path": "base\\sword_ink_c.json",
         "file_name": "sword_ink_c.json",
         "lang": {
             "en_US": "Ink Sword",
@@ -17630,6 +18245,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_ink_d": {
+        "file_path": "base\\sword_ink_d.json",
         "file_name": "sword_ink_d.json",
         "lang": {
             "en_US": "Ink Sword",
@@ -17651,6 +18267,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_ink_e": {
+        "file_path": "base\\sword_ink_e.json",
         "file_name": "sword_ink_e.json",
         "lang": {
             "en_US": "Ink Sword",
@@ -17672,6 +18289,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_seal_a": {
+        "file_path": "base\\sword_seal_a.json",
         "file_name": "sword_seal_a.json",
         "lang": {
             "en_US": "Seal Sword",
@@ -17693,6 +18311,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_seal_b": {
+        "file_path": "base\\sword_seal_b.json",
         "file_name": "sword_seal_b.json",
         "lang": {
             "en_US": "Seal Sword",
@@ -17714,6 +18333,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_seal_c": {
+        "file_path": "base\\sword_seal_c.json",
         "file_name": "sword_seal_c.json",
         "lang": {
             "en_US": "Seal Sword",
@@ -17735,6 +18355,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_seal_d": {
+        "file_path": "base\\sword_seal_d.json",
         "file_name": "sword_seal_d.json",
         "lang": {
             "en_US": "Seal Sword",
@@ -17756,6 +18377,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_seal_e": {
+        "file_path": "base\\sword_seal_e.json",
         "file_name": "sword_seal_e.json",
         "lang": {
             "en_US": "Seal Sword",
@@ -17777,6 +18399,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_water_a": {
+        "file_path": "base\\sword_water_a.json",
         "file_name": "sword_water_a.json",
         "lang": {
             "en_US": "rain curtain sword",
@@ -17798,6 +18421,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_water_b": {
+        "file_path": "base\\sword_water_b.json",
         "file_name": "sword_water_b.json",
         "lang": {
             "en_US": "rain curtain sword",
@@ -17819,6 +18443,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_water_c": {
+        "file_path": "base\\sword_water_c.json",
         "file_name": "sword_water_c.json",
         "lang": {
             "en_US": "rain curtain sword",
@@ -17840,6 +18465,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_water_d": {
+        "file_path": "base\\sword_water_d.json",
         "file_name": "sword_water_d.json",
         "lang": {
             "en_US": "\u00a7Irain curtain sword",
@@ -17861,6 +18487,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:sword_water_e": {
+        "file_path": "base\\sword_water_e.json",
         "file_name": "sword_water_e.json",
         "lang": {
             "en_US": "rain curtain sword",
@@ -17882,6 +18509,7 @@ window.AddData = {
         "annotation": []
     },
     "epic:alliance_token": {
+        "file_path": "EPIC\\alliance_token.json",
         "file_name": "alliance_token.json",
         "lang": {
             "en_US": "Alliance Toke",
@@ -17903,6 +18531,7 @@ window.AddData = {
         "annotation": []
     },
     "epic:crystal_electronics_group": {
+        "file_path": "EPIC\\crystal_electronics_group.json",
         "file_name": "crystal_electronics_group.json",
         "lang": {
             "en_US": "Crystal Electronics Group",
@@ -17927,6 +18556,7 @@ window.AddData = {
         "annotation": []
     },
     "epic:crystal_electronics_group_broken": {
+        "file_path": "EPIC\\crystal_electronics_group_broken.json",
         "file_name": "crystal_electronics_group_broken.json",
         "lang": {
             "en_US": "Crystal Electronics Group (Broken)",
@@ -17950,6 +18580,7 @@ window.AddData = {
         "annotation": []
     },
     "epic:machanical_operator": {
+        "file_path": "EPIC\\machanical_operator.json",
         "file_name": "machanical_operator.json",
         "lang": {
             "en_US": "\u673a\u68b0\u64cd\u7eb5\u8005",
@@ -17971,6 +18602,7 @@ window.AddData = {
         "annotation": []
     },
     "epic:reinforced_metal_group": {
+        "file_path": "EPIC\\reinforced_metal_group.json",
         "file_name": "reinforced_metal_group.json",
         "lang": {
             "en_US": "Reinforced Metal Group",
@@ -17994,6 +18626,7 @@ window.AddData = {
         "annotation": []
     },
     "epic:iron_crossbow": {
+        "file_path": "EPIC\\weapon\\iron_crossbow.json",
         "file_name": "iron_crossbow.json",
         "lang": {
             "en_US": "Iron Crossbow",
@@ -18015,6 +18648,7 @@ window.AddData = {
         "annotation": []
     },
     "epic:iron_crossbow_drawn": {
+        "file_path": "EPIC\\weapon\\iron_crossbow_drawn.json",
         "file_name": "iron_crossbow_drawn.json",
         "lang": {
             "en_US": "Iron Crossbow [Drawn]",
@@ -18034,6 +18668,7 @@ window.AddData = {
         "annotation": []
     },
     "epic:sunlight_arrow": {
+        "file_path": "EPIC\\weapon\\sunlight_arrow.json",
         "file_name": "sunlight_arrow.json",
         "lang": {
             "en_US": "Sunlight Arrow",
@@ -18053,6 +18688,7 @@ window.AddData = {
         "annotation": []
     },
     "epic:sunlight_crossbow": {
+        "file_path": "EPIC\\weapon\\sunlight_crossbow.json",
         "file_name": "sunlight_crossbow.json",
         "lang": {
             "en_US": "Sunlight Crossbow",
@@ -18072,6 +18708,7 @@ window.AddData = {
         "annotation": []
     },
     "epic:sunlight_crossbow_drawn": {
+        "file_path": "EPIC\\weapon\\sunlight_crossbow_drawn.json",
         "file_name": "sunlight_crossbow_drawn.json",
         "lang": {
             "en_US": "Sunlight Crossbow [Drawn]",
@@ -18091,6 +18728,7 @@ window.AddData = {
         "annotation": []
     },
     "epic:sunlight_crossbow_drawn1": {
+        "file_path": "EPIC\\weapon\\sunlight_crossbow_drawn1.json",
         "file_name": "sunlight_crossbow_drawn1.json",
         "lang": {
             "en_US": "Sunlight Crossbow [Drawn] \u3010Sunlight Arrow\u3011",
@@ -18110,6 +18748,7 @@ window.AddData = {
         "annotation": []
     },
     "epic:sunlight_crossbow_unlimitedfire": {
+        "file_path": "EPIC\\weapon\\sunlight_crossbow_unlimitedfire.json",
         "file_name": "sunlight_crossbow_unlimitedfire.json",
         "lang": {
             "en_US": "Sunlight Crossbow \u3010Special\u3011",
@@ -18129,6 +18768,7 @@ window.AddData = {
         "annotation": []
     },
     "epic:sunlight_sword": {
+        "file_path": "EPIC\\weapon\\sunlight_sword.json",
         "file_name": "sunlight_sword.json",
         "lang": {
             "en_US": "Sunlight Sword",
@@ -18148,6 +18788,7 @@ window.AddData = {
         "annotation": []
     },
     "epic:sun_worshipping_sword": {
+        "file_path": "EPIC\\weapon\\sun_worshipping_sword.json",
         "file_name": "sun_worshipping_sword.json",
         "lang": {
             "en_US": "Sun-Worshipping Sword",
@@ -18167,6 +18808,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:compressor": {
+        "file_path": "technology\\compressor.json",
         "file_name": "compressor.json",
         "lang": {
             "en_US": "Booster",
@@ -18188,6 +18830,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:energy_core_a": {
+        "file_path": "technology\\energy_core_a.json",
         "file_name": "energy_core_a.json",
         "lang": {
             "en_US": "Energy Core",
@@ -18209,6 +18852,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:gas_ejector": {
+        "file_path": "technology\\gas_ejector.json",
         "file_name": "gas_ejector.json",
         "lang": {
             "en_US": "Turbo Jet Engine",
@@ -18230,6 +18874,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:impeller": {
+        "file_path": "technology\\impeller.json",
         "file_name": "impeller.json",
         "lang": {
             "en_US": "Impeller",
@@ -18252,6 +18897,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:integrated_circuit_board": {
+        "file_path": "technology\\integrated_circuit_board.json",
         "file_name": "integrated_circuit_board.json",
         "lang": {
             "en_US": "wb:integrated_circuit_board",
@@ -18275,6 +18921,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:jet_pack": {
+        "file_path": "technology\\jet_pack.json",
         "file_name": "jet_pack.json",
         "lang": {
             "en_US": "Jetpack(Long press on the screen to fly)",
@@ -18294,6 +18941,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:technology_world_explorer": {
+        "file_path": "technology\\technology_world_explorer.json",
         "file_name": "technology_world_explorer.json",
         "lang": {
             "en_US": "World explorator",
@@ -18313,6 +18961,7 @@ window.AddData = {
         "annotation": []
     },
     "wb:turbine": {
+        "file_path": "technology\\turbine.json",
         "file_name": "turbine.json",
         "lang": {
             "en_US": "Turbine",

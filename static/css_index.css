@@ -9,7 +9,7 @@
 }
 
 body {
-    background: var(--background-light);
+    background: #ffffff;
     color: var(--text-dark);
     font-family: 'Segoe UI', system-ui, sans-serif;
     line-height: 1.6;
@@ -28,7 +28,7 @@ body {
 #main {
     max-width: 1200px;
     margin: 0 auto;
-    background: white;
+    background: #f8f9fa;
     border-radius: 12px;
     box-shadow: var(--shadow);
     padding: 2rem;

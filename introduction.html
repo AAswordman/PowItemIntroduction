@@ -120,7 +120,7 @@
         align-items: center;
         gap: 10px;
     }
-    
+
     .toast {
         background: rgba(0, 0, 0, 0.8);
         color: white;
@@ -137,12 +137,12 @@
         overflow: hidden;
         text-overflow: ellipsis;
     }
-    
+
     .toast.show {
         opacity: 1;
         transform: translateY(0);
     }
-    </style>
+</style>
 
 
 <script src="static/data/RecData.js" type="text/javascript"></script>
@@ -155,5 +155,14 @@
 <script src="static/pow.js" type="text/javascript"></script>
 
 <script src="static/introduction.js" type="text/javascript"></script>
+<script>
+    function friendsOnload(target) {
+        let h = document.body.scrollHeight;
+        parent.postMessage(h, target);
+    }
+    setTimeout(function () {
+        friendsOnload(window.parent.location.href);
+    }, 1000);
+</script>
 
 </html>
